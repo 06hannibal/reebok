@@ -1,0 +1,22 @@
+uuid: 2b4f4242-fdb0-4696-aca1-78a42a829d1a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - reebok_theme
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: reebok_theme_powered
+theme: reebok_theme
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

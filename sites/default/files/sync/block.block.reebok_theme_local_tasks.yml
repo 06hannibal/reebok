@@ -1,0 +1,22 @@
+uuid: 83418ef6-c75a-4950-9f37-161b3999e9ea
+langcode: en
+status: true
+dependencies:
+  theme:
+    - reebok_theme
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: reebok_theme_local_tasks
+theme: reebok_theme
+region: header
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: fec30605-7d71-448d-9e17-7ee3d47e4f7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - reebok_theme
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: reebok_theme_content
+theme: reebok_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 9bdf70ce-eba0-4984-8c01-7e5c55b945d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_top_panel_link
+    - node.type.top_panel_node
+  module:
+    - link
+id: node.top_panel_node.field_top_panel_link
+field_name: field_top_panel_link
+entity_type: node
+bundle: top_panel_node
+label: top-panel-link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

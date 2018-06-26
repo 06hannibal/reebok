@@ -1,0 +1,22 @@
+uuid: bae1ab6e-6d5a-40f0-aec5-f646a82d348a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - reebok_theme
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: reebok_theme_help
+theme: reebok_theme
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

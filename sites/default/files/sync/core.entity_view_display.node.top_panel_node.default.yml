@@ -1,0 +1,66 @@
+uuid: efe1eea2-0d14-4baf-b634-fc9ade292d42
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.top_panel_node.body
+    - field.field.node.top_panel_node.field_top_panel_image
+    - field.field.node.top_panel_node.field_top_panel_link
+    - field.field.node.top_panel_node.field_top_panel_link_button
+    - node.type.top_panel_node
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.top_panel_node.default
+targetEntityType: node
+bundle: top_panel_node
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_top_panel_image:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_top_panel_link:
+    weight: 103
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_top_panel_link_button:
+    weight: 104
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

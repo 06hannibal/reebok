@@ -1,0 +1,8 @@
+uuid: fd250a84-cdb6-4ec4-89f6-01694f7a40af
+langcode: en
+status: true
+dependencies: {  }
+id: top-panel
+label: top-panel
+description: 'description of the goods, personal account, login to the system.'
+locked: false

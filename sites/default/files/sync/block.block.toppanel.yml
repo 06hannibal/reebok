@@ -1,0 +1,24 @@
+uuid: e7438a1d-f369-4a1a-8ab9-1620ceb5ffa9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.top-panel
+  module:
+    - system
+  theme:
+    - reebok_theme
+id: toppanel
+theme: reebok_theme
+region: navigation
+weight: -7
+provider: null
+plugin: 'system_menu_block:top-panel'
+settings:
+  id: 'system_menu_block:top-panel'
+  label: top-panel
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }
