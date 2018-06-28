@@ -1,0 +1,9 @@
+uuid: 0c8b958a-2474-4402-b395-89395fa71287
+langcode: en
+status: true
+dependencies: {  }
+name: НАПРАВЛЕНИЕ
+vid: napravlenie
+description: 'walking tourism and so on'
+hierarchy: 0
+weight: -5

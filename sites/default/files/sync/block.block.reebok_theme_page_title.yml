@@ -1,6 +1,6 @@
 uuid: 7a113c7c-32a2-465c-8824-f1be631f9a4b
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - reebok_theme
@@ -8,8 +8,8 @@ _core:
   default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
 id: reebok_theme_page_title
 theme: reebok_theme
-region: header
-weight: 0
+region: highlighted
+weight: -11
 provider: null
 plugin: page_title_block
 settings:

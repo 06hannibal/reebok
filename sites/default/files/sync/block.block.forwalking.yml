@@ -1,0 +1,31 @@
+uuid: d10a3ce4-ea7c-4df3-aa02-f42409fe6bee
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ajax_block:fb2e43ce-730f-488e-9db6-518ce09ce2be'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: forwalking
+theme: reebok_theme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:fb2e43ce-730f-488e-9db6-518ce09ce2be'
+settings:
+  id: 'block_content:fb2e43ce-730f-488e-9db6-518ce09ce2be'
+  label: 'for walking'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

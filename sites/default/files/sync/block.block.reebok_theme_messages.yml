@@ -1,6 +1,6 @@
 uuid: bec4920a-d4e0-4b00-83a1-45944f5f8322
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
 id: reebok_theme_messages
 theme: reebok_theme
-region: header
-weight: -50
+region: help
+weight: -7
 provider: null
 plugin: system_messages_block
 settings:

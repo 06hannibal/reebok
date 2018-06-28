@@ -44,7 +44,7 @@ class TwigNamespaceTest extends WebTestBase {
     $this->assertTwigTemplate($this->twig->resolveTemplate('@node/node.html.twig'), 'Found node.html.twig in node module.');
 
     // Tests resolving namespaced templates in themes.
-    $this->assertTwigTemplate($this->twig->resolveTemplate('@bartik/page.html.twig'), 'Found page.html.twig in Bartik theme.');
+    $this->assertTwigTemplate($this->twig->resolveTemplate('@bartik/page--front.html.twig'), 'Found page--front.html.twig in Bartik theme.');
   }
 
   /**

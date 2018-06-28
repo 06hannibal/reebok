@@ -1,6 +1,6 @@
 uuid: de24f0af-a673-4e69-b7b3-16f4423e4946
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -13,7 +13,7 @@ _core:
 id: reebok_theme_tools
 theme: reebok_theme
 region: sidebar_second
-weight: 0
+weight: -6
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

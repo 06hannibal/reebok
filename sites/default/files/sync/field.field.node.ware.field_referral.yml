@@ -1,0 +1,29 @@
+uuid: b3815fd8-fb31-425c-bb95-5bd2ee38c598
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_referral
+    - node.type.ware
+    - taxonomy.vocabulary.napravlenie
+id: node.ware.field_referral
+field_name: field_referral
+entity_type: node
+bundle: ware
+label: НАПРАВЛЕНИЕ
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      napravlenie: napravlenie
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

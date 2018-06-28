@@ -1,0 +1,23 @@
+uuid: c67e5f05-0130-460f-a31c-35c34ddf80f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.background_block
+    - field.storage.block_content.field_background_block_title
+  module:
+    - link
+id: block_content.background_block.field_background_block_title
+field_name: field_background_block_title
+entity_type: block_content
+bundle: background_block
+label: 'background block title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

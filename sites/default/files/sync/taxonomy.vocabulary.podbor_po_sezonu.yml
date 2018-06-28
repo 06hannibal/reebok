@@ -1,0 +1,9 @@
+uuid: 35b3aa12-cf51-418e-afd8-d9bc97d3a1fb
+langcode: en
+status: true
+dependencies: {  }
+name: 'ПОДБОР ПО СЕЗОНУ'
+vid: podbor_po_sezonu
+description: 'Spring - Summer and Autumn - Winter'
+hierarchy: 0
+weight: -8

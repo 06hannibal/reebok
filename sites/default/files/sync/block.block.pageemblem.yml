@@ -1,0 +1,25 @@
+uuid: 87e09d63-5427-48db-99dd-93a092bd9708
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:emblem:850423af-c66f-4080-9dc9-30c212ffd79d'
+  module:
+    - block_content
+  theme:
+    - reebok_theme
+id: pageemblem
+theme: reebok_theme
+region: info_block
+weight: -10
+provider: null
+plugin: 'block_content:850423af-c66f-4080-9dc9-30c212ffd79d'
+settings:
+  id: 'block_content:850423af-c66f-4080-9dc9-30c212ffd79d'
+  label: 'page emblem'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: acc9092b-4cce-4b4d-a107-b8145ed7715a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:background_ajax_block:5ba483a4-9827-4d61-af56-f83b759e05d5'
+  module:
+    - block_content
+  theme:
+    - reebok_theme
+id: gotopurchaseslide3
+theme: reebok_theme
+region: right_block
+weight: -13
+provider: null
+plugin: 'block_content:5ba483a4-9827-4d61-af56-f83b759e05d5'
+settings:
+  id: 'block_content:5ba483a4-9827-4d61-af56-f83b759e05d5'
+  label: 'go to purchase slide 3'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

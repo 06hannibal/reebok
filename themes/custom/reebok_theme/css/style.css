@@ -1,6 +1,44 @@
 /**
  * Place your custom styles here.
  */
+.body {
+    margin-top: 0px;!important;
+}
 .menu--top-panel li {
     display: inline-block;
+}
+.navbar-default {
+    background: #141414;
+}
+.navbar.container {
+    max-width: 100%;
+    width: 100%;
+}
+.element.style {
+    padding-top: 79px;
+    margin-top: 0px;
+}
+.field .field--name-field-emblem-image .field--type-image .field--label-hidden .field--item .quickedit-field img {
+    display: inline-block;
+}
+.field .field--name-field-emblem-home .field--type-link .field--label-hidden .field--item .quickedit-field a {
+    display: inline-block;
+}/*
+.field .field--name-field-emblem-home {
+    display: inline-block;
+}
+.field .field--name-field-emblem-home {
+
+}*/
+.menu--scroll-menu li {
+    display: inline-block;
+}
+.menu--scroll-menu {
+    background: #141414;
+}
+.left_block  {
+    height: 325px;
+}
+.right_block  {
+    height: 325px;
 }

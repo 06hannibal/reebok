@@ -1,0 +1,9 @@
+uuid: 1b2a48f6-89e2-4fa6-a486-1c917d3335a1
+langcode: en
+status: true
+dependencies: {  }
+name: 'ВЫБОР КАТЕГОРИИ'
+vid: vybor_kategorii
+description: 'clothing footwear accessories'
+hierarchy: 0
+weight: -6

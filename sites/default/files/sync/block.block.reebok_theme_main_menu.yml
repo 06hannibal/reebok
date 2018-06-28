@@ -13,7 +13,7 @@ _core:
 id: reebok_theme_main_menu
 theme: reebok_theme
 region: navigation_collapsible
-weight: 10
+weight: -6
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -22,5 +22,5 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 2
+  depth: 1
 visibility: {  }

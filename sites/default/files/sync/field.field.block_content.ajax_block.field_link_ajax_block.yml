@@ -1,0 +1,23 @@
+uuid: 15a45ce6-f1cb-4f04-b68b-378eb92ab77c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ajax_block
+    - field.storage.block_content.field_link_ajax_block
+  module:
+    - link
+id: block_content.ajax_block.field_link_ajax_block
+field_name: field_link_ajax_block
+entity_type: block_content
+bundle: ajax_block
+label: link-ajax-block
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

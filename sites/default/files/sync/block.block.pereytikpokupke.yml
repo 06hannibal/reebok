@@ -1,0 +1,25 @@
+uuid: 4dc80778-3525-4339-b373-da5f820d3edc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:background_ajax_block:c8ff8116-ac93-4782-bb2b-e57dc7e0d41d'
+  module:
+    - block_content
+  theme:
+    - reebok_theme
+id: pereytikpokupke
+theme: reebok_theme
+region: right_block
+weight: -15
+provider: null
+plugin: 'block_content:c8ff8116-ac93-4782-bb2b-e57dc7e0d41d'
+settings:
+  id: 'block_content:c8ff8116-ac93-4782-bb2b-e57dc7e0d41d'
+  label: 'go to purchase block 1'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

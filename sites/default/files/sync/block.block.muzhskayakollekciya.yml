@@ -1,0 +1,25 @@
+uuid: 6b972a99-ce53-4a7b-9c4c-eb9ed9404757
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:background_block:3c8a452f-e4cb-4ac8-9192-df0547cfaea7'
+  module:
+    - block_content
+  theme:
+    - reebok_theme
+id: muzhskayakollekciya
+theme: reebok_theme
+region: left_block
+weight: -14
+provider: null
+plugin: 'block_content:3c8a452f-e4cb-4ac8-9192-df0547cfaea7'
+settings:
+  id: 'block_content:3c8a452f-e4cb-4ac8-9192-df0547cfaea7'
+  label: 'Мужская коллекция'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

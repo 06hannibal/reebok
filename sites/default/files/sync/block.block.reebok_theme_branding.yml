@@ -1,6 +1,6 @@
 uuid: 9fc36bf7-e042-4ee7-883f-c26926fcc820
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: reebok_theme_branding
 theme: reebok_theme
 region: navigation
-weight: -6
+weight: -7
 provider: null
 plugin: system_branding_block
 settings:

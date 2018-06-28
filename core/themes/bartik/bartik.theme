@@ -59,7 +59,7 @@ function bartik_preprocess_page_title(&$variables) {
 }
 
 /**
- * Implements hook_preprocess_HOOK() for maintenance-page.html.twig.
+ * Implements hook_preprocess_HOOK() for maintenance-page--front.html.twig.
  */
 function bartik_preprocess_maintenance_page(&$variables) {
   // By default, site_name is set to Drupal if no db connection is available

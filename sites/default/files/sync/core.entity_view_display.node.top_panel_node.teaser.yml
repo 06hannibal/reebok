@@ -5,6 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.top_panel_node.body
+    - field.field.node.top_panel_node.field_top_panel_image
+    - field.field.node.top_panel_node.field_top_panel_link
+    - field.field.node.top_panel_node.field_top_panel_link_button
     - node.type.top_panel_node
   module:
     - text
@@ -22,7 +25,17 @@ content:
       trim_length: 600
     third_party_settings: {  }
     region: content
+  breadcrumb:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   links:
     weight: 100
     region: content
-hidden: {  }
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_top_panel_image: true
+  field_top_panel_link: true
+  field_top_panel_link_button: true

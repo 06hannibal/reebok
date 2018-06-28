@@ -1,0 +1,47 @@
+uuid: 9b7deee0-f40d-4a0b-bd0b-98938d478403
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.background_ajax_block
+    - field.field.block_content.background_ajax_block.body
+    - field.field.block_content.background_ajax_block.field_background_ajax_block_imag
+    - field.field.block_content.background_ajax_block.field_background_ajax_block_link
+  module:
+    - image
+    - link
+    - text
+id: block_content.background_ajax_block.default
+targetEntityType: block_content
+bundle: background_ajax_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_background_ajax_block_imag:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_background_ajax_block_link:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

@@ -1,0 +1,8 @@
+uuid: f2b39cf2-1f44-40d6-8e51-df819379a5e0
+langcode: en
+status: true
+dependencies: {  }
+id: background_block
+label: 'background block'
+revision: 0
+description: 'background page of the main page'

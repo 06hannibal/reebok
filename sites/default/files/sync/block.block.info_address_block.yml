@@ -1,0 +1,25 @@
+uuid: 3914200f-af5e-40f5-bfcb-992b754a9654
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2a3138a4-7bcc-4323-a8ec-6e0070f6b068'
+  module:
+    - block_content
+  theme:
+    - reebok_theme
+id: info_address_block
+theme: reebok_theme
+region: info_block
+weight: 0
+provider: null
+plugin: 'block_content:2a3138a4-7bcc-4323-a8ec-6e0070f6b068'
+settings:
+  id: 'block_content:2a3138a4-7bcc-4323-a8ec-6e0070f6b068'
+  label: info_address_block
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

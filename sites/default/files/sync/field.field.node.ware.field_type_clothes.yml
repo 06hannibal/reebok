@@ -1,0 +1,29 @@
+uuid: 4a6bc650-8a14-4bd2-9e29-f4dc4c5b8987
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_clothes
+    - node.type.ware
+    - taxonomy.vocabulary.tip_odezhdy
+id: node.ware.field_type_clothes
+field_name: field_type_clothes
+entity_type: node
+bundle: ware
+label: 'ТИП ОДЕЖДЫ'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tip_odezhdy: tip_odezhdy
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,8 @@
+uuid: ed00dca1-28d1-4af2-a3f7-c5df9382527c
+langcode: en
+status: true
+dependencies: {  }
+id: emblem
+label: emblem
+revision: 1
+description: 'page emblem'

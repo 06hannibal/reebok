@@ -1,0 +1,9 @@
+uuid: fe0444d0-0da6-40ef-8641-4f3b8653f8f3
+langcode: en
+status: true
+dependencies: {  }
+name: 'КОЛЛЕКЦИЯ ОБУВИ'
+vid: kollekciya_obuvi
+description: 'CLASSIC LEATHER CLASSIC NYLON and so on'
+hierarchy: 0
+weight: -2

@@ -1,0 +1,22 @@
+uuid: f4a345e5-525b-4ab0-be62-654280bff76f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ajax_block
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.ajax_block.body
+field_name: body
+entity_type: block_content
+bundle: ajax_block
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

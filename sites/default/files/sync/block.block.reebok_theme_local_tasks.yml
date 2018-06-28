@@ -9,7 +9,7 @@ _core:
 id: reebok_theme_local_tasks
 theme: reebok_theme
 region: header
-weight: 10
+weight: -11
 provider: null
 plugin: local_tasks_block
 settings:

@@ -1,0 +1,8 @@
+uuid: b1f18086-cf7a-4dd5-9e4e-64320064fab1
+langcode: en
+status: true
+dependencies: {  }
+id: background_ajax_block
+label: 'background ajax block'
+revision: 0
+description: 'background ajax block home page'

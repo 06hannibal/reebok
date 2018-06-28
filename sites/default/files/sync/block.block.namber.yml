@@ -1,0 +1,25 @@
+uuid: 66bf47f2-49a0-4569-a855-ba7e443e082a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:emblem:fc9c33ce-4d02-4571-9876-b9ea88868171'
+  module:
+    - block_content
+  theme:
+    - reebok_theme
+id: namber
+theme: reebok_theme
+region: info_block
+weight: -9
+provider: null
+plugin: 'block_content:fc9c33ce-4d02-4571-9876-b9ea88868171'
+settings:
+  id: 'block_content:fc9c33ce-4d02-4571-9876-b9ea88868171'
+  label: namber_097
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

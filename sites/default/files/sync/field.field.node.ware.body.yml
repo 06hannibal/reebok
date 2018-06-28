@@ -1,0 +1,22 @@
+uuid: e28be254-007a-4058-9a00-af7a2ea90a7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ware
+  module:
+    - text
+id: node.ware.body
+field_name: body
+entity_type: node
+bundle: ware
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

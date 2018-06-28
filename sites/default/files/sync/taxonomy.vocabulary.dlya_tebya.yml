@@ -1,0 +1,9 @@
+uuid: f585fb63-f71b-4f10-b33b-415195912aba
+langcode: en
+status: true
+dependencies: {  }
+name: 'ДЛЯ ТЕБЯ'
+vid: dlya_tebya
+description: 'for you menu'
+hierarchy: 0
+weight: -9

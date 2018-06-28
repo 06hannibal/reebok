@@ -1,0 +1,9 @@
+uuid: 4983a895-a28e-470c-aa63-baa93ce1ccb1
+langcode: en
+status: true
+dependencies: {  }
+name: 'ТИП ОБУВИ'
+vid: tip_obuvi
+description: 'slippers sneakers and so on'
+hierarchy: 0
+weight: -3

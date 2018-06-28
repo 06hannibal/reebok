@@ -1,0 +1,67 @@
+uuid: 23e21833-7135-4110-8d91-e85d6464fe15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.node_owl_carousel.body
+    - field.field.node.node_owl_carousel.field_node_link_owl_carousel
+    - field.field.node.node_owl_carousel.field_node_owl_carousel
+    - node.type.node_owl_carousel
+  module:
+    - link
+    - owl
+    - user
+id: node.node_owl_carousel.default
+targetEntityType: node
+bundle: node_owl_carousel
+mode: default
+content:
+  field_node_link_owl_carousel:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_node_owl_carousel:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+      items: 5
+      itemsDesktop: '[1199,4]'
+      itemsDesktopSmall: '[979,3]'
+      itemsTablet: '[768,2]'
+      itemsMobile: '[479,1]'
+      singleItem: false
+      itemsScaleUp: false
+      slideSpeed: 200
+      paginationSpeed: 800
+      rewindSpeed: 1000
+      autoPlay: false
+      stopOnHover: false
+      navigation: false
+      navigationText: '["prev","next"]'
+      prevText: prev
+      nextText: next
+      rewindNav: true
+      scrollPerPage: false
+      pagination: true
+      paginationNumbers: false
+      responsive: true
+      responsiveRefreshRate: 200
+      mouseDrag: true
+      touchDrag: true
+      transitionStyle: fade
+    third_party_settings: {  }
+    type: owl_field_formatter
+    region: content
+hidden:
+  body: true
+  links: true

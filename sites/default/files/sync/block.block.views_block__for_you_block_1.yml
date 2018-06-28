@@ -1,0 +1,24 @@
+uuid: 4e1724a0-13b1-451a-bf0a-372fcfd7ce0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.for_you
+  module:
+    - views
+  theme:
+    - reebok_theme
+id: views_block__for_you_block_1
+theme: reebok_theme
+region: taxonomy_for_you
+weight: 0
+provider: null
+plugin: 'views_block:for_you-block_1'
+settings:
+  id: 'views_block:for_you-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

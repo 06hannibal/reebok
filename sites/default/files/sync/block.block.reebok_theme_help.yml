@@ -1,6 +1,6 @@
 uuid: bae1ab6e-6d5a-40f0-aec5-f646a82d348a
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - help
@@ -11,7 +11,7 @@ _core:
 id: reebok_theme_help
 theme: reebok_theme
 region: help
-weight: -30
+weight: -6
 provider: null
 plugin: help_block
 settings:

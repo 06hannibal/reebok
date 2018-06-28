@@ -1,6 +1,6 @@
 uuid: fec30605-7d71-448d-9e17-7ee3d47e4f7e
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: reebok_theme_content
 theme: reebok_theme
 region: content
-weight: 0
+weight: -7
 provider: null
 plugin: system_main_block
 settings:

@@ -1,0 +1,9 @@
+uuid: 217f0488-9219-4a79-95aa-fa416a8b6853
+langcode: en
+status: true
+dependencies: {  }
+name: 'ТИП АКСЕССУАРОВ'
+vid: tip_aksessuarov
+description: 'nursing portfolios and so on'
+hierarchy: 0
+weight: 0

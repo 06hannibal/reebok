@@ -1,0 +1,8 @@
+uuid: 4dff2d8d-07ea-424c-b965-aafe7de93ef8
+langcode: en
+status: true
+dependencies: {  }
+id: scroll-menu
+label: scroll_menu
+description: 'menu with goods'
+locked: false

@@ -1,0 +1,8 @@
+uuid: 9a0c19b7-8447-4974-9076-6ffa97ff5575
+langcode: en
+status: true
+dependencies: {  }
+id: ajax_block
+label: 'ajax block'
+revision: 0
+description: 'ajax main page block'

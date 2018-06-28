@@ -1,0 +1,25 @@
+uuid: 991a020b-4950-4e59-b63a-5c48a0faffaa
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:background_block:dc137a5f-ce38-4087-90a4-cc43b73640b3'
+  module:
+    - block_content
+  theme:
+    - reebok_theme
+id: zhenskayakollekciya
+theme: reebok_theme
+region: right_block
+weight: -14
+provider: null
+plugin: 'block_content:dc137a5f-ce38-4087-90a4-cc43b73640b3'
+settings:
+  id: 'block_content:dc137a5f-ce38-4087-90a4-cc43b73640b3'
+  label: 'Женская коллекция'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

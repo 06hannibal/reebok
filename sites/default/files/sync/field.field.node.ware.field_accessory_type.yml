@@ -1,0 +1,29 @@
+uuid: 9ec975c4-5834-44e6-9e46-8d3b9d21944b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_accessory_type
+    - node.type.ware
+    - taxonomy.vocabulary.tip_aksessuarov
+id: node.ware.field_accessory_type
+field_name: field_accessory_type
+entity_type: node
+bundle: ware
+label: 'ТИП АКСЕССУАРОВ'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tip_aksessuarov: tip_aksessuarov
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

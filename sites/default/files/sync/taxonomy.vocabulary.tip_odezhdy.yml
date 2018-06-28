@@ -1,0 +1,9 @@
+uuid: 8a48d43b-199c-4fab-b9b2-7a36f0975699
+langcode: en
+status: true
+dependencies: {  }
+name: 'ТИП ОДЕЖДЫ'
+vid: tip_odezhdy
+description: 'jacket trousers and so on'
+hierarchy: 0
+weight: -4

@@ -1,0 +1,143 @@
+uuid: 6c03b9a6-f7d9-43a5-b89b-a34734f60738
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ware.body
+    - field.field.node.ware.field_accessory_type
+    - field.field.node.ware.field_category_selection
+    - field.field.node.ware.field_collection_shoes
+    - field.field.node.ware.field_goods_image
+    - field.field.node.ware.field_grn_
+    - field.field.node.ware.field_novaya_kollekciya
+    - field.field.node.ware.field_rasprodazha
+    - field.field.node.ware.field_referral
+    - field.field.node.ware.field_season
+    - field.field.node.ware.field_selection_by_type
+    - field.field.node.ware.field_type_clothes
+    - field.field.node.ware.field_type_shoes
+    - node.type.ware
+  module:
+    - image
+    - text
+    - user
+id: node.ware.default
+targetEntityType: node
+bundle: ware
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_accessory_type:
+    weight: 12
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_category_selection:
+    weight: 8
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_collection_shoes:
+    weight: 13
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_goods_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_grn_:
+    weight: 5
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_novaya_kollekciya:
+    weight: 3
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_rasprodazha:
+    weight: 4
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_referral:
+    weight: 9
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_season:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_selection_by_type:
+    weight: 7
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_type_clothes:
+    weight: 10
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_type_shoes:
+    weight: 11
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

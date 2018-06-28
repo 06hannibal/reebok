@@ -1,0 +1,23 @@
+uuid: 1917e02a-cc3f-47e9-92b3-a8966bcd4fc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_novaya_kollekciya
+    - node.type.ware
+id: node.ware.field_novaya_kollekciya
+field_name: field_novaya_kollekciya
+entity_type: node
+bundle: ware
+label: 'Новая коллекция'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

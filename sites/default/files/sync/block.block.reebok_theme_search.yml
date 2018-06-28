@@ -1,6 +1,6 @@
 uuid: 8e39b7bf-9edf-4f55-ae84-af306c88dcc0
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - search
@@ -11,7 +11,7 @@ _core:
 id: reebok_theme_search
 theme: reebok_theme
 region: sidebar_second
-weight: -1
+weight: -7
 provider: null
 plugin: search_form_block
 settings:

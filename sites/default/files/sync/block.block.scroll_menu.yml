@@ -1,0 +1,24 @@
+uuid: bd149017-cffc-44b4-9197-1d17f3666bd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.scroll-menu
+  module:
+    - system
+  theme:
+    - reebok_theme
+id: scroll_menu
+theme: reebok_theme
+region: navigation_with_goods
+weight: -12
+provider: null
+plugin: 'system_menu_block:scroll-menu'
+settings:
+  id: 'system_menu_block:scroll-menu'
+  label: scroll_menu
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

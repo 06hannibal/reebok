@@ -1,6 +1,6 @@
 uuid: 04e4f499-c850-4410-8e23-6ff93935b251
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - reebok_theme
@@ -8,8 +8,8 @@ _core:
   default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
 id: reebok_theme_local_actions
 theme: reebok_theme
-region: header
-weight: 20
+region: highlighted
+weight: -10
 provider: null
 plugin: local_actions_block
 settings:

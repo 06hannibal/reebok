@@ -1,0 +1,19 @@
+uuid: cd1bfbd2-ffcb-43fb-b06d-7d88b264ded7
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_node_link_owl_carousel
+field_name: field_node_link_owl_carousel
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

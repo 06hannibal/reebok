@@ -1,0 +1,25 @@
+uuid: 16cacfb3-c713-4d35-b866-06373918ca43
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c4ab7d56-081e-4fd4-a504-4099c7386a65'
+  module:
+    - block_content
+  theme:
+    - reebok_theme
+id: reebok
+theme: reebok_theme
+region: info_reebok_block
+weight: 0
+provider: null
+plugin: 'block_content:c4ab7d56-081e-4fd4-a504-4099c7386a65'
+settings:
+  id: 'block_content:c4ab7d56-081e-4fd4-a504-4099c7386a65'
+  label: Reebok
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

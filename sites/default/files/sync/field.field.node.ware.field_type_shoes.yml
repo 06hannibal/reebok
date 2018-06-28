@@ -1,0 +1,29 @@
+uuid: a02e6780-9514-4f50-a407-131ed43f69ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_shoes
+    - node.type.ware
+    - taxonomy.vocabulary.tip_obuvi
+id: node.ware.field_type_shoes
+field_name: field_type_shoes
+entity_type: node
+bundle: ware
+label: 'ТИП ОБУВИ'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tip_obuvi: tip_obuvi
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

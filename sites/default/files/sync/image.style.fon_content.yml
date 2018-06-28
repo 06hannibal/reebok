@@ -1,0 +1,14 @@
+uuid: bb046a9e-ce36-4d05-9d2d-d083d0b5e6b0
+langcode: en
+status: true
+dependencies: {  }
+name: fon_content
+label: fon-content
+effects:
+  21951e13-36d8-4124-b646-abbaed1b3958:
+    uuid: 21951e13-36d8-4124-b646-abbaed1b3958
+    id: image_resize
+    weight: 1
+    data:
+      width: 1600
+      height: 800

@@ -1,0 +1,23 @@
+uuid: b3b1c87d-80c6-45e2-b91f-e03d20277955
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_link_ajax_taxonomy
+    - taxonomy.vocabulary.dlya_tebya
+  module:
+    - link
+id: taxonomy_term.dlya_tebya.field_link_ajax_taxonomy
+field_name: field_link_ajax_taxonomy
+entity_type: taxonomy_term
+bundle: dlya_tebya
+label: link-ajax-taxonomy
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,28 @@
+uuid: 6163c0ef-c0c9-44fc-a04a-6d04f6bc1235
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.emblem
+    - field.storage.block_content.field_emblem_home
+  module:
+    - link
+id: block_content.emblem.field_emblem_home
+field_name: field_emblem_home
+entity_type: block_content
+bundle: emblem
+label: emblem_home
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'http://reebok.loc/'
+    title: 'Reebok Украина'
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

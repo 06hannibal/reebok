@@ -1,0 +1,25 @@
+uuid: d1d40062-c9dd-4887-b38f-802b9c11c001
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:background_block:086206ba-ec6e-426a-977b-d013a0487758'
+  module:
+    - block_content
+  theme:
+    - reebok_theme
+id: rasprodazha
+theme: reebok_theme
+region: left_block
+weight: 0
+provider: null
+plugin: 'block_content:086206ba-ec6e-426a-977b-d013a0487758'
+settings:
+  id: 'block_content:086206ba-ec6e-426a-977b-d013a0487758'
+  label: Распродажа
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

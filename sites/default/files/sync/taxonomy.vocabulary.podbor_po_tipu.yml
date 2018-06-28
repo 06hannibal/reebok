@@ -1,0 +1,9 @@
+uuid: 9259e8a4-c330-4d22-a43d-0f5651758fe5
+langcode: en
+status: true
+dependencies: {  }
+name: 'ПОДБОР ПО ТИПУ'
+vid: podbor_po_tipu
+description: 'men are women children'
+hierarchy: 0
+weight: -7

@@ -11,12 +11,12 @@ _core:
 id: reebok_theme_breadcrumbs
 theme: reebok_theme
 region: header
-weight: -100
+weight: -12
 provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
   label: Breadcrumbs
   provider: system
-  label_display: '0'
+  label_display: visible
 visibility: {  }

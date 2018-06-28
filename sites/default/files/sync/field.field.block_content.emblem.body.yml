@@ -1,0 +1,22 @@
+uuid: 943990c3-a99a-4800-8782-1588b8a7e24a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.emblem
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.emblem.body
+field_name: body
+entity_type: block_content
+bundle: emblem
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

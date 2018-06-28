@@ -1,0 +1,47 @@
+uuid: 8a6d1123-53e8-4450-96c2-a6f18ef5f6c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ajax_block
+    - field.field.block_content.ajax_block.body
+    - field.field.block_content.ajax_block.field_image_ajax_block
+    - field.field.block_content.ajax_block.field_link_ajax_block
+  module:
+    - image
+    - link
+    - text
+id: block_content.ajax_block.default
+targetEntityType: block_content
+bundle: ajax_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image_ajax_block:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_link_ajax_block:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

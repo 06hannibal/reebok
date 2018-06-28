@@ -1,0 +1,29 @@
+uuid: a72e40b5-450a-45bd-9812-f879e26710ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_season
+    - node.type.ware
+    - taxonomy.vocabulary.podbor_po_sezonu
+id: node.ware.field_season
+field_name: field_season
+entity_type: node
+bundle: ware
+label: ' ПОДБОР ПО СЕЗОНУ'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      podbor_po_sezonu: podbor_po_sezonu
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

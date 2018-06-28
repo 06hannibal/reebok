@@ -1,0 +1,47 @@
+uuid: c422011d-cf2b-4de4-8647-3a8fccdd02c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.emblem
+    - field.field.block_content.emblem.body
+    - field.field.block_content.emblem.field_emblem_home
+    - field.field.block_content.emblem.field_emblem_image
+  module:
+    - image
+    - link
+    - text
+id: block_content.emblem.default
+targetEntityType: block_content
+bundle: emblem
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_emblem_home:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_emblem_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

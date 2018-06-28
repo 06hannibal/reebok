@@ -1,0 +1,30 @@
+uuid: 9d64d045-4412-4f86-ada6-04b4fcdb97a4
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.owl_carousel_content
+  module:
+    - system
+    - views
+  theme:
+    - reebok_theme
+id: views_block__owl_carousel_content_block_1
+theme: reebok_theme
+region: highlighted
+weight: -12
+provider: null
+plugin: 'views_block:owl_carousel_content-block_1'
+settings:
+  id: 'views_block:owl_carousel_content-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

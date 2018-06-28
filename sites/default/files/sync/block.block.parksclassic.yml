@@ -1,0 +1,31 @@
+uuid: 8aa3a12f-8670-467a-963c-e65a8cc845e4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ajax_block:16f9172f-67ce-47de-874d-27aaddf1950f'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: parksclassic
+theme: reebok_theme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:16f9172f-67ce-47de-874d-27aaddf1950f'
+settings:
+  id: 'block_content:16f9172f-67ce-47de-874d-27aaddf1950f'
+  label: 'parks classic'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

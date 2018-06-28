@@ -1,0 +1,23 @@
+uuid: 84f00ebd-8c68-429b-bfa6-da6035bf1217
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_grn_
+    - node.type.ware
+id: node.ware.field_grn_
+field_name: field_grn_
+entity_type: node
+bundle: ware
+label: грн.
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

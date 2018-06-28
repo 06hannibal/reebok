@@ -1,0 +1,46 @@
+uuid: c565e26d-f022-4486-8b1b-763b17a3261e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.dlya_tebya.field_children_s_block
+    - field.field.taxonomy_term.dlya_tebya.field_link_ajax_taxonomy
+    - taxonomy.vocabulary.dlya_tebya
+  module:
+    - image
+    - link
+    - text
+id: taxonomy_term.dlya_tebya.default
+targetEntityType: taxonomy_term
+bundle: dlya_tebya
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_children_s_block:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_link_ajax_taxonomy:
+    weight: 2
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }
