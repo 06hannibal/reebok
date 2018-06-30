@@ -1,0 +1,31 @@
+uuid: 7f3e4fb2-47e0-4047-adc5-7e397dc94019
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7ec425c0-0d22-46e3-a45f-7d71e1144ca0'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: obuv
+theme: reebok_theme
+region: sidebar_first
+weight: -33
+provider: null
+plugin: 'block_content:7ec425c0-0d22-46e3-a45f-7d71e1144ca0'
+settings:
+  id: 'block_content:7ec425c0-0d22-46e3-a45f-7d71e1144ca0'
+  label: ОБУВЬ
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /obuvj
+    negate: false
+    context_mapping: {  }

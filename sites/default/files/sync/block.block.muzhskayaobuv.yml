@@ -1,0 +1,28 @@
+uuid: 2df10430-2cd5-4eb0-b7ad-3e230d461261
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.muzhskaya_obuv
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: muzhskayaobuv
+theme: reebok_theme
+region: sidebar_first
+weight: -22
+provider: null
+plugin: 'facet_block:muzhskaya_obuv'
+settings:
+  id: 'facet_block:muzhskaya_obuv'
+  label: 'МУЖСКАЯ ОБУВЬ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /mens
+    negate: false
+    context_mapping: {  }

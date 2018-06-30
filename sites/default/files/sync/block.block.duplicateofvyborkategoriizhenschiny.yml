@@ -1,0 +1,28 @@
+uuid: e5f6bd0d-1065-4319-8f3f-68b0619fb79d
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.duplicate_of_vybor_kategorii_zhenschiny_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: duplicateofvyborkategoriizhenschiny
+theme: reebok_theme
+region: sidebar_first
+weight: -17
+provider: null
+plugin: 'facet_block:duplicate_of_vybor_kategorii_zhenschiny_'
+settings:
+  id: 'facet_block:duplicate_of_vybor_kategorii_zhenschiny_'
+  label: 'ВЫБОР КАТЕГОРИИ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /womens
+    negate: false
+    context_mapping: {  }

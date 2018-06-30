@@ -1,0 +1,9 @@
+uuid: a9260604-5f88-48d8-8303-510d44ae99a8
+langcode: en
+status: true
+dependencies: {  }
+name: 'ДЕТСКАЯ ОБУВЬ'
+vid: detskaya_obuv
+description: ''
+hierarchy: 0
+weight: 0

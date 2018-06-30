@@ -18,27 +18,31 @@
     padding-top: 79px;
     margin-top: 0px;
 }
-.field .field--name-field-emblem-image .field--type-image .field--label-hidden .field--item .quickedit-field img {
-    display: inline-block;
-}
-.field .field--name-field-emblem-home .field--type-link .field--label-hidden .field--item .quickedit-field a {
-    display: inline-block;
-}/*
-.field .field--name-field-emblem-home {
-    display: inline-block;
-}
-.field .field--name-field-emblem-home {
-
-}*/
 .menu--scroll-menu li {
     display: inline-block;
 }
 .menu--scroll-menu {
     background: #141414;
 }
-.left_block  {
-    height: 325px;
+#block-pageemblem {
+    display: inline-block;
 }
-.right_block  {
-    height: 325px;
+#block-namber {
+    display: inline-block;
+    bottom: 50px;
+}
+#block-namber-099 {
+    display: inline-block;
+    bottom: 50px;
+}
+#block-namber-073 {
+    display: inline-block;
+    bottom: 50px;
+}
+#block-info-address-block {
+    display: inline-block;
+    bottom: 50px;
+}
+.region-info-block section {
+    padding-left: 50px;
 }

@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:background_ajax_block:5ba483a4-9827-4d61-af56-f83b759e05d5'
   module:
     - block_content
+    - system
   theme:
     - reebok_theme
 id: gotopurchaseslide3
@@ -22,4 +23,9 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

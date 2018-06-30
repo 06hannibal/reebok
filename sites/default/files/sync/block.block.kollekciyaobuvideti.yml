@@ -1,0 +1,28 @@
+uuid: 02c8e5a1-78d4-43bc-adc3-22197aadf9ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.kollekciya_obuvi_deti_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: kollekciyaobuvideti
+theme: reebok_theme
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'facet_block:kollekciya_obuvi_deti_'
+settings:
+  id: 'facet_block:kollekciya_obuvi_deti_'
+  label: 'КОЛЛЕКЦИЯ ОБУВИ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /kids
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,31 @@
+uuid: c657a45a-22c6-4d95-94c9-1c5ed6a92389
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6c0d48a1-0a6d-490b-8a5b-f8173af73e5a'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: reebokaccessories
+theme: reebok_theme
+region: information_block_reebok
+weight: -36
+provider: null
+plugin: 'block_content:6c0d48a1-0a6d-490b-8a5b-f8173af73e5a'
+settings:
+  id: 'block_content:6c0d48a1-0a6d-490b-8a5b-f8173af73e5a'
+  label: 'Reebok accessories'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /accessories
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,28 @@
+uuid: 0448ca65-7fe0-4623-b7db-864e79f4916f
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.podbor_po_sezonu
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: podborposezonu
+theme: reebok_theme
+region: sidebar_first
+weight: -41
+provider: null
+plugin: 'facet_block:podbor_po_sezonu'
+settings:
+  id: 'facet_block:podbor_po_sezonu'
+  label: 'ПОДБОР ПО СЕЗОНУ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /nova-kolekcija
+    negate: false
+    context_mapping: {  }

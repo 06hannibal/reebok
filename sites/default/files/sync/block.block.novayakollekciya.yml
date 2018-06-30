@@ -1,0 +1,31 @@
+uuid: 738e10a2-6e4b-4f77-9d49-e9505301ebcd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:66a70c8d-8992-4c62-a40b-283fd366dba4'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: novayakollekciya
+theme: reebok_theme
+region: sidebar_first
+weight: -42
+provider: null
+plugin: 'block_content:66a70c8d-8992-4c62-a40b-283fd366dba4'
+settings:
+  id: 'block_content:66a70c8d-8992-4c62-a40b-283fd366dba4'
+  label: 'НОВАЯ КОЛЛЕКЦИЯ'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /nova-kolekcija
+    negate: false
+    context_mapping: {  }

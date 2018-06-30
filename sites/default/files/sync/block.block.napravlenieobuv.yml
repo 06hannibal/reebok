@@ -1,0 +1,28 @@
+uuid: ee91b32b-74ee-462e-ad45-f2287be3f251
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.napravlenie_obuv_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: napravlenieobuv
+theme: reebok_theme
+region: sidebar_first
+weight: -30
+provider: null
+plugin: 'facet_block:napravlenie_obuv_'
+settings:
+  id: 'facet_block:napravlenie_obuv_'
+  label: НАПРАВЛЕНИЕ
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /obuvj
+    negate: false
+    context_mapping: {  }

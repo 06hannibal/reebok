@@ -1,0 +1,28 @@
+uuid: 723f1666-41c2-4ae6-8793-44d2595c5dcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.podbor_po_tipu_nova_kolekcija
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: podborpotipu
+theme: reebok_theme
+region: sidebar_first
+weight: -40
+provider: null
+plugin: 'facet_block:podbor_po_tipu_nova_kolekcija'
+settings:
+  id: 'facet_block:podbor_po_tipu_nova_kolekcija'
+  label: 'ПОДБОР ПО ТИПУ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /nova-kolekcija
+    negate: false
+    context_mapping: {  }

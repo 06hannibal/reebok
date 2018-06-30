@@ -1,0 +1,28 @@
+uuid: d65d2354-5f61-4fac-ba0a-0b4cfc364624
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.napravlenie_deti_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: napravleniedeti
+theme: reebok_theme
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'facet_block:napravlenie_deti_'
+settings:
+  id: 'facet_block:napravlenie_deti_'
+  label: НАПРАВЛЕНИЕ
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /kids
+    negate: false
+    context_mapping: {  }

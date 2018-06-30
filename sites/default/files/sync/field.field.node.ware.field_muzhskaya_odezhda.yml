@@ -1,0 +1,27 @@
+uuid: 1534c785-8032-486a-8a68-5f466a1c68d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_muzhskaya_odezhda
+    - node.type.ware
+id: node.ware.field_muzhskaya_odezhda
+field_name: field_muzhskaya_odezhda
+entity_type: node
+bundle: ware
+label: 'МУЖСКАЯ ОДЕЖДА'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

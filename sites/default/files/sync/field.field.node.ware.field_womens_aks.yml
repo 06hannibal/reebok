@@ -1,0 +1,27 @@
+uuid: ab2a0e82-70eb-45c6-9f5d-5ceeee850453
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_womens_aks
+    - node.type.ware
+id: node.ware.field_womens_aks
+field_name: field_womens_aks
+entity_type: node
+bundle: ware
+label: 'ЖЕНСКИЕ АКСЕССУАРЫ'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

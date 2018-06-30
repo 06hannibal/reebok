@@ -1,0 +1,31 @@
+uuid: a530a88e-aac4-4908-b343-35a3035313ae
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:764d2509-2027-4729-b74d-f8ed37daa153'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: odezhda
+theme: reebok_theme
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'block_content:764d2509-2027-4729-b74d-f8ed37daa153'
+settings:
+  id: 'block_content:764d2509-2027-4729-b74d-f8ed37daa153'
+  label: ОДЕЖДА
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /apparel
+    negate: false
+    context_mapping: {  }

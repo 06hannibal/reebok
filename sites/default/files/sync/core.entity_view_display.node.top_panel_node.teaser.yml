@@ -39,3 +39,4 @@ hidden:
   field_top_panel_image: true
   field_top_panel_link: true
   field_top_panel_link_button: true
+  langcode: true

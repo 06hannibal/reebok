@@ -1,0 +1,28 @@
+uuid: 6533080d-31da-46e2-a637-bfb0ed8c95ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.podbor_po_sezonu_odezhda_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: podborposezonuodezhda
+theme: reebok_theme
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'facet_block:podbor_po_sezonu_odezhda_'
+settings:
+  id: 'facet_block:podbor_po_sezonu_odezhda_'
+  label: 'ПОДБОР ПО СЕЗОНУ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /apparel
+    negate: false
+    context_mapping: {  }

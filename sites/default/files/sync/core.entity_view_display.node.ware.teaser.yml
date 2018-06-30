@@ -5,6 +5,18 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.ware.body
+    - field.field.node.ware.field_accessory_type
+    - field.field.node.ware.field_category_selection
+    - field.field.node.ware.field_collection_shoes
+    - field.field.node.ware.field_goods_image
+    - field.field.node.ware.field_grn_
+    - field.field.node.ware.field_novaya_kollekciya
+    - field.field.node.ware.field_rasprodazha
+    - field.field.node.ware.field_referral
+    - field.field.node.ware.field_season
+    - field.field.node.ware.field_selection_by_type
+    - field.field.node.ware.field_type_clothes
+    - field.field.node.ware.field_type_shoes
     - node.type.ware
   module:
     - text
@@ -25,4 +37,17 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_accessory_type: true
+  field_category_selection: true
+  field_collection_shoes: true
+  field_goods_image: true
+  field_grn_: true
+  field_novaya_kollekciya: true
+  field_rasprodazha: true
+  field_referral: true
+  field_season: true
+  field_selection_by_type: true
+  field_type_clothes: true
+  field_type_shoes: true
+  langcode: true

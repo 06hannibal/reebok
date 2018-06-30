@@ -1,0 +1,28 @@
+uuid: 2b622a8b-6e85-4f45-9deb-76183d6f288f
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.tip_obuvi_nova_kolekcija
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: tipobuvi
+theme: reebok_theme
+region: sidebar_first
+weight: -36
+provider: null
+plugin: 'facet_block:tip_obuvi_nova_kolekcija'
+settings:
+  id: 'facet_block:tip_obuvi_nova_kolekcija'
+  label: 'ТИП ОБУВИ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /nova-kolekcija
+    negate: false
+    context_mapping: {  }

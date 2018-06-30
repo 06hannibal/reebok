@@ -1,0 +1,28 @@
+uuid: 89c1af90-e36d-478e-950b-5feb37da14f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.duplicate_of_podbor_po_sezonu
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: podborposezonumuzhchiny
+theme: reebok_theme
+region: sidebar_first
+weight: -25
+provider: null
+plugin: 'facet_block:duplicate_of_podbor_po_sezonu'
+settings:
+  id: 'facet_block:duplicate_of_podbor_po_sezonu'
+  label: 'ПОДБОР ПО СЕЗОНУ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /mens
+    negate: false
+    context_mapping: {  }

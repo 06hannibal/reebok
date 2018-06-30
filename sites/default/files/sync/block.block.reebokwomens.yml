@@ -1,0 +1,31 @@
+uuid: 460e1ffc-3372-412f-a1cf-75835d761fe6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ddacba42-d1f2-420e-a86c-9882fd15c561'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: reebokwomens
+theme: reebok_theme
+region: information_block_reebok
+weight: -39
+provider: null
+plugin: 'block_content:ddacba42-d1f2-420e-a86c-9882fd15c561'
+settings:
+  id: 'block_content:ddacba42-d1f2-420e-a86c-9882fd15c561'
+  label: 'Reebok womens'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /womens
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,31 @@
+uuid: a0a60eaf-3125-4d5d-993b-edd94e8b09d4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cb8f2321-8942-4051-a4c9-7e69431bc664'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: zhenschiny
+theme: reebok_theme
+region: sidebar_first
+weight: -19
+provider: null
+plugin: 'block_content:cb8f2321-8942-4051-a4c9-7e69431bc664'
+settings:
+  id: 'block_content:cb8f2321-8942-4051-a4c9-7e69431bc664'
+  label: ЖЕНЩИНЫ
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /womens
+    negate: false
+    context_mapping: {  }

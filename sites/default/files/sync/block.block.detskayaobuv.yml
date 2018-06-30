@@ -1,0 +1,28 @@
+uuid: 0ad780f1-e2e8-4d07-a616-5db8f01ce92f
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.detskaya_obuv
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: detskayaobuv
+theme: reebok_theme
+region: sidebar_first
+weight: -28
+provider: null
+plugin: 'facet_block:detskaya_obuv'
+settings:
+  id: 'facet_block:detskaya_obuv'
+  label: 'ДЕТСКАЯ ОБУВЬ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /obuvj
+    negate: false
+    context_mapping: {  }

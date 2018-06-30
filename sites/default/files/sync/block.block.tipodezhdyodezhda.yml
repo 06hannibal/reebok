@@ -1,0 +1,28 @@
+uuid: 0d0b1e49-5d0f-4809-bd0a-e1899d3dc6a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.tip_odezhdy_odezhda_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: tipodezhdyodezhda
+theme: reebok_theme
+region: sidebar_first
+weight: -3
+provider: null
+plugin: 'facet_block:tip_odezhdy_odezhda_'
+settings:
+  id: 'facet_block:tip_odezhdy_odezhda_'
+  label: 'ТИП ОДЕЖДЫ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /apparel
+    negate: false
+    context_mapping: {  }

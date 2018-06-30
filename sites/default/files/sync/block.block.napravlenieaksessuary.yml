@@ -1,0 +1,28 @@
+uuid: af1eb80c-453b-4a3a-b585-71b38f0fc310
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.napravlenie_aksessuary_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: napravlenieaksessuary
+theme: reebok_theme
+region: sidebar_first
+weight: 2
+provider: null
+plugin: 'facet_block:napravlenie_aksessuary_'
+settings:
+  id: 'facet_block:napravlenie_aksessuary_'
+  label: НАПРАВЛЕНИЕ
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /accessories
+    negate: false
+    context_mapping: {  }

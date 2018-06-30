@@ -1,0 +1,28 @@
+uuid: 5e36e7c9-612d-4779-9e38-e735b65d0d5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.vybor_kategorii_deti_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: vyborkategoriideti
+theme: reebok_theme
+region: sidebar_first
+weight: -10
+provider: null
+plugin: 'facet_block:vybor_kategorii_deti_'
+settings:
+  id: 'facet_block:vybor_kategorii_deti_'
+  label: 'ВЫБОР КАТЕГОРИИ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /kids
+    negate: false
+    context_mapping: {  }

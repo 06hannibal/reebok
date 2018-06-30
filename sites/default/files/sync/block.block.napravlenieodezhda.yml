@@ -1,0 +1,28 @@
+uuid: 971cefa9-53be-4a4b-ad65-0cab3338f936
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.napravlenie_odezhda_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: napravlenieodezhda
+theme: reebok_theme
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'facet_block:napravlenie_odezhda_'
+settings:
+  id: 'facet_block:napravlenie_odezhda_'
+  label: НАПРАВЛЕНИЕ
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /apparel
+    negate: false
+    context_mapping: {  }

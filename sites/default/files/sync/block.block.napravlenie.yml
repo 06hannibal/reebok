@@ -1,0 +1,28 @@
+uuid: 02c1838e-0724-4674-9a6f-8e86026a541e
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.napravlenie_nova_kolekcija
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: napravlenie
+theme: reebok_theme
+region: sidebar_first
+weight: -38
+provider: null
+plugin: 'facet_block:napravlenie_nova_kolekcija'
+settings:
+  id: 'facet_block:napravlenie_nova_kolekcija'
+  label: НАПРАВЛЕНИЕ
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /nova-kolekcija
+    negate: false
+    context_mapping: {  }

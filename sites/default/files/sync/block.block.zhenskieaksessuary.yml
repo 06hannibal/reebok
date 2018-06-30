@@ -1,0 +1,28 @@
+uuid: 7c04d71e-b5e8-4db6-b763-b5346f6bb79b
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.zhenskie_aksessuary
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: zhenskieaksessuary
+theme: reebok_theme
+region: sidebar_first
+weight: -13
+provider: null
+plugin: 'facet_block:zhenskie_aksessuary'
+settings:
+  id: 'facet_block:zhenskie_aksessuary'
+  label: 'ЖЕНСКИЕ АКСЕССУАРЫ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /womens
+    negate: false
+    context_mapping: {  }

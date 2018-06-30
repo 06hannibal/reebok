@@ -1,0 +1,28 @@
+uuid: 4101eac1-9587-46a0-be04-622ec5c8d81b
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.podbor_po_tipu_obuv_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: podborpotipuobuv
+theme: reebok_theme
+region: sidebar_first
+weight: -31
+provider: null
+plugin: 'facet_block:podbor_po_tipu_obuv_'
+settings:
+  id: 'facet_block:podbor_po_tipu_obuv_'
+  label: 'ПОДБОР ПО ТИПУ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /obuvj
+    negate: false
+    context_mapping: {  }

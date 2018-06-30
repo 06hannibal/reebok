@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:background_block:dc137a5f-ce38-4087-90a4-cc43b73640b3'
   module:
     - block_content
+    - system
   theme:
     - reebok_theme
 id: zhenskayakollekciya
@@ -22,4 +23,9 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,28 @@
+uuid: 8ad0d915-ef66-4c07-b3fd-342c87d0823c
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.muzhskie_aksessuary
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: muzhskieaksessuary
+theme: reebok_theme
+region: sidebar_first
+weight: -20
+provider: null
+plugin: 'facet_block:muzhskie_aksessuary'
+settings:
+  id: 'facet_block:muzhskie_aksessuary'
+  label: 'МУЖСКИЕ АКСЕССУАРЫ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /mens
+    negate: false
+    context_mapping: {  }

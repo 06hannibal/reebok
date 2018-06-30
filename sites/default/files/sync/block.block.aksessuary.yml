@@ -1,0 +1,31 @@
+uuid: 1d0aa931-29a6-4726-b189-54cb50b79133
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a9ce6db0-a732-44cd-a453-230850af3900'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: aksessuary
+theme: reebok_theme
+region: sidebar_first
+weight: -1
+provider: null
+plugin: 'block_content:a9ce6db0-a732-44cd-a453-230850af3900'
+settings:
+  id: 'block_content:a9ce6db0-a732-44cd-a453-230850af3900'
+  label: АКСЕССУАРЫ
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /accessories
+    negate: false
+    context_mapping: {  }

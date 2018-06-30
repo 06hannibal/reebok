@@ -1,0 +1,28 @@
+uuid: 39455bf1-04ee-4bbd-b0fb-7b6931e3b6cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.tip_odezhdy_nova_kolekcija
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: tipodezhdy
+theme: reebok_theme
+region: sidebar_first
+weight: -37
+provider: null
+plugin: 'facet_block:tip_odezhdy_nova_kolekcija'
+settings:
+  id: 'facet_block:tip_odezhdy_nova_kolekcija'
+  label: 'ТИП ОДЕЖДЫ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /nova-kolekcija
+    negate: false
+    context_mapping: {  }

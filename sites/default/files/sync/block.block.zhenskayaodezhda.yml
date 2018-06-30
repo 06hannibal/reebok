@@ -1,0 +1,28 @@
+uuid: 5b63b0ef-61ac-4781-b925-319b7e0f27c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.zhenskaya_odezhda
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: zhenskayaodezhda
+theme: reebok_theme
+region: sidebar_first
+weight: -15
+provider: null
+plugin: 'facet_block:zhenskaya_odezhda'
+settings:
+  id: 'facet_block:zhenskaya_odezhda'
+  label: 'ЖЕНСКАЯ ОДЕЖДА'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /womens
+    negate: false
+    context_mapping: {  }

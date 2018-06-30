@@ -1,0 +1,28 @@
+uuid: f64dc432-92f6-4fd2-bc38-c1024afa463f
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.muzhskaya_odezhda
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: muzhskayaodezhda
+theme: reebok_theme
+region: sidebar_first
+weight: -21
+provider: null
+plugin: 'facet_block:muzhskaya_odezhda'
+settings:
+  id: 'facet_block:muzhskaya_odezhda'
+  label: 'МУЖСКАЯ ОДЕЖДА'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /mens
+    negate: false
+    context_mapping: {  }

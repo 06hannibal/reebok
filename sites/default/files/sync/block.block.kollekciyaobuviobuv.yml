@@ -1,0 +1,28 @@
+uuid: 1f9d8b20-0ff3-49e4-aa15-c8e59a817684
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.kollekciya_obuvi_obuv_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: kollekciyaobuviobuv
+theme: reebok_theme
+region: sidebar_first
+weight: -27
+provider: null
+plugin: 'facet_block:kollekciya_obuvi_obuv_'
+settings:
+  id: 'facet_block:kollekciya_obuvi_obuv_'
+  label: 'КОЛЛЕКЦИЯ ОБУВИ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /obuvj
+    negate: false
+    context_mapping: {  }

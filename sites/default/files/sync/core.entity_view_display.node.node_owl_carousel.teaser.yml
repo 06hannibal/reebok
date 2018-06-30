@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.node_owl_carousel.body
+    - field.field.node.node_owl_carousel.field_node_link_owl_carousel
+    - field.field.node.node_owl_carousel.field_node_owl_carousel
     - node.type.node_owl_carousel
   module:
     - text
@@ -25,4 +27,7 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_node_link_owl_carousel: true
+  field_node_owl_carousel: true
+  langcode: true

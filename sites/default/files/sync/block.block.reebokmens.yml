@@ -1,0 +1,31 @@
+uuid: c78ae237-3107-40c8-8abf-6fd8eec70394
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e62513fd-05f5-4a6a-8e13-59b01c275980'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: reebokmens
+theme: reebok_theme
+region: information_block_reebok
+weight: -40
+provider: null
+plugin: 'block_content:e62513fd-05f5-4a6a-8e13-59b01c275980'
+settings:
+  id: 'block_content:e62513fd-05f5-4a6a-8e13-59b01c275980'
+  label: 'Reebok mens'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /mens
+    negate: false
+    context_mapping: {  }

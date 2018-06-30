@@ -1,0 +1,11 @@
+uuid: d5721f2f-d986-48cc-8173-0b94b3cda797
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.detskaya_obuv
+id: taxonomy_term.detskaya_obuv
+target_entity_type_id: taxonomy_term
+target_bundle: detskaya_obuv
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,28 @@
+uuid: f7262112-52df-406a-ac97-e61b71da54c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.duplicate_of_podbor_po_tipu_odezhda_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: podborpotipuodezhda
+theme: reebok_theme
+region: sidebar_first
+weight: -2
+provider: null
+plugin: 'facet_block:duplicate_of_podbor_po_tipu_odezhda_'
+settings:
+  id: 'facet_block:duplicate_of_podbor_po_tipu_odezhda_'
+  label: 'ПОДБОР ПО ТИПУ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /apparel
+    negate: false
+    context_mapping: {  }

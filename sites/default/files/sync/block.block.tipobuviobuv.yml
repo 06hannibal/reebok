@@ -1,0 +1,28 @@
+uuid: 56191c1a-bbca-4d54-800c-976f756439d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.tip_obuvi_obuv_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: tipobuviobuv
+theme: reebok_theme
+region: sidebar_first
+weight: -29
+provider: null
+plugin: 'facet_block:tip_obuvi_obuv_'
+settings:
+  id: 'facet_block:tip_obuvi_obuv_'
+  label: 'ТИП ОБУВИ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /obuvj
+    negate: false
+    context_mapping: {  }

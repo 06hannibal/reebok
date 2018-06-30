@@ -1,0 +1,28 @@
+uuid: 96085bf8-cd47-497e-95af-5c63084a4bf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.vybor_kategorii_nova_kolekcija
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: vyborkategorii
+theme: reebok_theme
+region: sidebar_first
+weight: -39
+provider: null
+plugin: 'facet_block:vybor_kategorii_nova_kolekcija'
+settings:
+  id: 'facet_block:vybor_kategorii_nova_kolekcija'
+  label: 'ВЫБОР КАТЕГОРИИ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /nova-kolekcija
+    negate: false
+    context_mapping: {  }

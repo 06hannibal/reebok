@@ -1,4 +1,4 @@
-uuid: 6b972a99-ce53-4a7b-9c4c-eb9ed9404757
+uuid: 3b4a4a84-21f2-4c38-a6ab-933e1c34c28c
 langcode: en
 status: true
 dependencies:
@@ -6,12 +6,13 @@ dependencies:
     - 'block_content:background_block:3c8a452f-e4cb-4ac8-9192-df0547cfaea7'
   module:
     - block_content
+    - system
   theme:
     - reebok_theme
 id: muzhskayakollekciya
 theme: reebok_theme
 region: left_block
-weight: -14
+weight: -32
 provider: null
 plugin: 'block_content:3c8a452f-e4cb-4ac8-9192-df0547cfaea7'
 settings:
@@ -22,4 +23,9 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

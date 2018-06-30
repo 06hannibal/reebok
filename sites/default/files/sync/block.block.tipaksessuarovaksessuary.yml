@@ -1,0 +1,28 @@
+uuid: 6c29bcc7-c8e4-4cb2-a6d6-ebad3e106330
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.tip_aksessuarov_aksessuary_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: tipaksessuarovaksessuary
+theme: reebok_theme
+region: sidebar_first
+weight: 3
+provider: null
+plugin: 'facet_block:tip_aksessuarov_aksessuary_'
+settings:
+  id: 'facet_block:tip_aksessuarov_aksessuary_'
+  label: 'ТИП АКСЕССУАРОВ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /accessories
+    negate: false
+    context_mapping: {  }

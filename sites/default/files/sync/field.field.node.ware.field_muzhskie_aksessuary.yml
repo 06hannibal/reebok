@@ -1,0 +1,27 @@
+uuid: e414103f-66a0-4b36-b7ed-3ec2a93aaa3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_muzhskie_aksessuary
+    - node.type.ware
+id: node.ware.field_muzhskie_aksessuary
+field_name: field_muzhskie_aksessuary
+entity_type: node
+bundle: ware
+label: 'МУЖСКИЕ АКСЕССУАРЫ'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:basic:c4ab7d56-081e-4fd4-a504-4099c7386a65'
   module:
     - block_content
+    - system
   theme:
     - reebok_theme
 id: reebok
@@ -22,4 +23,9 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

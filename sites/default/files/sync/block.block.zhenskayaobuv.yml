@@ -1,0 +1,28 @@
+uuid: 076c50fb-6eea-4e99-8c72-5da60b03e5e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.zhenskaya_obuv
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: zhenskayaobuv
+theme: reebok_theme
+region: sidebar_first
+weight: -14
+provider: null
+plugin: 'facet_block:zhenskaya_obuv'
+settings:
+  id: 'facet_block:zhenskaya_obuv'
+  label: 'ЖЕНСКАЯ ОБУВЬ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /womens
+    negate: false
+    context_mapping: {  }

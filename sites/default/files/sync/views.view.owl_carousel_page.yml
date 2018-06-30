@@ -190,7 +190,7 @@ display:
           type: image
           settings:
             image_style: fon_content
-            image_link: content
+            image_link: ''
           group_column: ''
           group_columns: {  }
           group_rows: true

@@ -1,0 +1,31 @@
+uuid: e4c97fc9-1027-4f79-8955-c647bd8ecf07
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:44b83737-ba04-4613-b58b-5c13f7f72f19'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: deti
+theme: reebok_theme
+region: sidebar_first
+weight: -12
+provider: null
+plugin: 'block_content:44b83737-ba04-4613-b58b-5c13f7f72f19'
+settings:
+  id: 'block_content:44b83737-ba04-4613-b58b-5c13f7f72f19'
+  label: ДЕТИ
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /kids
+    negate: false
+    context_mapping: {  }

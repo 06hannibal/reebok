@@ -1,0 +1,28 @@
+uuid: b13a2a2a-446b-4d17-ba4a-74969bb580d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.podbor_po_tipu_aksessuary_
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: podborpotipuaksessuary
+theme: reebok_theme
+region: sidebar_first
+weight: 1
+provider: null
+plugin: 'facet_block:podbor_po_tipu_aksessuary_'
+settings:
+  id: 'facet_block:podbor_po_tipu_aksessuary_'
+  label: 'ПОДБОР ПО ТИПУ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /accessories
+    negate: false
+    context_mapping: {  }

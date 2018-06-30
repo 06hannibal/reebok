@@ -1,0 +1,31 @@
+uuid: fc1c5fa6-00ae-4ab5-86ce-cb9db12b98d5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9ca23e68-374a-4065-9e27-1171870a769a'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: muzhchiny
+theme: reebok_theme
+region: sidebar_first
+weight: -26
+provider: null
+plugin: 'block_content:9ca23e68-374a-4065-9e27-1171870a769a'
+settings:
+  id: 'block_content:9ca23e68-374a-4065-9e27-1171870a769a'
+  label: МУЖЧИНЫ
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /mens
+    negate: false
+    context_mapping: {  }

@@ -22,6 +22,8 @@ regions:
   taxonomy_for_you: 'taxonomy_for_you'
   owl_carousel_tabs: 'owl_carousel_tabs'
   info_reebok_block: 'info_reebok_block'
+  information_block_reebok_empty_block: 'information_block_reebok_empty_block'
+  information_block_reebok: 'information_block_reebok'
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'

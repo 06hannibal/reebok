@@ -1,0 +1,23 @@
+uuid: 367b67b9-7743-4855-8f65-010df19af1a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dlya_khodby
+    - node.type.ware
+id: node.ware.field_dlya_khodby
+field_name: field_dlya_khodby
+entity_type: node
+bundle: ware
+label: 'Для ходьбы'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

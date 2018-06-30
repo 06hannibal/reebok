@@ -1,0 +1,28 @@
+uuid: a8be4a60-1a0a-4677-8949-1bcc7ba0cef5
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.kollekciya_obuvi_nova_kolekcija
+  module:
+    - facets
+    - system
+  theme:
+    - reebok_theme
+id: kollekciyaobuvi
+theme: reebok_theme
+region: sidebar_first
+weight: -34
+provider: null
+plugin: 'facet_block:kollekciya_obuvi_nova_kolekcija'
+settings:
+  id: 'facet_block:kollekciya_obuvi_nova_kolekcija'
+  label: 'КОЛЛЕКЦИЯ ОБУВИ'
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /nova-kolekcija
+    negate: false
+    context_mapping: {  }
