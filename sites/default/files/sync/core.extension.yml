@@ -5,6 +5,7 @@ module:
   animated_scroll_to_top: 0
   automated_cron: 0
   big_pipe: 0
+  blazy: 0
   block: 0
   block_content: 0
   breakpoint: 0
@@ -35,10 +36,13 @@ module:
   page_cache: 0
   path: 0
   quickedit: 0
+  quicktabs: 0
   rdf: 0
   search_api: 0
   search_api_db: 0
   shortcut: 0
+  statistics: 0
+  statistics_counter: 0
   system: 0
   taxonomy: 0
   text: 0

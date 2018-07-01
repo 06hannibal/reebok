@@ -1,0 +1,26 @@
+uuid: 4724fb99-5890-48bd-bbc8-dbe20edcfcc6
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+  theme:
+    - reebok_theme
+id: quicktabsowlcarouselmanutab
+theme: reebok_theme
+region: owl_carousel_tabs
+weight: 0
+provider: null
+plugin: 'quicktabs_block:owl_carousel_manu_tab'
+settings:
+  id: 'quicktabs_block:owl_carousel_manu_tab'
+  label: 'QuickTabs - owl-carousel-manu-tab'
+  provider: quicktabs
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,86 @@
+uuid: 445a1ba4-28a8-4d54-9e47-45831b25de60
+langcode: en
+status: true
+dependencies: {  }
+id: owl_carousel_manu_tab
+label: owl-carousel-manu-tab
+renderer: quick_tabs
+options:
+  quick_tabs:
+    ajax: '1'
+  accordion_tabs:
+    jquery_ui:
+      collapsible: 0
+      heightStyle: auto
+hide_empty_tabs: 1
+default_tab: '0'
+configuration_data:
+  -
+    title: Последние
+    weight: '-10'
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:poslednie-block_1'
+          block_title: Последние
+          display_title: 0
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: '1'
+      view_content:
+        options:
+          vid: poslednie
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Хиты продаж'
+    weight: '-9'
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:khity_prodazh-block_1'
+          block_title: 'Хиты продаж'
+          display_title: 0
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: '1'
+      view_content:
+        options:
+          vid: accessories
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: Акции
+    weight: '-8'
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:akcii-block_1'
+          block_title: Акции
+          display_title: 0
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: '1'
+      view_content:
+        options:
+          vid: accessories
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
