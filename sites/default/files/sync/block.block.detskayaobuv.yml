@@ -12,7 +12,7 @@ dependencies:
 id: detskayaobuv
 theme: reebok_theme
 region: sidebar_first
-weight: -28
+weight: -29
 provider: null
 plugin: 'facet_block:detskaya_obuv'
 settings:

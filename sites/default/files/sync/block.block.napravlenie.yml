@@ -12,7 +12,7 @@ dependencies:
 id: napravlenie
 theme: reebok_theme
 region: sidebar_first
-weight: -38
+weight: -39
 provider: null
 plugin: 'facet_block:napravlenie_nova_kolekcija'
 settings:

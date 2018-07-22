@@ -1,0 +1,21 @@
+uuid: 3032f6d6-62f2-4c1f-960e-7318b7dcd72a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.storage.block_content.field_google_plus
+  module:
+    - font_field_icon
+id: block_content.basic.field_google_plus
+field_name: field_google_plus
+entity_type: block_content
+bundle: basic
+label: 'google plus'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: font_field_icon

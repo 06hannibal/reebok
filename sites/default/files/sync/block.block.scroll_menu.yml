@@ -11,7 +11,7 @@ dependencies:
 id: scroll_menu
 theme: reebok_theme
 region: navigation_with_goods
-weight: -12
+weight: -43
 provider: null
 plugin: 'system_menu_block:scroll-menu'
 settings:

@@ -1,0 +1,21 @@
+uuid: 4b80f6f8-9721-44a3-9e12-0cf69fea564d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.storage.block_content.field_youtube
+  module:
+    - font_field_icon
+id: block_content.basic.field_youtube
+field_name: field_youtube
+entity_type: block_content
+bundle: basic
+label: youtube
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: font_field_icon

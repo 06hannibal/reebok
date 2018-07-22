@@ -1,0 +1,8 @@
+uuid: 82bb7e07-8dd8-47b7-9854-0e21dc29cd3b
+langcode: en
+status: true
+dependencies: {  }
+id: kollekcii
+label: КОЛЛЕКЦИИ
+description: 'footer manu collection'
+locked: false

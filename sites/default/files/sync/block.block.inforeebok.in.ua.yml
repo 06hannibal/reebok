@@ -1,0 +1,25 @@
+uuid: cdc2be71-2108-483e-a409-1386b761e41c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:16bdedfb-b30f-486f-aca2-aa0b9e49d42a'
+  module:
+    - block_content
+  theme:
+    - reebok_theme
+id: inforeebok.in.ua
+theme: reebok_theme
+region: info_footer_block
+weight: -41
+provider: null
+plugin: 'block_content:16bdedfb-b30f-486f-aca2-aa0b9e49d42a'
+settings:
+  id: 'block_content:16bdedfb-b30f-486f-aca2-aa0b9e49d42a'
+  label: info@reebok.in.ua
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

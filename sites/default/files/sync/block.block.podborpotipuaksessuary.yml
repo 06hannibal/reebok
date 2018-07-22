@@ -12,7 +12,7 @@ dependencies:
 id: podborpotipuaksessuary
 theme: reebok_theme
 region: sidebar_first
-weight: 1
+weight: 0
 provider: null
 plugin: 'facet_block:podbor_po_tipu_aksessuary_'
 settings:

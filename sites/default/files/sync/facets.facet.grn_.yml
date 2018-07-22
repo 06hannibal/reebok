@@ -1,0 +1,74 @@
+uuid: 46801298-982a-4089-9bb5-45be06c9f954
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.index.default_index
+    - views.view.novaya_kollekciya
+  module:
+    - search_api
+id: grn_
+name: грн.
+url_alias: grn_
+weight: 0
+min_count: 1
+show_only_one_result: true
+field_identifier: field_grn_
+facet_source_id: 'search_api:views_page__novaya_kollekciya__page_1'
+widget:
+  type: range_slider
+  config:
+    show_numbers: true
+    prefix: '240'
+    suffix: '5690'
+    min_type: fixed
+    min_value: !!float 240
+    max_type: fixed
+    max_value: !!float 5690
+    step: !!float 1
+query_operator: or
+use_hierarchy: false
+expand_hierarchy: false
+enable_parent_when_child_gets_disabled: true
+hard_limit: 0
+exclude: false
+only_visible_when_facet_source_is_visible: false
+processor_configs:
+  active_widget_order:
+    processor_id: active_widget_order
+    weights:
+      sort: 20
+    settings:
+      sort: DESC
+  count_widget_order:
+    processor_id: count_widget_order
+    weights:
+      sort: 30
+    settings:
+      sort: DESC
+  display_value_widget_order:
+    processor_id: display_value_widget_order
+    weights:
+      sort: 40
+    settings:
+      sort: ASC
+  range_slider:
+    processor_id: range_slider
+    weights:
+      pre_query: 5
+      post_query: 5
+      build: 5
+    settings: {  }
+  slider:
+    processor_id: slider
+    weights:
+      post_query: 5
+    settings: {  }
+  url_processor_handler:
+    processor_id: url_processor_handler
+    weights:
+      pre_query: 50
+      build: 15
+    settings: {  }
+empty_behavior:
+  behavior: none

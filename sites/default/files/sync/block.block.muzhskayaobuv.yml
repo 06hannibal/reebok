@@ -12,7 +12,7 @@ dependencies:
 id: muzhskayaobuv
 theme: reebok_theme
 region: sidebar_first
-weight: -22
+weight: -23
 provider: null
 plugin: 'facet_block:muzhskaya_obuv'
 settings:

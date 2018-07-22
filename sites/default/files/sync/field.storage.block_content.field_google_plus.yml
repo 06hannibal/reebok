@@ -1,0 +1,19 @@
+uuid: 61271b75-22d3-4a52-8322-ba00f6fd1c53
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - font_field_icon
+id: block_content.field_google_plus
+field_name: field_google_plus
+entity_type: block_content
+type: font_field_icon
+settings: {  }
+module: font_field_icon
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

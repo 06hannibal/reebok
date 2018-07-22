@@ -1,0 +1,49 @@
+uuid: 331c90bd-8678-47be-92e5-c75c0ed5ab0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.404.body
+    - field.field.node.404.field_home
+    - node.type.404
+  module:
+    - link
+    - text
+id: node.404.default
+targetEntityType: node
+bundle: '404'
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_home:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

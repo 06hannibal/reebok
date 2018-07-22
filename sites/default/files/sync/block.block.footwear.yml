@@ -1,0 +1,31 @@
+uuid: 37e51d15-3d74-47bc-8dea-ca33868d76ad
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9fb9c796-e513-4248-b646-7f73b0b1926e'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: footwear
+theme: reebok_theme
+region: information_block_reebok
+weight: -33
+provider: null
+plugin: 'block_content:9fb9c796-e513-4248-b646-7f73b0b1926e'
+settings:
+  id: 'block_content:9fb9c796-e513-4248-b646-7f73b0b1926e'
+  label: 'reebok footwear '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /obuvj
+    negate: false
+    context_mapping: {  }

@@ -12,7 +12,7 @@ dependencies:
 id: odezhda
 theme: reebok_theme
 region: sidebar_first
-weight: -6
+weight: -7
 provider: null
 plugin: 'block_content:764d2509-2027-4729-b74d-f8ed37daa153'
 settings:

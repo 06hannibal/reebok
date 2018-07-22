@@ -1,0 +1,25 @@
+uuid: 4bdb74ac-0269-479e-a2b9-c8f914af4167
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:90b9967f-21df-48f9-bce5-66724c5ec550'
+  module:
+    - block_content
+  theme:
+    - reebok_theme
+id: onashemmagazine
+theme: reebok_theme
+region: left_footer_block
+weight: -39
+provider: null
+plugin: 'block_content:90b9967f-21df-48f9-bce5-66724c5ec550'
+settings:
+  id: 'block_content:90b9967f-21df-48f9-bce5-66724c5ec550'
+  label: 'О НАШЕМ МАГАЗИНЕ'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

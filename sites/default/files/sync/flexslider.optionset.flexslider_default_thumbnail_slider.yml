@@ -1,0 +1,49 @@
+uuid: 7f2b4edb-0e58-4047-8e8f-21dc6322e9fe
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SH7O6iom0GvoFgTLZhT8z-OiEwbRECHQu49UydvkyTI
+id: flexslider_default_thumbnail_slider
+label: 'Thumbnail Slider'
+options:
+  animation: slide
+  animationSpeed: 600
+  direction: horizontal
+  slideshow: false
+  easing: swing
+  smoothHeight: true
+  reverse: false
+  slideshowSpeed: 7000
+  animationLoop: false
+  randomize: true
+  startAt: 0
+  itemWidth: 150
+  itemMargin: 10
+  minItems: 4
+  maxItems: 4
+  move: 0
+  directionNav: true
+  controlNav: '0'
+  thumbCaptions: false
+  thumbCaptionsBoth: false
+  keyboard: true
+  multipleKeyboard: false
+  mousewheel: false
+  touch: true
+  prevText: Previous
+  nextText: Next
+  namespace: flex-
+  selector: '.slides > li'
+  sync: ''
+  asNavFor: '#flexslider-1'
+  initDelay: 5
+  useCSS: true
+  video: false
+  pausePlay: false
+  pauseText: Pause
+  playText: Play
+  pauseOnAction: true
+  pauseOnHover: false
+  controlsContainer: .flex-control-nav-container
+  manualControls: ''

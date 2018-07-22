@@ -12,7 +12,7 @@ dependencies:
 id: napravleniemuzhchiny
 theme: reebok_theme
 region: sidebar_first
-weight: -23
+weight: -24
 provider: null
 plugin: 'facet_block:duplicate_of_napravlenie_muzhchiny_'
 settings:

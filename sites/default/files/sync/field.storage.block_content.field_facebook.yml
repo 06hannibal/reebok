@@ -1,0 +1,19 @@
+uuid: a0ee5dfc-823d-4c67-8dba-070906f17d23
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - font_field_icon
+id: block_content.field_facebook
+field_name: field_facebook
+entity_type: block_content
+type: font_field_icon
+settings: {  }
+module: font_field_icon
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

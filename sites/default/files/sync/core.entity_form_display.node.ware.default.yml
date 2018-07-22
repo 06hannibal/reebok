@@ -11,9 +11,6 @@ dependencies:
     - field.field.node.ware.field_dlya_khodby
     - field.field.node.ware.field_goods_image
     - field.field.node.ware.field_grn_
-    - field.field.node.ware.field_muzhskaya_obuv
-    - field.field.node.ware.field_muzhskaya_odezhda
-    - field.field.node.ware.field_muzhskie_aksessuary
     - field.field.node.ware.field_novaya_kollekciya
     - field.field.node.ware.field_rasprodazha
     - field.field.node.ware.field_referral
@@ -21,10 +18,7 @@ dependencies:
     - field.field.node.ware.field_selection_by_type
     - field.field.node.ware.field_type_clothes
     - field.field.node.ware.field_type_shoes
-    - field.field.node.ware.field_womens_aks
-    - field.field.node.ware.field_zhenskaya_obuv
-    - field.field.node.ware.field_zhenskaya_odezhda
-    - image.style.thumbnail
+    - image.style.flexslider_thumbnail
     - node.type.ware
   module:
     - image
@@ -84,8 +78,8 @@ content:
   field_goods_image:
     weight: 12
     settings:
+      preview_image_style: flexslider_thumbnail
       progress_indicator: throbber
-      preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
     region: content
@@ -95,24 +89,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: number
-    region: content
-  field_muzhskaya_obuv:
-    weight: 27
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
-  field_muzhskaya_odezhda:
-    weight: 26
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
-  field_muzhskie_aksessuary:
-    weight: 28
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
     region: content
   field_novaya_kollekciya:
     weight: 9
@@ -154,24 +130,6 @@ content:
     region: content
   field_type_shoes:
     weight: 19
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
-  field_womens_aks:
-    weight: 31
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
-  field_zhenskaya_obuv:
-    weight: 30
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
-  field_zhenskaya_odezhda:
-    weight: 29
     settings: {  }
     third_party_settings: {  }
     type: options_select

@@ -1,0 +1,8 @@
+uuid: 680df7fa-1540-400f-8bd7-4e179904951f
+langcode: en
+status: true
+dependencies: {  }
+id: lichnyy-kabinet
+label: 'ЛИЧНЫЙ КАБИНЕТ'
+description: 'PERSONAL CABINET'
+locked: false

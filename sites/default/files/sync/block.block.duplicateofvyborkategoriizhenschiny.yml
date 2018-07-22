@@ -12,7 +12,7 @@ dependencies:
 id: duplicateofvyborkategoriizhenschiny
 theme: reebok_theme
 region: sidebar_first
-weight: -17
+weight: -18
 provider: null
 plugin: 'facet_block:duplicate_of_vybor_kategorii_zhenschiny_'
 settings:

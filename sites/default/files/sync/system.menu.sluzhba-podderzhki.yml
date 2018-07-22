@@ -1,0 +1,8 @@
+uuid: 557b5f3e-6faf-4d49-bbfe-0ca9751d13a6
+langcode: en
+status: true
+dependencies: {  }
+id: sluzhba-podderzhki
+label: 'СЛУЖБА ПОДДЕРЖКИ'
+description: 'SERVICE SUPPORT'
+locked: false

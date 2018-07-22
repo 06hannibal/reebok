@@ -12,7 +12,7 @@ dependencies:
 id: zhenskieaksessuary
 theme: reebok_theme
 region: sidebar_first
-weight: -13
+weight: -14
 provider: null
 plugin: 'facet_block:zhenskie_aksessuary'
 settings:

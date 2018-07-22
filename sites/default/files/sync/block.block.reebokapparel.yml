@@ -12,7 +12,7 @@ dependencies:
 id: reebokapparel
 theme: reebok_theme
 region: information_block_reebok
-weight: -37
+weight: -32
 provider: null
 plugin: 'block_content:414f6d5a-9787-4b06-a23d-790ece0e3e0e'
 settings:

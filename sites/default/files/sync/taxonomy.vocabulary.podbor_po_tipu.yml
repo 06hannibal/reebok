@@ -5,5 +5,5 @@ dependencies: {  }
 name: 'ПОДБОР ПО ТИПУ'
 vid: podbor_po_tipu
 description: 'men are women children'
-hierarchy: 0
+hierarchy: 1
 weight: -7

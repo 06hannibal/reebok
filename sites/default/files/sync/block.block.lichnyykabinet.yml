@@ -1,0 +1,24 @@
+uuid: 5c2259dd-50cc-4835-a2e3-88e521e33029
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.lichnyy-kabinet
+  module:
+    - system
+  theme:
+    - reebok_theme
+id: lichnyykabinet
+theme: reebok_theme
+region: top_right_footer_block
+weight: -36
+provider: null
+plugin: 'system_menu_block:lichnyy-kabinet'
+settings:
+  id: 'system_menu_block:lichnyy-kabinet'
+  label: 'ЛИЧНЫЙ КАБИНЕТ'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

@@ -5,7 +5,13 @@ dependencies:
   config:
     - block_content.type.basic
     - field.field.block_content.basic.body
+    - field.field.block_content.basic.field_facebook
+    - field.field.block_content.basic.field_google_plus
+    - field.field.block_content.basic.field_instagram
+    - field.field.block_content.basic.field_twitter
+    - field.field.block_content.basic.field_youtube
   module:
+    - font_field_icon
     - text
 _core:
   default_config_hash: orJpHUlAc_wiQLMUjIgEJXGeiqylGHMPcmNRjGtct-M
@@ -21,5 +27,40 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_facebook:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: FontFieldIconShowFormatter
+    region: content
+  field_google_plus:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: FontFieldIconShowFormatter
+    region: content
+  field_instagram:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: FontFieldIconShowFormatter
+    region: content
+  field_twitter:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: FontFieldIconShowFormatter
+    region: content
+  field_youtube:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: FontFieldIconShowFormatter
+    region: content
 hidden:
   langcode: true

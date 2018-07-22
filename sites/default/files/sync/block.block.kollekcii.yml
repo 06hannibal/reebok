@@ -1,0 +1,24 @@
+uuid: a255a970-055c-4465-bf84-2bb6b70848e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.kollekcii
+  module:
+    - system
+  theme:
+    - reebok_theme
+id: kollekcii
+theme: reebok_theme
+region: top_right_footer_block
+weight: -38
+provider: null
+plugin: 'system_menu_block:kollekcii'
+settings:
+  id: 'system_menu_block:kollekcii'
+  label: КОЛЛЕКЦИИ
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

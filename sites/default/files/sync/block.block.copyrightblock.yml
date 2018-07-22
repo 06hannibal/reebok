@@ -1,0 +1,20 @@
+uuid: deb93b9f-ca7a-44fa-88be-cae5a96ad0d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - copyright_block
+  theme:
+    - reebok_theme
+id: copyrightblock
+theme: reebok_theme
+region: copyright_footer_block
+weight: 0
+provider: null
+plugin: copyright_block
+settings:
+  id: copyright_block
+  label: 'Copyright block'
+  provider: copyright_block
+  label_display: '0'
+visibility: {  }

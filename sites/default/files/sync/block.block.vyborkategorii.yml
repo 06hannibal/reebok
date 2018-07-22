@@ -12,7 +12,7 @@ dependencies:
 id: vyborkategorii
 theme: reebok_theme
 region: sidebar_first
-weight: -39
+weight: -40
 provider: null
 plugin: 'facet_block:vybor_kategorii_nova_kolekcija'
 settings:

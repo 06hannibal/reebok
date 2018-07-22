@@ -12,7 +12,7 @@ dependencies:
 id: muzhchiny
 theme: reebok_theme
 region: sidebar_first
-weight: -26
+weight: -27
 provider: null
 plugin: 'block_content:9ca23e68-374a-4065-9e27-1171870a769a'
 settings:

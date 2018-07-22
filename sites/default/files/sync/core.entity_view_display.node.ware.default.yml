@@ -11,9 +11,6 @@ dependencies:
     - field.field.node.ware.field_dlya_khodby
     - field.field.node.ware.field_goods_image
     - field.field.node.ware.field_grn_
-    - field.field.node.ware.field_muzhskaya_obuv
-    - field.field.node.ware.field_muzhskaya_odezhda
-    - field.field.node.ware.field_muzhskie_aksessuary
     - field.field.node.ware.field_novaya_kollekciya
     - field.field.node.ware.field_rasprodazha
     - field.field.node.ware.field_referral
@@ -21,12 +18,9 @@ dependencies:
     - field.field.node.ware.field_selection_by_type
     - field.field.node.ware.field_type_clothes
     - field.field.node.ware.field_type_shoes
-    - field.field.node.ware.field_womens_aks
-    - field.field.node.ware.field_zhenskaya_obuv
-    - field.field.node.ware.field_zhenskaya_odezhda
     - node.type.ware
   module:
-    - image
+    - slick
     - text
     - user
 id: node.ware.default
@@ -35,149 +29,13 @@ bundle: ware
 mode: default
 content:
   body:
-    label: inline
+    label: hidden
     type: text_default
-    weight: 2
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     region: content
   field_accessory_type:
-    weight: 12
-    label: inline
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_category_selection:
-    weight: 8
-    label: inline
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_collection_shoes:
-    weight: 13
-    label: inline
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_detskaja_obuvj:
-    weight: 14
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_dlya_khodby:
-    weight: 15
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    type: boolean
-    region: content
-  field_goods_image:
-    weight: 0
-    label: hidden
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
-    region: content
-  field_grn_:
-    weight: 5
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    type: number_integer
-    region: content
-  field_muzhskaya_obuv:
-    weight: 17
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_muzhskaya_odezhda:
-    weight: 16
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_muzhskie_aksessuary:
-    weight: 18
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_novaya_kollekciya:
-    weight: 3
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    type: boolean
-    region: content
-  field_rasprodazha:
-    weight: 4
-    label: inline
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    type: boolean
-    region: content
-  field_referral:
-    weight: 9
-    label: inline
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_season:
-    weight: 6
-    label: inline
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_selection_by_type:
-    weight: 7
-    label: inline
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_type_clothes:
-    weight: 10
-    label: inline
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  field_type_shoes:
     weight: 11
     label: inline
     settings:
@@ -185,34 +43,158 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_womens_aks:
-    weight: 21
+  field_category_selection:
+    weight: 7
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_collection_shoes:
+    weight: 12
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_detskaja_obuvj:
+    weight: 13
     label: above
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_zhenskaya_obuv:
-    weight: 20
-    label: above
+  field_goods_image:
+    weight: 1
+    label: hidden
+    settings:
+      style: ''
+      optionset: product_images
+      optionset_thumbnail: product_images_pager
+      skin: classic
+      skin_thumbnail: ''
+      image_style: large
+      thumbnail_style: thumbnail
+      thumbnail_effect: ''
+      thumbnail_position: left
+      media_switch: ''
+      ratio: ''
+      grid: null
+      grid_medium: null
+      grid_small: null
+      visible_items: null
+      layout: ''
+      thumbnail_caption: ''
+      cache: 0
+      sizes: ''
+      breakpoints:
+        xs:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        sm:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        md:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        lg:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        xl:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+      current_view_mode: default
+      background: false
+      caption:
+        title: '0'
+        alt: '0'
+      grid_header: ''
+      preserve_keys: false
+      override: false
+      overridables:
+        arrows: '0'
+        autoplay: '0'
+        dots: '0'
+        draggable: '0'
+        infinite: '0'
+        mouseWheel: '0'
+        randomize: '0'
+        variableWidth: '0'
+      skin_arrows: ''
+      skin_dots: ''
+      iframe_lazy: true
+      icon: ''
+      view_mode: ''
+      box_caption: ''
+      box_caption_custom: ''
+      box_style: ''
+      box_media_style: ''
+      responsive_image_style: ''
+    third_party_settings: {  }
+    type: slick_image
+    region: content
+  field_grn_:
+    weight: 4
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: number_unformatted
+    region: content
+  field_referral:
+    weight: 8
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_zhenskaya_odezhda:
-    weight: 19
-    label: above
+  field_season:
+    weight: 5
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_selection_by_type:
+    weight: 6
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_type_clothes:
+    weight: 9
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_type_shoes:
+    weight: 10
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   links:
-    weight: 1
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_dlya_khodby: true
+  field_novaya_kollekciya: true
+  field_rasprodazha: true
   langcode: true

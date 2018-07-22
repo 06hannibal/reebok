@@ -1,0 +1,25 @@
+uuid: ace7f6b5-4f83-4d82-8bb5-a1cd1694a970
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:981f5854-64fb-4792-bc1d-81656eae8d2d'
+  module:
+    - block_content
+  theme:
+    - reebok_theme
+id: kievbulvarperova4
+theme: reebok_theme
+region: info_footer_block
+weight: -42
+provider: null
+plugin: 'block_content:981f5854-64fb-4792-bc1d-81656eae8d2d'
+settings:
+  id: 'block_content:981f5854-64fb-4792-bc1d-81656eae8d2d'
+  label: 'Киев, бульвар Перова, 4'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

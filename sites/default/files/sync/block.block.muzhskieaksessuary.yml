@@ -12,7 +12,7 @@ dependencies:
 id: muzhskieaksessuary
 theme: reebok_theme
 region: sidebar_first
-weight: -20
+weight: -21
 provider: null
 plugin: 'facet_block:muzhskie_aksessuary'
 settings:

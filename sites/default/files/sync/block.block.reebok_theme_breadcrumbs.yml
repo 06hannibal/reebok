@@ -11,7 +11,7 @@ _core:
 id: reebok_theme_breadcrumbs
 theme: reebok_theme
 region: header
-weight: -12
+weight: -44
 provider: null
 plugin: system_breadcrumb_block
 settings:

@@ -12,7 +12,7 @@ dependencies:
 id: zhenschiny
 theme: reebok_theme
 region: sidebar_first
-weight: -19
+weight: -20
 provider: null
 plugin: 'block_content:cb8f2321-8942-4051-a4c9-7e69431bc664'
 settings:
