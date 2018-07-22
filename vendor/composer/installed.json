@@ -292,6 +292,100 @@
         ]
     },
     {
+        "name": "commercie/currency",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Commercie/currency.git",
+            "reference": "64812cb8d5e8cdbc406c2f7c114399c814e2d898"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Commercie/currency/zipball/64812cb8d5e8cdbc406c2f7c114399c814e2d898",
+            "reference": "64812cb8d5e8cdbc406c2f7c114399c814e2d898",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "php": "~5.5 || ~7.0"
+        },
+        "require-dev": {
+            "justinrainbow/json-schema": "~1.4",
+            "phpunit/phpunit": "~4.0"
+        },
+        "suggest": {
+            "drupal/currency": "Integrates this package with Drupal."
+        },
+        "time": "2018-05-11T10:11:38+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Commercie\\Currency\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Bart Feenstra",
+                "email": "bart@mynameisbart.com",
+                "homepage": "http://mynameisbart.com",
+                "role": "Developer"
+            }
+        ]
+    },
+    {
+        "name": "commercie/currency-exchange",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Commercie/currency-exchange.git",
+            "reference": "bb6a0c3b682aaed2eda205ceda5582673cb444af"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Commercie/currency-exchange/zipball/bb6a0c3b682aaed2eda205ceda5582673cb444af",
+            "reference": "bb6a0c3b682aaed2eda205ceda5582673cb444af",
+            "shasum": ""
+        },
+        "require": {
+            "ext-bcmath": "*",
+            "ext-json": "*",
+            "php": "~5.5 || ~7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "suggest": {
+            "commercie/currency-exchange-yahoo-finance": "Retrieves currency exchange rates from Yahoo! Finance.",
+            "drupal/currency": "Integrates this package with Drupal."
+        },
+        "time": "2016-07-01T11:01:48+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Commercie\\CurrencyExchange\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Bart Feenstra",
+                "email": "bart@mynameisbart.com"
+            }
+        ],
+        "description": "A library for retrieving currency exchange rates."
+    },
+    {
         "name": "composer/installers",
         "version": "v1.5.0",
         "version_normalized": "1.5.0.0",
@@ -1341,6 +1435,211 @@
         ]
     },
     {
+        "name": "drupal/contextual_range_filter",
+        "version": "1.0.0-rc1",
+        "version_normalized": "1.0.0.0-RC1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/contextual_range_filter",
+            "reference": "8.x-1.0-rc1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/contextual_range_filter-8.x-1.0-rc1.zip",
+            "reference": "8.x-1.0-rc1",
+            "shasum": "c8f586eed6a1b560a89730f844c83ed5acedb136"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-rc1",
+                "datestamp": "1517259485",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "RC releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Beakerboy",
+                "homepage": "https://www.drupal.org/user/1700098"
+            },
+            {
+                "name": "RdeBoer",
+                "homepage": "https://www.drupal.org/user/404007"
+            }
+        ],
+        "description": "Contextually filter Views by numeric, alphabetic, date or list ranges, e.g. <em>http://yoursite.com/yourview/50--99.95</em>",
+        "homepage": "https://www.drupal.org/project/contextual_range_filter",
+        "support": {
+            "source": "http://cgit.drupalcode.org/contextual_range_filter"
+        }
+    },
+    {
+        "name": "drupal/currency",
+        "version": "3.1.0",
+        "version_normalized": "3.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/currency",
+            "reference": "8.x-3.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/currency-8.x-3.1.zip",
+            "reference": "8.x-3.1",
+            "shasum": "4e1f257ba0af2639c9a47f104eae27d65bf05505"
+        },
+        "require": {
+            "commercie/currency": "~1.0",
+            "commercie/currency-exchange": "~1.0",
+            "drupal/core": "~8.0",
+            "drupal/plugin": "*",
+            "ext-bcmath": "*",
+            "php": "~5.5 || ~7.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-3.x": "3.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-3.1",
+                "datestamp": "1455608932",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Drupal\\currency\\": "src"
+            }
+        },
+        "autoload-dev": {
+            "psr-4": {
+                "Drupal\\Tests\\currency\\": "tests/src"
+            }
+        },
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Berdir",
+                "homepage": "https://www.drupal.org/user/214652"
+            },
+            {
+                "name": "Xano",
+                "homepage": "https://www.drupal.org/user/62965"
+            }
+        ],
+        "description": "Provides your Drupal site with currency conversion, currency information & metadata, and amount/price display functionality.",
+        "homepage": "https://www.drupal.org/project/currency",
+        "support": {
+            "source": "http://cgit.drupalcode.org/currency"
+        }
+    },
+    {
+        "name": "drupal/devel",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/devel",
+            "reference": "8.x-1.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/devel-8.x-1.2.zip",
+            "reference": "8.x-1.2",
+            "shasum": "01f3349ef75f6e21fceef24be9d3d6506ca29647"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "suggest": {
+            "symfony/var-dumper": "Pretty print complex values better with var-dumper available"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.2",
+                "datestamp": "1507197844",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Moshe Weitzman",
+                "homepage": "https://github.com/weitzman",
+                "email": "weitzman@tejasa.com",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Hans Salvisberg",
+                "homepage": "https://www.drupal.org/u/salvis",
+                "email": "drupal@salvisberg.com",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Luca Lusso",
+                "homepage": "https://www.drupal.org/u/lussoluca",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Marco (willzyx)",
+                "homepage": "https://www.drupal.org/u/willzyx",
+                "role": "Maintainer"
+            },
+            {
+                "name": "See contributors",
+                "homepage": "https://www.drupal.org/node/3236/committers"
+            },
+            {
+                "name": "salvis",
+                "homepage": "https://www.drupal.org/user/82964"
+            },
+            {
+                "name": "willzyx",
+                "homepage": "https://www.drupal.org/user/1043862"
+            }
+        ],
+        "description": "Various blocks, pages, and functions for developers.",
+        "homepage": "http://drupal.org/project/devel",
+        "support": {
+            "source": "http://cgit.drupalcode.org/devel",
+            "issues": "http://drupal.org/project/devel",
+            "irc": "irc://irc.freenode.org/drupal-contribute"
+        }
+    },
+    {
         "name": "drupal/diba_carousel",
         "version": "1.5.0",
         "version_normalized": "1.5.0.0",
@@ -1387,6 +1686,140 @@
         "homepage": "https://www.drupal.org/project/diba_carousel",
         "support": {
             "source": "http://cgit.drupalcode.org/diba_carousel"
+        }
+    },
+    {
+        "name": "drupal/easy_breadcrumb",
+        "version": "1.8.0",
+        "version_normalized": "1.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/easy_breadcrumb",
+            "reference": "8.x-1.8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/easy_breadcrumb-8.x-1.8.zip",
+            "reference": "8.x-1.8",
+            "shasum": "75be89f78e9b47daf0bb54429652180a2e6063b5"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.8",
+                "datestamp": "1524864180",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Greg Boggs",
+                "homepage": "https://www.drupal.org/user/153069"
+            },
+            {
+                "name": "RenatoG",
+                "homepage": "https://www.drupal.org/user/3326031"
+            },
+            {
+                "name": "loopduplicate",
+                "homepage": "https://www.drupal.org/user/717290"
+            },
+            {
+                "name": "sonemonu",
+                "homepage": "https://www.drupal.org/user/1667988"
+            },
+            {
+                "name": "tatarbj",
+                "homepage": "https://www.drupal.org/user/649590"
+            },
+            {
+                "name": "volkswagenchick",
+                "homepage": "https://www.drupal.org/user/3332522"
+            }
+        ],
+        "description": "Adds configuration to the system breadcrumbs.",
+        "homepage": "https://www.drupal.org/project/easy_breadcrumb",
+        "support": {
+            "source": "http://cgit.drupalcode.org/easy_breadcrumb"
+        }
+    },
+    {
+        "name": "drupal/entity",
+        "version": "1.0.0-beta4",
+        "version_normalized": "1.0.0.0-beta4",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/entity",
+            "reference": "8.x-1.0-beta4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/entity-8.x-1.0-beta4.zip",
+            "reference": "8.x-1.0-beta4",
+            "shasum": "00c1ae1fd4942285564af4325c0c98f895dac754"
+        },
+        "require": {
+            "drupal/core": "~8.5"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-beta4",
+                "datestamp": "1528452184",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Berdir",
+                "homepage": "https://www.drupal.org/user/214652"
+            },
+            {
+                "name": "bojanz",
+                "homepage": "https://www.drupal.org/user/86106"
+            },
+            {
+                "name": "dawehner",
+                "homepage": "https://www.drupal.org/user/99340"
+            },
+            {
+                "name": "dixon_",
+                "homepage": "https://www.drupal.org/user/239911"
+            },
+            {
+                "name": "fago",
+                "homepage": "https://www.drupal.org/user/16747"
+            }
+        ],
+        "description": "Provides expanded entity APIs, which will be moved to Drupal core one day.",
+        "homepage": "http://drupal.org/project/entity",
+        "support": {
+            "source": "http://cgit.drupalcode.org/entity"
         }
     },
     {
@@ -1452,6 +1885,178 @@
         }
     },
     {
+        "name": "drupal/field_gallery",
+        "version": "1.0.0-dev",
+        "version_normalized": "1.0.0.0-dev",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/field_gallery",
+            "reference": "8.x-1.0-alpha3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/field_gallery-8.x-1.0-alpha3.zip",
+            "reference": "8.x-1.0-alpha3",
+            "shasum": "05656db3481acbc298f9aa3092cd5419243bf72d"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "time": "2018-03-02T18:18:36+00:00",
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha3",
+                "datestamp": "1520014980",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL"
+        ],
+        "authors": [
+            {
+                "name": "Nuwantha",
+                "homepage": "https://www.drupal8.ovh",
+                "role": "Admin"
+            }
+        ],
+        "description": "Drupal 8 module to use an image field ad photo gallery.",
+        "homepage": "https://www.drupal.org/project/field_gallery",
+        "support": {
+            "source": "http://git.drupal.org/project/field_gallery.git",
+            "issues": "https://www.drupal.org/project/issues/field_gallery"
+        }
+    },
+    {
+        "name": "drupal/flexslider",
+        "version": "2.0.0-beta1",
+        "version_normalized": "2.0.0.0-beta1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/flexslider",
+            "reference": "8.x-2.0-beta1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/flexslider-8.x-2.0-beta1.zip",
+            "reference": "8.x-2.0-beta1",
+            "shasum": "fa298a5b065c5868a36c45d95fa57068be079220"
+        },
+        "require": {
+            "drupal/core": "*",
+            "drupal/libraries": "*"
+        },
+        "require-dev": {
+            "drupal/flexslider_fields": "*",
+            "drupal/flexslider_views": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.0-beta1",
+                "datestamp": "1492020545",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "ClassicCut",
+                "homepage": "https://www.drupal.org/user/2703101"
+            },
+            {
+                "name": "amaria",
+                "homepage": "https://www.drupal.org/user/66428"
+            },
+            {
+                "name": "minorOffense",
+                "homepage": "https://www.drupal.org/user/129088"
+            },
+            {
+                "name": "ryanwebpage",
+                "homepage": "https://www.drupal.org/user/737596"
+            },
+            {
+                "name": "spotzero",
+                "homepage": "https://www.drupal.org/user/657848"
+            }
+        ],
+        "description": "Integrate the FlexSlider 2 library with Drupal",
+        "homepage": "https://www.drupal.org/project/flexslider",
+        "support": {
+            "source": "http://cgit.drupalcode.org/flexslider"
+        }
+    },
+    {
+        "name": "drupal/font_field_icon",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/font_field_icon",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/font_field_icon-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "b6e95ce079a39897f56da153287c927e18bca568"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1504099745",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "dendrmx",
+                "homepage": "https://www.drupal.org/user/2801015"
+            }
+        ],
+        "description": "Provides an ability to add social or other fontawesome icon to text field",
+        "homepage": "https://www.drupal.org/project/font_field_icon",
+        "support": {
+            "source": "http://cgit.drupalcode.org/font_field_icon",
+            "issues": "https://www.drupal.org/project/issues/font_field_icon"
+        }
+    },
+    {
         "name": "drupal/google_analytics",
         "version": "2.2.0",
         "version_normalized": "2.2.0.0",
@@ -1507,6 +2112,401 @@
         "support": {
             "source": "http://git.drupal.org/project/google_analytics.git",
             "issues": "https://www.drupal.org/project/issues/google_analytics"
+        }
+    },
+    {
+        "name": "drupal/icons",
+        "version": "1.0.0-rc1",
+        "version_normalized": "1.0.0.0-RC1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/icons",
+            "reference": "8.x-1.0-rc1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/icons-8.x-1.0-rc1.zip",
+            "reference": "8.x-1.0-rc1",
+            "shasum": "e243bd3a03c9f86043e36e72b176e7bf64cdc6fb"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-rc1",
+                "datestamp": "1489996684",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Jeffrey Bertoen (jefuri)",
+                "homepage": "https://www.drupal.org/u/jefuri",
+                "role": "Maintainer"
+            }
+        ],
+        "description": "Icons is a base API module for managing icons and rendering them.",
+        "homepage": "https://drupal.org/project/icons",
+        "support": {
+            "source": "http://cgit.drupalcode.org/icons",
+            "issues": "https://drupal.org/project/issues/icons"
+        }
+    },
+    {
+        "name": "drupal/imagefield_slideshow",
+        "version": "1.6.0",
+        "version_normalized": "1.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/imagefield_slideshow",
+            "reference": "8.x-1.6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/imagefield_slideshow-8.x-1.6.zip",
+            "reference": "8.x-1.6",
+            "shasum": "1f613ccefe83343c634c3fb0e6626d391562872c"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.6",
+                "datestamp": "1508910734",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Karthik Kumar D K (heykarthikwithu)",
+                "homepage": "https://www.drupal.org/u/heykarthikwithu"
+            }
+        ],
+        "description": "Creates a field formatter for image field, for which that particular field will be rendered as a basic slider.",
+        "homepage": "https://www.drupal.org/project/imagefield_slideshow",
+        "keywords": [
+            "image field",
+            "imagefield slideshow",
+            "slideshow"
+        ],
+        "support": {
+            "source": "https://cgit.drupalcode.org/imagefield_slideshow",
+            "issues": "https://www.drupal.org/project/issues/imagefield_slideshow"
+        }
+    },
+    {
+        "name": "drupal/libraries",
+        "version": "3.0.0-alpha1",
+        "version_normalized": "3.0.0.0-alpha1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/libraries",
+            "reference": "8.x-3.0-alpha1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/libraries-8.x-3.0-alpha1.zip",
+            "reference": "8.x-3.0-alpha1",
+            "shasum": "bb07036b1eaeea7d736fc7e72416238830cd8d67"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-3.x": "3.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-3.0-alpha1",
+                "datestamp": "1517046484",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Alpha releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Pol",
+                "homepage": "https://www.drupal.org/user/47194"
+            },
+            {
+                "name": "rjacobs",
+                "homepage": "https://www.drupal.org/user/422459"
+            },
+            {
+                "name": "sun",
+                "homepage": "https://www.drupal.org/user/54136"
+            },
+            {
+                "name": "tstoeckler",
+                "homepage": "https://www.drupal.org/user/107158"
+            }
+        ],
+        "description": "Allows version-dependent and shared usage of external libraries in Drupal.",
+        "homepage": "http://drupal.org/project/libraries",
+        "support": {
+            "source": "http://cgit.drupalcode.org/libraries",
+            "issues": "http://drupal.org/project/issues/libraries",
+            "irc": "irc://irc.freenode.org/drupal-contribute"
+        }
+    },
+    {
+        "name": "drupal/linkicon",
+        "version": "dev-1.x",
+        "version_normalized": "dev-1.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/linkicon",
+            "reference": "97e49bed3c60f2e363f3336cb9770635f70e10c4"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.4+4-dev",
+                "datestamp": "1491577384",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Dev releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "gausarts",
+                "homepage": "https://www.drupal.org/u/gausarts",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Committers for linkicon",
+                "homepage": "https://www.drupal.org/node/2208459/committers"
+            }
+        ],
+        "description": "A link field formatter to create icon classes based on predefined titles.",
+        "homepage": "https://www.drupal.org/project/linkicon",
+        "support": {
+            "source": "http://cgit.drupalcode.org/linkicon",
+            "issues": "https://www.drupal.org/project/issues/linkicon"
+        }
+    },
+    {
+        "name": "drupal/media_entity",
+        "version": "1.7.0",
+        "version_normalized": "1.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/media_entity",
+            "reference": "8.x-1.7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/media_entity-8.x-1.7.zip",
+            "reference": "8.x-1.7",
+            "shasum": "5f7ccdf1db07732f3c94e642e60d88746e73cc86"
+        },
+        "require": {
+            "drupal/core": "*",
+            "drupal/entity": "*"
+        },
+        "require-dev": {
+            "drupal/entity": "*",
+            "drupal/inline_entity_form": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.7",
+                "datestamp": "1510737185",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Berdir",
+                "homepage": "https://www.drupal.org/user/214652"
+            },
+            {
+                "name": "Dave Reid",
+                "homepage": "https://www.drupal.org/user/53892"
+            },
+            {
+                "name": "Drupal Media Team",
+                "homepage": "https://www.drupal.org/user/3260690"
+            },
+            {
+                "name": "Drupal media CI",
+                "homepage": "https://www.drupal.org/user/3057985"
+            },
+            {
+                "name": "Primsi",
+                "homepage": "https://www.drupal.org/user/282629"
+            },
+            {
+                "name": "boztek",
+                "homepage": "https://www.drupal.org/user/134410"
+            },
+            {
+                "name": "chr.fritsch",
+                "homepage": "https://www.drupal.org/user/2103716"
+            },
+            {
+                "name": "jcisio",
+                "homepage": "https://www.drupal.org/user/210762"
+            },
+            {
+                "name": "katzilla",
+                "homepage": "https://www.drupal.org/user/260398"
+            },
+            {
+                "name": "marcoscano",
+                "homepage": "https://www.drupal.org/user/1288796"
+            },
+            {
+                "name": "phenaproxima",
+                "homepage": "https://www.drupal.org/user/205645"
+            },
+            {
+                "name": "seanB",
+                "homepage": "https://www.drupal.org/user/545912"
+            },
+            {
+                "name": "slashrsm",
+                "homepage": "https://www.drupal.org/user/744628"
+            }
+        ],
+        "description": "Media entity API.",
+        "homepage": "https://www.drupal.org/project/media_entity",
+        "support": {
+            "source": "http://cgit.drupalcode.org/media_entity"
+        }
+    },
+    {
+        "name": "drupal/media_entity_image",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/media_entity_image",
+            "reference": "8.x-1.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/media_entity_image-8.x-1.3.zip",
+            "reference": "8.x-1.3",
+            "shasum": "53e21655e49e38fbd3fe696c4132460491879280"
+        },
+        "require": {
+            "drupal/core": "~8.1",
+            "drupal/media_entity": "~1.0 || ~8.1.0 || ~2.0"
+        },
+        "require-dev": {
+            "drupal/entity_browser": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.3",
+                "datestamp": "1525218780",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Drupal Media Team",
+                "homepage": "https://www.drupal.org/user/3260690"
+            },
+            {
+                "name": "Primsi",
+                "homepage": "https://www.drupal.org/user/282629"
+            },
+            {
+                "name": "marcoscano",
+                "homepage": "https://www.drupal.org/user/1288796"
+            },
+            {
+                "name": "phenaproxima",
+                "homepage": "https://www.drupal.org/user/205645"
+            },
+            {
+                "name": "slashrsm",
+                "homepage": "https://www.drupal.org/user/744628"
+            }
+        ],
+        "description": "Local images integration for Drupal Media entity.",
+        "homepage": "https://www.drupal.org/project/media_entity_image",
+        "keywords": [
+            "Drupal",
+            "image",
+            "media"
+        ],
+        "support": {
+            "source": "https://www.drupal.org/project/media_entity_image",
+            "issues": "https://www.drupal.org/project/issues/media_entity_image"
         }
     },
     {
@@ -1704,6 +2704,70 @@
         }
     },
     {
+        "name": "drupal/plugin",
+        "version": "2.5.0",
+        "version_normalized": "2.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/plugin",
+            "reference": "8.x-2.5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/plugin-8.x-2.5.zip",
+            "reference": "8.x-2.5",
+            "shasum": "fddee701ddbc3b7c87ff46a6a77fdb0230a122b8"
+        },
+        "require": {
+            "drupal/core": "~8.0 || >= 8.0.5",
+            "php": "~5.5|~7.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.5",
+                "datestamp": "1491597183",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Drupal\\plugin\\": "src"
+            }
+        },
+        "autoload-dev": {
+            "psr-4": {
+                "Drupal\\Tests\\plugin\\": "tests/src"
+            }
+        },
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Berdir",
+                "homepage": "https://www.drupal.org/user/214652"
+            },
+            {
+                "name": "Xano",
+                "homepage": "https://www.drupal.org/user/62965"
+            }
+        ],
+        "description": "Provides tools that extend Drupal's plugin system.",
+        "homepage": "https://www.drupal.org/project/plugin",
+        "support": {
+            "source": "http://cgit.drupalcode.org/plugin"
+        }
+    },
+    {
         "name": "drupal/quicktabs",
         "version": "3.0.0-alpha2",
         "version_normalized": "3.0.0.0-alpha2",
@@ -1782,6 +2846,59 @@
         "homepage": "https://www.drupal.org/project/quicktabs",
         "support": {
             "source": "http://cgit.drupalcode.org/quicktabs"
+        }
+    },
+    {
+        "name": "drupal/range",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/range",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/range-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "15e846ae9bb5e1d45f3975d92de420c03e318cbb"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1489346583",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Taran2L",
+                "homepage": "https://www.drupal.org/user/473438"
+            },
+            {
+                "name": "ribel",
+                "homepage": "https://www.drupal.org/user/1449610"
+            }
+        ],
+        "description": "Defines a numeric range field type.",
+        "homepage": "https://www.drupal.org/project/range",
+        "support": {
+            "source": "http://cgit.drupalcode.org/range"
         }
     },
     {
@@ -1945,6 +3062,75 @@
         }
     },
     {
+        "name": "drupal/simple_menu_icons",
+        "version": "2.1.0",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/simple_menu_icons",
+            "reference": "8.x-2.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/simple_menu_icons-8.x-2.1.zip",
+            "reference": "8.x-2.1",
+            "shasum": "75c03856a7a83b1b788bc6693a55987cf1ace686"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.1",
+                "datestamp": "1517693280",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "arpieb",
+                "homepage": "https://www.drupal.org/user/533416"
+            },
+            {
+                "name": "mcrittenden",
+                "homepage": "https://www.drupal.org/user/420631"
+            },
+            {
+                "name": "mrkdboyd",
+                "homepage": "https://www.drupal.org/user/2913445"
+            },
+            {
+                "name": "pifagor",
+                "homepage": "https://www.drupal.org/user/2375692"
+            },
+            {
+                "name": "pschuelke",
+                "homepage": "https://www.drupal.org/user/1801342"
+            },
+            {
+                "name": "tobby",
+                "homepage": "https://www.drupal.org/user/154797"
+            }
+        ],
+        "description": "Associates icons with menu items",
+        "homepage": "https://www.drupal.org/project/simple_menu_icons",
+        "support": {
+            "source": "http://cgit.drupalcode.org/simple_menu_icons"
+        }
+    },
+    {
         "name": "drupal/slick",
         "version": "1.0.0",
         "version_normalized": "1.0.0.0",
@@ -2002,6 +3188,62 @@
         "support": {
             "source": "http://cgit.drupalcode.org/slick",
             "issues": "https://drupal.org/project/issues/slick"
+        }
+    },
+    {
+        "name": "drupal/slick_media",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/slick_media",
+            "reference": "8.x-1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/slick_media-8.x-1.0.zip",
+            "reference": "8.x-1.0",
+            "shasum": "b85a9899c53ca2f59f7cdbba044e2f58ae71e092"
+        },
+        "require": {
+            "drupal/core": "~8.0",
+            "drupal/media_entity_image": "*",
+            "drupal/slick": "*",
+            "drupal/video_embed_media": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0",
+                "datestamp": "1495747983",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "chr.fritsch",
+                "homepage": "https://www.drupal.org/user/2103716"
+            },
+            {
+                "name": "gausarts",
+                "homepage": "https://www.drupal.org/user/159062"
+            }
+        ],
+        "description": "Provides Slick carousel integration with Media entity.",
+        "homepage": "https://www.drupal.org/project/slick_media",
+        "support": {
+            "source": "http://cgit.drupalcode.org/slick_media"
         }
     },
     {
@@ -2104,6 +3346,71 @@
         }
     },
     {
+        "name": "drupal/term_merge",
+        "version": "1.0.0-alpha1",
+        "version_normalized": "1.0.0.0-alpha1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/term_merge",
+            "reference": "8.x-1.0-alpha1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/term_merge-8.x-1.0-alpha1.zip",
+            "reference": "8.x-1.0-alpha1",
+            "shasum": "ddfa85644cc5a6e4edcb5bcd8474d6b6b5ec9dca"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha1",
+                "datestamp": "1510668185",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Alpha releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "bleen",
+                "homepage": "https://www.drupal.org/user/77375"
+            },
+            {
+                "name": "bucefal91",
+                "homepage": "https://www.drupal.org/user/504128"
+            },
+            {
+                "name": "eli",
+                "homepage": "https://www.drupal.org/user/49774"
+            },
+            {
+                "name": "legolasbo",
+                "homepage": "https://www.drupal.org/user/2480548"
+            },
+            {
+                "name": "nylin",
+                "homepage": "https://www.drupal.org/user/816040"
+            }
+        ],
+        "description": "Allows users to merge taxonomy terms in the same vocabulary together.",
+        "homepage": "https://www.drupal.org/project/term_merge",
+        "support": {
+            "source": "http://cgit.drupalcode.org/term_merge"
+        }
+    },
+    {
         "name": "drupal/token",
         "version": "1.3.0",
         "version_normalized": "1.3.0.0",
@@ -2170,6 +3477,180 @@
         "homepage": "https://www.drupal.org/project/token",
         "support": {
             "source": "http://cgit.drupalcode.org/token"
+        }
+    },
+    {
+        "name": "drupal/video_embed_field",
+        "version": "2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/video_embed_field",
+            "reference": "8.x-2.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/video_embed_field-8.x-2.0.zip",
+            "reference": "8.x-2.0",
+            "shasum": "e864f090b3cb9405376ca324d81ace83613e2019"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "require-dev": {
+            "drupal/colorbox": "*",
+            "drupal/media_entity": "*",
+            "drupal/media_entity_embeddable_video": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.x",
+                "datestamp": "1523338084",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                },
+                "package": "Field types"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Sam152",
+                "homepage": "https://www.drupal.org/user/1485048"
+            },
+            {
+                "name": "jec006",
+                "homepage": "https://www.drupal.org/user/855980"
+            },
+            {
+                "name": "plopesc",
+                "homepage": "https://www.drupal.org/user/282415"
+            }
+        ],
+        "description": "A pluggable field type for storing videos from external video hosts such as Vimeo and YouTube.",
+        "homepage": "https://www.drupal.org/project/video_embed_field",
+        "support": {
+            "source": "http://cgit.drupalcode.org/video_embed_field"
+        }
+    },
+    {
+        "name": "drupal/video_embed_media",
+        "version": "2.0.0",
+        "version_normalized": "2.0.0.0",
+        "require": {
+            "drupal/core": "^8.4",
+            "drupal/video_embed_field": "self.version"
+        },
+        "type": "metapackage",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.0",
+                "datestamp": "1523338084",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Sam152",
+                "homepage": "https://www.drupal.org/user/1485048"
+            },
+            {
+                "name": "jec006",
+                "homepage": "https://www.drupal.org/user/855980"
+            },
+            {
+                "name": "plopesc",
+                "homepage": "https://www.drupal.org/user/282415"
+            }
+        ],
+        "description": "Integrates video_embed_field with the Media module, creating a new media type tailored to display embedded videos. Useful for websites which are using the media suite of modules.",
+        "homepage": "https://www.drupal.org/project/video_embed_field",
+        "support": {
+            "source": "http://cgit.drupalcode.org/video_embed_field"
+        }
+    },
+    {
+        "name": "drupal/views_breadcrumb",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/views_breadcrumb",
+            "reference": "8.x-1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/views_breadcrumb-8.x-1.0.zip",
+            "reference": "8.x-1.0",
+            "shasum": "9a428d0f43b4ef9e59f1426c9a07f8db5a9f7fd2"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0",
+                "datestamp": "1462289639",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Greg Boggs",
+                "homepage": "https://www.drupal.org/user/153069"
+            },
+            {
+                "name": "aditya_anurag",
+                "homepage": "https://www.drupal.org/user/2672183"
+            },
+            {
+                "name": "manojapare",
+                "homepage": "https://www.drupal.org/user/2825053"
+            },
+            {
+                "name": "rakesh.gectcr",
+                "homepage": "https://www.drupal.org/user/1177822"
+            }
+        ],
+        "description": "Setting bread crumbs for all the view's pages.",
+        "homepage": "https://www.drupal.org/project/views_breadcrumb",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/views_breadcrumb",
+            "issues": "http://drupal.org/project/issues/views_breadcrumb"
         }
     },
     {

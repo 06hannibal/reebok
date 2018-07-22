@@ -1,0 +1,7 @@
+subscription.email:
+  path: '/subscription_form'
+  defaults:
+    _form: '\Drupal\subscription\Form\Subscribe'
+    _title: 'Subscription Form'
+  requirements:
+    _access: 'TRUE'

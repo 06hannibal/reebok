@@ -4,7 +4,7 @@
 .body {
     margin-top: 0px;!important;
 }
-.menu--top-panel li {
+#block-toppanel li {
     display: inline-block;
 }
 .navbar-default {
@@ -45,4 +45,22 @@
 }
 .region-info-block section {
     padding-left: 50px;
+}
+.list-inline {
+    display: none;
+}
+.slick-arrow {
+    -webkit-transform: rotate(90deg); /* Safari and Chrome */
+    -moz-transform: rotate(90deg);   /* Firefox */
+    -ms-transform: rotate(90deg);   /* IE 9 */
+    -o-transform: rotate(90deg);   /* Opera */
+    transform: rotate(90deg);
+}
+.slick-prev {
+    top: -260px;
+    left: -200px;
+}
+.slick-next {
+    top: 200px;
+    left: -200px;
 }

@@ -1,0 +1,8 @@
+name: 'subscription form'
+description: 'subscribe to news feeds.'
+package: Custom
+
+type: module
+# core: 8.x
+core: 8.x
+

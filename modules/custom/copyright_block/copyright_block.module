@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function copyright_block_theme() {
+  return [
+    'blocks_copyright' => [
+      'variables' => [
+        'year' => NULL,
+      ],
+    ],
+  ];
+}

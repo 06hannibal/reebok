@@ -223,12 +223,40 @@
   </div>
 {% endblock %}
 
+<footer class="footer {{ container }}" role="contentinfo">
+
+  {% block left_footer_block %}
+    <div class="col-sm-6 col-md-4">
+      {{ page.left_footer_block }}
+    </div>
+  {% endblock %}
+
+  {% block right_footer_block %}
+    <div class="col-sm-12 col-md-8">
+      {{ page.top_right_footer_block }}
+      {{ page.bottom_right_footer_block }}
+    </div>
+  {% endblock %}
+
+  {% block info_footer_block %}
+    <div class="col-sm-12">
+      {{ page.info_footer_block }}
+    </div>
+  {% endblock %}
+
+  {% block copyright_footer_block %}
+    <div class="col-sm-12">
+      {{ page.copyright_footer_block }}
+    </div>
+  {% endblock %}
+
+</footer>
 
 
-{% if page.footer %}
+{#{% if page.footer %}
   {% block footer %}
     <footer class="footer {{ container }}" role="contentinfo">
       {{ page.footer }}
     </footer>
   {% endblock %}
-{% endif %}
+{% endif %}#}

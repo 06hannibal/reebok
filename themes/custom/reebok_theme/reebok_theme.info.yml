@@ -25,8 +25,11 @@ regions:
   information_block_reebok_empty_block: 'information_block_reebok_empty_block'
   information_block_reebok: 'information_block_reebok'
   footer: 'Footer'
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
+  left_footer_block: 'left_footer_block'
+  top_right_footer_block: 'top_right_footer_block'
+  bottom_right_footer_block: 'bottom_right_footer_block'
+  info_footer_block: 'info_footer_block'
+  copyright_footer_block: 'copyright_footer_block'
 
 libraries:
   - 'reebok_theme/global-styling'

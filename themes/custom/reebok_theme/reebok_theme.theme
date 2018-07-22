@@ -6,3 +6,51 @@
  *
  * Place your custom PHP code in this file.
  */
+
+
+use Drupal\Core\Link;
+use Drupal\Component\Serialization\Json;
+
+/**
+ * @param $vars
+ */
+function reebok_theme_preprocess_region__info_block(&$variables) {
+  $name_097 = '097 490-55-11';
+  $name_099 = '099 ‎490-55-11';
+  $name_073 = '073 ‎490-55-11';
+
+  $popap_097 = ['attributes' => [
+    'class' => ['use-ajax','name'],
+    'data-dialog-type' => 'dialog',
+    'data-dialog-options' => Json::encode([
+      'title' => 'Reebok.in.ua',
+      'width' => 210,
+      'height' => 130,
+    ])]];
+
+  $popap_099 = ['attributes' => [
+    'class' => ['use-ajax','name'],
+    'data-dialog-type' => 'dialog',
+    'data-dialog-options' => Json::encode([
+      'title' => 'Reebok.in.ua',
+      'width' => 210,
+      'height' => 130,
+    ])]];
+
+  $popap_073 = ['attributes' => [
+    'class' => ['use-ajax','name'],
+    'data-dialog-type' => 'dialog',
+    'data-dialog-options' => Json::encode([
+      'title' => 'Reebok.in.ua',
+      'width' => 210,
+      'height' => 130,
+    ])]];
+
+  $variables['name_097'] = Link::createFromRoute($name_097, 'entity.node.canonical', ['node' => '46',], $popap_097);
+
+  $variables['name_099'] = Link::createFromRoute($name_099, 'entity.node.canonical', ['node' => '46',], $popap_099);
+
+  $variables['name_073'] = Link::createFromRoute($name_073, 'entity.node.canonical', ['node' => '46',], $popap_073);
+
+  $variables['info_address'] = "Пн-Пт с 09:00 до 19:00 Сб-ВС с 10:00 до 19:00";
+}

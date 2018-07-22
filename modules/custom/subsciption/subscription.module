@@ -1,0 +1,108 @@
+<?php
+
+use Drupal\Component\Utility\Html;
+use Drupal\Component\Utility\SafeMarkup;
+
+/**
+ * Implements hook_cron().
+ */
+function subscription_cron() {
+
+  $cron_last = \Drupal::state()->get('system.cron_last');
+
+  $querys = \Drupal::entityQuery('user');
+  $querys->condition('field_news', TRUE);
+  $users_ids = $querys->execute();
+  $users = \Drupal::entityTypeManager()->getStorage('user')->loadMultiple($users_ids);
+
+  $nodes = \Drupal::entityQuery('node');
+  $nodes->condition('type', 'ware');
+  $nodes->condition('created',[$cron_last], '>' );
+  $nodes_ids = $nodes->execute();
+  $products = \Drupal::entityTypeManager()->getStorage('node')->loadMultiple($nodes_ids);
+
+  $queue = \Drupal::queue('subscribe_news');
+
+  foreach ($users as $user) {
+    foreach ($products as $product) {
+      $item = [
+        'name' => $user->getAccountName(),
+        'mail' => $user->getEmail(),
+        'title' => $product->getTitle(),
+        'body' => html_entity_decode(strip_tags($product->body->value)),
+      ];
+      $queue->createItem($item);
+    }
+  }
+}
+
+/**
+ * @param $key
+ * @param $message
+ * @param $params
+ * Implements hook_mail()
+ */
+function subscription_mail($key, &$message, $params)
+{
+  switch ($key) {
+    case 'mail':
+      $message['from'] = \Drupal::config('system.site')->get('mail');
+
+      $message['headers']['Content-Type'] = 'text/html; charset=UTF-8; format=flowed; delsp=yes';
+      $message['subject'] = $params['title'];
+
+      $theme_body = [
+        '#theme' => 'subscription_form',
+        '#title' => $params['title'],
+        '#body' => $params['body']['body'],
+      ];
+
+      $mail_body = \Drupal::service('renderer')->render($theme_body);
+      $message['body'][] = Html::escape($mail_body);
+      break;
+    case 'subscribe_news':
+
+      $message['from'] = \Drupal::config('system.site')->get('mail');
+
+      $message['headers']['Content-Type'] = 'text/html; charset=UTF-8; format=flowed; delsp=yes';
+      $message['subject'] = SafeMarkup::checkPlain($params['title']);
+
+      $theme_body = [
+        '#theme' => 'subscription_node',
+        '#title' => SafeMarkup::checkPlain($params['title']),
+        '#body' => SafeMarkup::checkPlain($params['body']['body']),
+        '#name' => SafeMarkup::checkPlain($params['body']['name']),
+      ];
+
+      $mail_body = \Drupal::service('renderer')->render($theme_body);
+      $message['body'][] = Html::escape($mail_body);
+      break;
+  }
+}
+  /**
+   * Implements hook_theme()
+   */
+  function subscription_theme() {
+    return [
+      'subscription_form' => [
+        'variables' => [
+          'title' => NULL,
+          'body' => NULL,
+          ],
+        ],
+      'subscription_node' => [
+        'variables' => [
+          'name' => NULL,
+          'title' => NULL,
+          'body' => NULL,
+        ],
+      ],
+    ];
+  }
+
+
+
+
+
+
+

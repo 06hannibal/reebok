@@ -1,0 +1,7 @@
+name: 'Copyright block'
+description: 'Copyright block and link site.'
+package: Custom
+
+type: module
+# core: 8.x
+core: 8.x
