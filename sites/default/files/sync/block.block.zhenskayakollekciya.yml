@@ -19,7 +19,7 @@ settings:
   id: 'block_content:dc137a5f-ce38-4087-90a4-cc43b73640b3'
   label: 'Женская коллекция'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

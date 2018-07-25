@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * Contains \Drupal\subscription\Plugin\QueueWorker\EmailQueue.
@@ -6,16 +7,18 @@
 namespace Drupal\subscription\Plugin\QueueWorker;
 
 use Drupal\Core\Queue\QueueWorkerBase;
+
 /**
  * Processes Tasks for Learning.
  *
  * @QueueWorker(
  *   id = "subscribe_news",
  *   title = @Translation("Learning task worker: email queue"),
- *   cron = {"time" = 30}
+ *   cron = {"time" = 60}
  * )
  */
 class EmailQueue extends QueueWorkerBase {
+
   /**
    * {@inheritdoc}
    */

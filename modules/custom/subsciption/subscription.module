@@ -10,9 +10,9 @@ function subscription_cron() {
 
   $cron_last = \Drupal::state()->get('system.cron_last');
 
-  $querys = \Drupal::entityQuery('user');
-  $querys->condition('field_news', TRUE);
-  $users_ids = $querys->execute();
+  $query = \Drupal::entityQuery('user');
+  $query->condition('field_news', TRUE);
+  $users_ids = $query->execute();
   $users = \Drupal::entityTypeManager()->getStorage('user')->loadMultiple($users_ids);
 
   $nodes = \Drupal::entityQuery('node');
@@ -42,9 +42,9 @@ function subscription_cron() {
  * @param $params
  * Implements hook_mail()
  */
-function subscription_mail($key, &$message, $params)
-{
+function subscription_mail($key, &$message, $params) {
   switch ($key) {
+
     case 'mail':
       $message['from'] = \Drupal::config('system.site')->get('mail');
 
@@ -60,6 +60,7 @@ function subscription_mail($key, &$message, $params)
       $mail_body = \Drupal::service('renderer')->render($theme_body);
       $message['body'][] = Html::escape($mail_body);
       break;
+
     case 'subscribe_news':
 
       $message['from'] = \Drupal::config('system.site')->get('mail');
@@ -90,6 +91,7 @@ function subscription_mail($key, &$message, $params)
           'body' => NULL,
           ],
         ],
+
       'subscription_node' => [
         'variables' => [
           'name' => NULL,

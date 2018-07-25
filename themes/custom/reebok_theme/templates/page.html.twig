@@ -106,7 +106,7 @@
 
 {# Main #}
 {% block main %}
-  <div role="main" class="main-container {{ container }} js-quickedit-main-content">
+  <div role="main" class="main-container js-quickedit-main-content">
     <div class="row">
 
       {# Header #}
@@ -207,14 +207,14 @@
       {% endblock %}
       {% block owl_carousel_tabs %}
         <section>
-          <div class="col-sm-12" role="complementary">
+          <div class="col-sm-12 background" role="complementary">
             {{ page.owl_carousel_tabs }}
           </div>
         </section>
       {% endblock %}
       {% block info_reebok_block %}
         <section>
-          <div class="col-sm-12" role="complementary">
+          <div class="col-sm-12 background" role="complementary">
             {{ page.info_reebok_block }}
           </div>
         </section>
@@ -223,8 +223,8 @@
   </div>
 {% endblock %}
 
-<footer class="footer {{ container }}" role="contentinfo">
-
+<footer class="footer" role="main">
+  <div class="footer-container">
   {% block left_footer_block %}
     <div class="col-sm-6 col-md-4">
       {{ page.left_footer_block }}
@@ -249,7 +249,7 @@
       {{ page.copyright_footer_block }}
     </div>
   {% endblock %}
-
+    </div>
 </footer>
 
 
