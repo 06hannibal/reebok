@@ -27,7 +27,8 @@
         "drupal/imagefield_slideshow": "^1.6",
         "drupal/slick_media": "^1.0",
         "drupal/flexslider": "^2.0",
-        "drupal/libraries": "^3.0"
+        "drupal/libraries": "^3.0",
+        "drush/drush": "^9.3"
     },
     "replace": {
         "drupal/core": "^8.5"
