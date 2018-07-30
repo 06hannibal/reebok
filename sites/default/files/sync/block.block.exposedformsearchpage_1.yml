@@ -11,7 +11,7 @@ dependencies:
 id: exposedformsearchpage_1
 theme: reebok_theme
 region: navigation_with_goods
-weight: -42
+weight: -41
 provider: null
 plugin: 'views_exposed_filter_block:search-page_1'
 settings:

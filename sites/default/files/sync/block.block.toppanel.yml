@@ -11,7 +11,7 @@ dependencies:
 id: toppanel
 theme: reebok_theme
 region: navigation
-weight: -8
+weight: -43
 provider: null
 plugin: 'system_menu_block:top-panel'
 settings:

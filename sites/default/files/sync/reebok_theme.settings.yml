@@ -12,9 +12,32 @@ features:
   favicon: 1
   node_user_picture: 1
 logo:
-  path: ''
+  path: 'public://inline-images/aditime_logo.png'
   url: ''
-  use_default: 1
+  use_default: 0
 table_responsive: '-1'
 table: ''
-breadcrumb: '1'
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  info_block: ''
+  navigation_with_goods: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  left_block: ''
+  right_block: ''
+  taxonomy_for_you: ''
+  owl_carousel_tabs: ''
+  info_reebok_block: ''
+  information_block_reebok_empty_block: ''
+  information_block_reebok: ''
+  footer: ''
+  left_footer_block: ''
+  top_right_footer_block: ''
+  bottom_right_footer_block: ''
+  info_footer_block: ''
+  copyright_footer_block: ''
