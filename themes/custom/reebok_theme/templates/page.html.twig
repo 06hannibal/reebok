@@ -109,6 +109,20 @@
   <div role="main" class="main-container js-quickedit-main-content">
     <div class="row">
 
+      {% if not is_front %}
+        <ul class="breadcrumb">
+        <li class="home">{{ login }}</li>
+        {% if category is not null and category is not empty %}
+        <li class="category">
+          <a href="/taxonomy/term/{{ target_id }}">
+            {{ category }}
+          </a>
+        </li>
+        {% endif %}
+        <li class="title">{{ title }}</li>
+      </ul>
+      {% endif %}
+
       {# Header #}
       {% if page.header %}
         {% block header %}
