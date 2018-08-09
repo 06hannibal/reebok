@@ -187,8 +187,8 @@ display:
             image_link: content
           group_column: ''
           group_columns: {  }
-          group_rows: false
-          delta_limit: 1
+          group_rows: true
+          delta_limit: 2
           delta_offset: 0
           delta_reversed: false
           delta_first_last: false
@@ -416,7 +416,7 @@ display:
           expose:
             label: ''
           plugin_id: search_api
-      title: 'Новая коллекция'
+      title: Женщины
       header: {  }
       footer: {  }
       empty: {  }

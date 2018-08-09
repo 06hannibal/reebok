@@ -1,10 +1,10 @@
-uuid: 0324796a-a78f-43d8-aa29-539e8c5c4394
+uuid: 023ef496-d85e-4d18-950c-f9aa973861ab
 langcode: en
 status: true
 dependencies:
   config:
     - search_api.index.default_index
-    - views.view.duplicate_of_vsi_tovari
+    - views.view.mens
   module:
     - search_api
 id: muzhskie_aksessuary
@@ -14,7 +14,7 @@ weight: 0
 min_count: 1
 show_only_one_result: false
 field_identifier: field_accessory_type
-facet_source_id: 'search_api:views_page__duplicate_of_vsi_tovari__page_1'
+facet_source_id: 'search_api:views_page__mens__page_1'
 widget:
   type: links
   config:

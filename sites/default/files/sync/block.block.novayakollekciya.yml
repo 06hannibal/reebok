@@ -12,7 +12,7 @@ dependencies:
 id: novayakollekciya
 theme: reebok_theme
 region: sidebar_first
-weight: -43
+weight: -42
 provider: null
 plugin: 'block_content:66a70c8d-8992-4c62-a40b-283fd366dba4'
 settings:

@@ -12,7 +12,7 @@ dependencies:
 id: podborposezonuaksessuary
 theme: reebok_theme
 region: sidebar_first
-weight: -1
+weight: 0
 provider: null
 plugin: 'facet_block:podbor_po_sezonu_aksessuary_'
 settings:

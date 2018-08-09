@@ -1,4 +1,4 @@
-uuid: eea7798a-3ad9-4d17-815c-24cd1258f238
+uuid: 6666c9ec-9c17-46fe-a871-b452065c5cc3
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
 id: vyborkategoriimuzhchiny
 theme: reebok_theme
 region: sidebar_first
-weight: -25
+weight: -24
 provider: null
 plugin: 'facet_block:vybor_kategorii_muzhchiny_'
 settings:

@@ -2,6 +2,13 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+      css/style-men.css: {}
+      css/style-womens.css: {}
+      css/style-kids.css: {}
+      css/style-nova-kolekcija.css: {}
+      css/style-obuvj.css: {}
+      css/style-apparel.css: {}
+      css/style-accessories.css: {}
   js:
     js/style.js: {}
   dependencies:

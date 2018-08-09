@@ -12,7 +12,7 @@ dependencies:
 id: tipaksessuarovaksessuary
 theme: reebok_theme
 region: sidebar_first
-weight: 2
+weight: 3
 provider: null
 plugin: 'facet_block:tip_aksessuarov_aksessuary_'
 settings:

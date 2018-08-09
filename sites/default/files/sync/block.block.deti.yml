@@ -12,7 +12,7 @@ dependencies:
 id: deti
 theme: reebok_theme
 region: sidebar_first
-weight: -13
+weight: -12
 provider: null
 plugin: 'block_content:44b83737-ba04-4613-b58b-5c13f7f72f19'
 settings:

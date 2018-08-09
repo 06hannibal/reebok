@@ -1,10 +1,10 @@
-uuid: 0e689db4-1d26-44fe-bf02-c89977904ae6
+uuid: b2303220-3b1f-49be-9616-a8b2c6de1a5d
 langcode: en
 status: true
 dependencies:
   config:
     - search_api.index.default_index
-    - views.view.duplicate_of_vsi_tovari
+    - views.view.mens
   module:
     - search_api
 id: muzhskaya_obuv
@@ -14,7 +14,7 @@ weight: 0
 min_count: 1
 show_only_one_result: false
 field_identifier: field_type_shoes
-facet_source_id: 'search_api:views_page__duplicate_of_vsi_tovari__page_1'
+facet_source_id: 'search_api:views_page__mens__page_1'
 widget:
   type: links
   config:

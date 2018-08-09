@@ -416,7 +416,7 @@ display:
           expose:
             label: ''
           plugin_id: search_api
-      title: 'Новая коллекция'
+      title: Аксессуары
       header: {  }
       footer: {  }
       empty: {  }

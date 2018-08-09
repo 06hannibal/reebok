@@ -12,7 +12,7 @@ dependencies:
 id: podborposezonuodezhda
 theme: reebok_theme
 region: sidebar_first
-weight: -6
+weight: -5
 provider: null
 plugin: 'facet_block:podbor_po_sezonu_odezhda_'
 settings:

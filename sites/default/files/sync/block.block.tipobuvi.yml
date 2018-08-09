@@ -12,7 +12,7 @@ dependencies:
 id: tipobuvi
 theme: reebok_theme
 region: sidebar_first
-weight: -37
+weight: -36
 provider: null
 plugin: 'facet_block:tip_obuvi_nova_kolekcija'
 settings:

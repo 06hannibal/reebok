@@ -12,7 +12,7 @@ dependencies:
 id: napravleniedeti
 theme: reebok_theme
 region: sidebar_first
-weight: -10
+weight: -9
 provider: null
 plugin: 'facet_block:napravlenie_deti_'
 settings:

@@ -405,7 +405,7 @@ display:
           expose:
             label: ''
           plugin_id: search_api
-      title: 'Новая коллекция'
+      title: 'Товары со скидкой'
       header:
         area:
           id: area

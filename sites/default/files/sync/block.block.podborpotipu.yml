@@ -12,7 +12,7 @@ dependencies:
 id: podborpotipu
 theme: reebok_theme
 region: sidebar_first
-weight: -41
+weight: -40
 provider: null
 plugin: 'facet_block:podbor_po_tipu_nova_kolekcija'
 settings:

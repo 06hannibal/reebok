@@ -73,7 +73,7 @@ display:
           slideSpeed: '200'
           paginationSpeed: '800'
           rewindSpeed: '1000'
-          autoPlay: 1
+          autoPlay: 0
           stopOnHover: 0
           navigation: 1
           prevText: '<'

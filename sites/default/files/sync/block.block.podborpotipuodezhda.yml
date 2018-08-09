@@ -12,7 +12,7 @@ dependencies:
 id: podborpotipuodezhda
 theme: reebok_theme
 region: sidebar_first
-weight: -3
+weight: -2
 provider: null
 plugin: 'facet_block:duplicate_of_podbor_po_tipu_odezhda_'
 settings:

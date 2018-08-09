@@ -1,4 +1,4 @@
-uuid: 2df10430-2cd5-4eb0-b7ad-3e230d461261
+uuid: d15dbcbb-049d-468b-8eac-8e3f2277dd7d
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
 id: muzhskayaobuv
 theme: reebok_theme
 region: sidebar_first
-weight: -23
+weight: -21
 provider: null
 plugin: 'facet_block:muzhskaya_obuv'
 settings:

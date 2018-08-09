@@ -1,9 +1,9 @@
-uuid: 8a39cf05-5d8c-4807-bfd5-64a94f6c8f76
+uuid: 27c5dde5-7b17-44d6-986f-6e213aaf2382
 langcode: en
 status: true
 dependencies:
   config:
-    - facets.facet.duplicate_of_napravlenie_muzhchiny_
+    - facets.facet.napravlenie_muzhchiny_
   module:
     - facets
     - system
@@ -12,17 +12,17 @@ dependencies:
 id: napravleniemuzhchiny
 theme: reebok_theme
 region: sidebar_first
-weight: -24
+weight: -23
 provider: null
-plugin: 'facet_block:duplicate_of_napravlenie_muzhchiny_'
+plugin: 'facet_block:napravlenie_muzhchiny_'
 settings:
-  id: 'facet_block:duplicate_of_napravlenie_muzhchiny_'
+  id: 'facet_block:napravlenie_muzhchiny_'
   label: НАПРАВЛЕНИЕ
   provider: facets
   label_display: visible
 visibility:
   request_path:
     id: request_path
-    pages: НАПРАВЛЕНИЕ
+    pages: /mens
     negate: false
     context_mapping: {  }

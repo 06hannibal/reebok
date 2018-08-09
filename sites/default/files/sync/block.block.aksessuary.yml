@@ -12,7 +12,7 @@ dependencies:
 id: aksessuary
 theme: reebok_theme
 region: sidebar_first
-weight: -2
+weight: -1
 provider: null
 plugin: 'block_content:a9ce6db0-a732-44cd-a453-230850af3900'
 settings:
