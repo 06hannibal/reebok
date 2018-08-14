@@ -2636,6 +2636,55 @@
         }
     },
     {
+        "name": "drupal/image_url_formatter",
+        "version": "1.0.0-beta1",
+        "version_normalized": "1.0.0.0-beta1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/image_url_formatter",
+            "reference": "8.x-1.0-beta1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/image_url_formatter-8.x-1.0-beta1.zip",
+            "reference": "8.x-1.0-beta1",
+            "shasum": "02665a9d29ebd7cc404974d91997f4fbb27b5312"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-beta1",
+                "datestamp": "1458189816",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "g089h515r806",
+                "homepage": "https://www.drupal.org/user/174740"
+            }
+        ],
+        "description": "Add an URL formatter for image field.",
+        "homepage": "https://www.drupal.org/project/image_url_formatter",
+        "support": {
+            "source": "http://cgit.drupalcode.org/image_url_formatter"
+        }
+    },
+    {
         "name": "drupal/imagefield_slideshow",
         "version": "1.6.0",
         "version_normalized": "1.6.0.0",

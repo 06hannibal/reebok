@@ -7,6 +7,7 @@ dependencies:
     - field.field.block_content.basic.body
     - field.field.block_content.basic.field_facebook
     - field.field.block_content.basic.field_google_plus
+    - field.field.block_content.basic.field_img
     - field.field.block_content.basic.field_instagram
     - field.field.block_content.basic.field_twitter
     - field.field.block_content.basic.field_youtube
@@ -40,6 +41,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: FontFieldIconDefaultWidget
+    region: content
+  field_img:
+    weight: 31
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
     region: content
   field_instagram:
     weight: 29

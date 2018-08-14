@@ -7,6 +7,7 @@ dependencies:
     - field.field.block_content.basic.body
     - field.field.block_content.basic.field_facebook
     - field.field.block_content.basic.field_google_plus
+    - field.field.block_content.basic.field_img
     - field.field.block_content.basic.field_instagram
     - field.field.block_content.basic.field_twitter
     - field.field.block_content.basic.field_youtube
@@ -23,40 +24,47 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 0
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
   field_facebook:
-    weight: 1
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: FontFieldIconShowFormatter
-    region: content
-  field_google_plus:
-    weight: 3
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: FontFieldIconShowFormatter
-    region: content
-  field_instagram:
-    weight: 4
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: FontFieldIconShowFormatter
-    region: content
-  field_twitter:
     weight: 2
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: FontFieldIconShowFormatter
     region: content
-  field_youtube:
+  field_google_plus:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: FontFieldIconShowFormatter
+    region: content
+  field_img:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_instagram:
     weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: FontFieldIconShowFormatter
+    region: content
+  field_twitter:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: FontFieldIconShowFormatter
+    region: content
+  field_youtube:
+    weight: 6
     label: hidden
     settings: {  }
     third_party_settings: {  }

@@ -3,17 +3,28 @@
     Drupal.behaviors.searchResults = {
         attach:function()
         {
-            var $button = $('.block-title'),
-                $text   = $('.item-list__links'),
-                visible = true;
-
-            $('.block-title').click(function(){
+            $('.block-title').once().click(function(){
                 $(this).next().next().children().toggleClass("open");
+                $(this).toggleClass("active");
+                console.log("JQUERY IS READY!");
             });
 
-            $(".block-title").on("click", function () {
-                $(this).toggleClass("active");
+            $(".buttom-mens").once().click(function() {
+                console.log("JQUERY IS READY!");
+                $(this).prev().children().children().toggleClass("text-hidden");
+                $(this).children().toggleClass("hidden-hide");
             });
+            /*$(".buttom-mens").one().click(function() {
+                e.preventDefault();
+                $(this).children().toggleClass("hidden-hide");
+            });*/
+/*
+            $(document).one().ready(function(){
+                $(".buttom-mens").on("click", function () {
+                    console.log("JQUERY IS READY!");
+                    $(this).children().toggleClass("hidden-hide");
+                });
+            });*/
 
         }
     }

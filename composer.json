@@ -28,7 +28,8 @@
         "drupal/slick_media": "^1.0",
         "drupal/flexslider": "^2.0",
         "drupal/libraries": "^3.0",
-        "drush/drush": "^9.3"
+        "drush/drush": "^9.3",
+        "drupal/image_url_formatter": "^1.0"
     },
     "replace": {
         "drupal/core": "^8.5"
