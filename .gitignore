@@ -3,8 +3,6 @@ sites/*/*settings*.php
 sites/example.sites.php
 
 # Ignore paths that contain generated content.
-files/
-sites/*/files
 sites/*/private
 sites/*/translations
 

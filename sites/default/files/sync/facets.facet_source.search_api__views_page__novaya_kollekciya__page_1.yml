@@ -1,0 +1,9 @@
+uuid: 86f4c884-2ead-45a7-adc1-93c0677d49d2
+langcode: en
+status: true
+dependencies: {  }
+id: search_api__views_page__novaya_kollekciya__page_1
+name: 'search_api:views_page__novaya_kollekciya__page_1'
+filter_key: null
+url_processor: query_string
+breadcrumb: {  }
