@@ -259,7 +259,7 @@
 }
 .buttom-mens .show-desc {
     display: block;
-    width: 10%;
+    width: 11%;
     margin-left: 50%;
 }
 .buttom-mens .show-desc.hidden-hide {
@@ -273,7 +273,7 @@
 }
 .buttom-mens .hide-desc.hidden-hide {
     display: block;
-    width: 10%;
+    width: 11%;
     margin-left: 50%;
 }
 .buttom-mens .hide-desc::before {
