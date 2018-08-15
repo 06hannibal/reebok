@@ -1,0 +1,139 @@
+/*///////////////facets////////////////////*/
+#block-zhenschiny .block-title {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    margin-top: 0px;
+}
+/*///////////////////////////*/
+
+#block-podborposezonuzhenschiny {
+    border-top: 1px solid #9a9b9b;
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: block;
+    width: 90%;
+}
+
+#block-podborposezonuzhenschiny .block-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+}
+#block-podborposezonuzhenschiny ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-duplicateofvyborkategoriizhenschiny {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-duplicateofvyborkategoriizhenschiny .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-duplicateofvyborkategoriizhenschiny ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-duplicateofnapravleniezhenschiny {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-duplicateofnapravleniezhenschiny .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-duplicateofnapravleniezhenschiny ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-zhenskayaodezhda {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-zhenskayaodezhda .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-zhenskayaodezhda ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-zhenskayaobuv {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-zhenskayaobuv .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-zhenskayaobuv ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-zhenskieaksessuary {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    border-bottom: 1px solid #9a9b9b;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 90%;
+}
+#block-zhenskieaksessuary .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-zhenskieaksessuary ul {
+    list-style-type: none;
+    padding-left: 10%;
+}

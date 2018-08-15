@@ -1,0 +1,12 @@
+name: Breadcrumb extra field
+description: 'Place breadcrumb between fields.'
+type: module
+# core: 8.x
+
+configure: breadcrumb_extra_field.settings
+
+# Information added by Drupal.org packaging script on 2018-02-07
+version: '8.x-1.0-beta2'
+core: '8.x'
+project: 'breadcrumb_extra_field'
+datestamp: 1518022385
