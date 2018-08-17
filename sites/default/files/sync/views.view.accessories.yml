@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_goods_image
     - field.storage.node.field_grn_
-    - image.style.large
     - search_api.index.default_index
     - taxonomy.vocabulary.vybor_kategorii
   content:
@@ -77,61 +76,6 @@ display:
           separator: ''
           hide_empty: false
       fields:
-        rendered_item:
-          table: search_api_index_default_index
-          field: rendered_item
-          id: rendered_item
-          entity_type: null
-          entity_field: null
-          plugin_id: search_api
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          link_to_item: false
-          use_highlighting: false
-          multi_type: separator
-          multi_separator: ', '
         field_goods_image:
           id: field_goods_image
           table: search_api_datasource_default_index_entity_node
@@ -183,17 +127,17 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: large
+            image_style: ''
             image_link: content
           group_column: ''
           group_columns: {  }
-          group_rows: false
-          delta_limit: 1
+          group_rows: true
+          delta_limit: 2
           delta_offset: 0
           delta_reversed: false
           delta_first_last: false
-          multi_type: ul
-          separator: ', '
+          multi_type: separator
+          separator: ''
           field_api_classes: false
           field_rendering: true
           fallback_handler: search_api
@@ -418,7 +362,33 @@ display:
           plugin_id: search_api
       title: Аксессуары
       header: {  }
-      footer: {  }
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: image-accessories
+          empty: false
+          tokenize: false
+          content:
+            value: '<img alt="accessories" data-align="left" data-entity-type="file" data-entity-uuid="741f4b4f-d734-4ed6-aa82-bb95b778ae32" src="/sites/default/files/inline-images/AO0512_01-150x150.jpg" />'
+            format: basic_html
+          plugin_id: text
+        area_1:
+          id: area_1
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: text-accessories
+          empty: false
+          tokenize: false
+          content:
+            value: "<p>АКСЕССУАРЫ REEBOK</p>\n\n<p><a href=\"https://www.reebok.in.ua/\"><strong>Reebok</strong></a>&nbsp;– всемирно известный бренд, который пользуется особой популярностью и заслуженным доверием практически во всех странах мира. Его продукция, начиная от профессиональных футбольных бутс и заканчивая стильными и удобными ветровками для повседневной жизни, уже более 80 лет привлекает своих потенциальных покупателей непревзойденным качеством и уникальным дизайном.&nbsp;<br />\nИстория&nbsp;<a href=\"https://www.reebok.in.ua/\"><strong>Reebok</strong></a>&nbsp;началась с изобретения специальной спортивной обуви, которую придумал обыкновенный обувщик из Германии Адольф &nbsp;Дасслер. В свою честь этот немецкий обувщик назвал свое изобретение&nbsp;<strong>Ади (Адольф) Дас (Дасслер) –&nbsp;</strong><a href=\"https://www.reebok.in.ua/\"><strong>Рибок</strong></a><strong>.</strong>&nbsp;<br />\nЗа 80 лет из небольшой обувной мастерской получился крупнейший концерн Reebok, который является одним из ведущих производителей товаров для спорта и туризма. В настоящее время ассортимент концерна настолько обширен, что каждый сможет выбрать для себя что-нибудь интересное: кроссовки, бутсы, регланы, ветровки, куртки, брюки, майки, футболки и др.<br />\nВ последние годы, кроме классических&nbsp;<strong>товаров</strong>, компания&nbsp;<strong>Reebok</strong>&nbsp;выпускает различные&nbsp;<strong>аксессуары</strong>, как для профессиональных спортсменов, так и для тех, кто посещает тренажерный зал или поддерживает активный образ жизни.<br />\nВ нашем интернет-магазине можно посмотреть и выбрать практичные&nbsp;<strong>рюкзаки</strong>&nbsp;из непромокаемой ткани, яркие солнцезащитные&nbsp;<strong>очки</strong>, вместительные&nbsp;<strong>сумки</strong>&nbsp;разных размеров,&nbsp;<strong>носки</strong>&nbsp;для взрослых и детей, стильные&nbsp;<strong>пояса</strong>, удобные&nbsp;<strong>кепки</strong>&nbsp;самых различных расцветок и влаговпитывающие полотенца.<br />\nВсе&nbsp;<strong><a href=\"https://www.reebok.in.ua/katalog-reebok/accessories.html\">аксессуары Reebok</a></strong>, которые можно&nbsp;<strong>купить в Киеве и Украине</strong>, изготовлены из высокотехнологичных материалов, абсолютно безопасных для здоровья и жизнедеятельности человека.</p>\n"
+            format: basic_html
+          plugin_id: text
       empty: {  }
       relationships: {  }
       arguments: {  }

@@ -1,0 +1,49 @@
+.warranty-page div.views {
+    height: 1000px;
+}
+.warranty-page div.row-views {
+    height: 95%;
+}
+.warranty {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.warranty div.view-content {
+    width: 150%;
+}
+.warranty div.author {
+    display: none;
+}
+.warranty h2 span {
+    font-size: 28px;
+    color: #000;
+    margin: 18px 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed',sans-serif,inherit;
+    font-weight: 500;
+}
+.warranty div.content {
+    font-size: 12px;
+    color: #444;
+}
+.warranty div.field--name-field-top-panel-link-button a {
+    background-color: #252525;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 145%;
+    margin-top: 3%;
+}
+.warranty div.field--name-field-top-panel-link-button a:hover {
+    background: #af273b;
+    transition: 0.7s;
+}
+.warranty div.field--name-field-top-panel-link-button a:not(:hover) {
+    transition: 0.7s;
+}

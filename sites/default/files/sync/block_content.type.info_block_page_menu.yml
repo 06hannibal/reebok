@@ -1,0 +1,8 @@
+uuid: 3bde18c2-54e8-40df-96a6-68fc2598367a
+langcode: en
+status: true
+dependencies: {  }
+id: info_block_page_menu
+label: 'info block page menu'
+revision: 0
+description: ''

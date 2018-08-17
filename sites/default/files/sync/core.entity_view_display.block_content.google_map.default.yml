@@ -1,0 +1,25 @@
+uuid: 09e549b0-db24-4416-b5ba-e26196b00595
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.google_map
+    - field.field.block_content.google_map.body
+    - field.field.block_content.google_map.field_google_map
+  module:
+    - google_map_field
+id: block_content.google_map.default
+targetEntityType: block_content
+bundle: google_map
+mode: default
+content:
+  field_google_map:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: google_map_field_default
+    region: content
+hidden:
+  body: true
+  langcode: true

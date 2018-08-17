@@ -1,0 +1,29 @@
+uuid: bc2d218b-4fa6-45a7-a2fc-b27dd2b877aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.forma_svyazi
+  module:
+    - contact_block
+    - system
+  theme:
+    - reebok_theme
+id: contactblock
+theme: reebok_theme
+region: content
+weight: -40
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'ФОРМА СВЯЗИ'
+  provider: contact_block
+  label_display: visible
+  contact_form: forma_svyazi
+visibility:
+  request_path:
+    id: request_path
+    pages: /contacts
+    negate: false
+    context_mapping: {  }

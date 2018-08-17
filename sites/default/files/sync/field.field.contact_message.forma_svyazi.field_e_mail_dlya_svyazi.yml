@@ -1,0 +1,19 @@
+uuid: 56540ba4-4f97-441e-a05c-0869707dc17a
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.forma_svyazi
+    - field.storage.contact_message.field_e_mail_dlya_svyazi
+id: contact_message.forma_svyazi.field_e_mail_dlya_svyazi
+field_name: field_e_mail_dlya_svyazi
+entity_type: contact_message
+bundle: forma_svyazi
+label: 'E-Mail для связи'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

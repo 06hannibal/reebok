@@ -1,4 +1,4 @@
-uuid: d85acda8-9fc0-487a-8225-2d952d74c62b
+uuid: 5ba87be6-de3b-4c6e-a8ab-77aedf2be4a5
 langcode: en
 status: true
 dependencies:
@@ -49,7 +49,7 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: full
+        type: mini
         options:
           items_per_page: 12
           offset: 0
@@ -58,8 +58,6 @@ display:
           tags:
             previous: ‹‹
             next: ››
-            first: '« First'
-            last: 'Last »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -68,24 +66,14 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          quantity: 9
       style:
         type: grid
-        options:
-          grouping: {  }
-          columns: 4
-          automatic_width: true
-          alignment: horizontal
-          col_class_default: true
-          col_class_custom: ''
-          row_class_default: true
-          row_class_custom: ''
       row:
         type: fields
         options:
           default_field_elements: false
           inline: {  }
-          separator: div
+          separator: ''
           hide_empty: false
       fields:
         field_goods_image:
@@ -372,14 +360,39 @@ display:
           expose:
             label: ''
           plugin_id: search_api
-      title: Мужчины
+      title: МУЖЧИНЫ
       header: {  }
-      footer: {  }
+      footer:
+        area_1:
+          id: area_1
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: image-mens
+          empty: false
+          tokenize: false
+          content:
+            value: '<img alt="mens" data-align="left" data-entity-type="file" data-entity-uuid="25162156-cabf-47d6-91a7-f3a370577b3f" src="/sites/default/files/inline-images/logo_man-150x150_0.png" />'
+            format: basic_html
+          plugin_id: text
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: text-mens
+          empty: false
+          tokenize: false
+          content:
+            value: "<strong>Reebok</strong>&nbsp;– это фитнес-бренд<br />\nс богатой историей. С 80-ых годов 20 века и до настоящего времени&nbsp;<strong>Reebok</strong>&nbsp;всегда был на пике фитнес-индустрии, поддерживая наиболее актуальные тенденции в фитнесе или создавая собственные.<br />\n<strong>Мы в Reebok любим фитнес.</strong> Это то, что заставляет нас просыпаться каждое утро, о чем мы думаем целый день и ради чего ждем завтра.<br />\n<strong>Мы уверены, что тренировки могут быть не однообразной рутиной, а увлекательными, удивительными и интересными.</strong><br />\n<strong>Reebok&nbsp;</strong>стремится изменить то, как люди воспринимают фитнес и что получают от него."
+            format: basic_html
+          plugin_id: text
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
-      css_class: ''
     cache_metadata:
       max-age: -1
       contexts:
@@ -409,7 +422,7 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: mens
+    display_title: Page
     position: 1
     display_options:
       display_extenders: {  }
@@ -418,7 +431,6 @@ display:
         type: none
       defaults:
         cache: false
-      display_description: ''
     cache_metadata:
       max-age: -1
       contexts:

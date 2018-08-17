@@ -1,0 +1,12 @@
+uuid: 15cd6b28-a0eb-46fb-9f84-05d25321cb90
+langcode: en
+status: true
+dependencies: {  }
+id: forma_svyazi
+label: 'ФОРМА СВЯЗИ'
+recipients:
+  - 06hannibal@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: /home

@@ -1,0 +1,19 @@
+uuid: bdaaa652-ce64-4f29-9aa9-4c154355a3ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_soobschenie
+field_name: field_soobschenie
+entity_type: contact_message
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

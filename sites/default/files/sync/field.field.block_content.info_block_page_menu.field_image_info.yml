@@ -1,0 +1,22 @@
+uuid: ff16c933-ae37-498b-a1a8-12fab32ec53d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.info_block_page_menu
+    - field.storage.block_content.field_image_info
+  module:
+    - text
+id: block_content.info_block_page_menu.field_image_info
+field_name: field_image_info
+entity_type: block_content
+bundle: info_block_page_menu
+label: image_info
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

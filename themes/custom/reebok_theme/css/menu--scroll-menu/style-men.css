@@ -1,0 +1,306 @@
+.views {
+    background: #f5f5f5;
+    bottom: 10%;
+    height: 1230px;
+}
+.views.hidden-hide-mens {
+    background: #f5f5f5;
+    bottom: 10%;
+    height: 1280px;
+}
+.row-views {
+    position: relative;
+    top: 20px;
+    left: 5%;
+    right: 5%;
+    bottom: 20px;
+    background: #fff;
+    width: 91%;
+    height: 97%;
+    font-family: "Roboto", sans-serif;
+    padding-left: 1%;
+}
+/*/////////////breadcrumb///////////////////*/
+.breadcrumb {
+    width: 97%;
+    font-size: 12px;
+    line-height: 14px;
+    background: transparent;
+    margin-bottom: 0px;
+}
+.breadcrumb .title {
+    color: #9a9b9b;
+}
+/*///////////////facets////////////////////*/
+#block-muzhchiny .block-title {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    margin-top: 0px;
+}
+/*///////////////////////////*/
+
+#block-podborposezonumuzhchiny {
+    border-top: 1px solid #9a9b9b;
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: block;
+    width: 90%;
+}
+.item-list__links.open {
+    display: none;
+}
+.item-list__links {
+    display: block;
+}
+.block-title.active i {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.fa-angle-down {
+    font-size: 170%;
+}
+.block-title.active i {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#block-podborposezonumuzhchiny .block-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+}
+#block-podborposezonumuzhchiny ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-vyborkategoriimuzhchiny {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-vyborkategoriimuzhchiny .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-vyborkategoriimuzhchiny ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-napravleniemuzhchiny {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-napravleniemuzhchiny .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-napravleniemuzhchiny ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-muzhskayaodezhda {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-muzhskayaodezhda .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-muzhskayaodezhda ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-muzhskayaobuv {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-muzhskayaobuv .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-muzhskayaobuv ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-muzhskieaksessuary {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    border-bottom: 1px solid #9a9b9b;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 90%;
+}
+#block-muzhskieaksessuary .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-muzhskieaksessuary ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*//////////////content///////////////////*/
+.mens-img a img:last-child {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.mens-img a img:last-child:hover {
+    opacity:0;
+}
+.mens-1 a img:last-child {
+    position: absolute;
+    height: 193px;
+    width: 25%;
+    top: 0px;
+}
+.mens-1 .mens-text {
+    position: relative;
+    top: 210px;
+}
+.mens-2 a img:last-child {
+    position: absolute;
+    height: 193px;
+    width: 25%;
+    top: 150%;
+}
+.mens-2 .mens-text {
+    position: relative;
+    top: 450px;
+}
+.mens-3 a img:last-child {
+    position: absolute;
+    height: 193px;
+    width: 25%;
+    top: 320%;
+}
+.mens-3 div.mens-text {
+    position: relative;
+    top: 790px;
+}
+.mens-text {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    color: #000;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+.mens-text ul {
+    list-style: none;
+    color: #FE0808;
+    content: "грн.";
+}
+.mens-text ul li::after {
+    content: "  грн.";
+}
+/*/////////////view-footer///////////////////*/
+.view-footer {
+    position: absolute;
+    top: 465%;
+}
+div.info-img-reebok img.align-left {
+    width: 8%;
+    height: 8%;
+    border: 1px solid #F4F3F3;
+    margin-right: 5%;
+}
+div.info-text-reebok {
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 11%;
+    overflow: hidden;
+    height: 50px;
+}
+div.info-text-reebok.text-hidden {
+    overflow: hidden;
+    height: 0%;
+}
+.buttom-mens {
+    text-align: center;
+    margin-top: 2%;
+}
+.buttom-mens .show-desc {
+    display: block;
+    width: 12%;
+    margin-left: 50%;
+}
+.buttom-mens .show-desc.hidden-hide {
+    display: none;
+}
+.buttom-mens .show-desc::before {
+    content: "Развернуть ";
+}
+.buttom-mens .hide-desc {
+    display: none;
+}
+.buttom-mens .hide-desc.hidden-hide {
+    display: block;
+    width: 11%;
+    margin-left: 50%;
+}
+.buttom-mens .hide-desc::before {
+    content: "Свернуть  ";
+}
+
+/*///////////////footer////////////////////*/
+.footer {
+    position: relative;
+}

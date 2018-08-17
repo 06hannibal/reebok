@@ -1,0 +1,19 @@
+uuid: ae87d17a-0faf-40b9-9161-6459af2a7bfe
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.forma_svyazi
+    - field.storage.contact_message.field_soobschenie
+id: contact_message.forma_svyazi.field_soobschenie
+field_name: field_soobschenie
+entity_type: contact_message
+bundle: forma_svyazi
+label: Сообщение
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

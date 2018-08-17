@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_goods_image
     - field.storage.node.field_grn_
-    - image.style.large
     - node.type.ware
   module:
     - image
@@ -141,7 +140,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: large
+            image_style: ''
             image_link: content
           group_column: ''
           group_columns: {  }

@@ -2,13 +2,18 @@ global-styling:
   css:
     theme:
       css/style.css: {}
-      css/style-men.css: {}
-      css/style-womens.css: {}
-      css/style-kids.css: {}
-      css/style-nova-kolekcija.css: {}
-      css/style-obuvj.css: {}
-      css/style-apparel.css: {}
-      css/style-accessories.css: {}
+      css/menu--scroll-menu/style-men.css: {}
+      css/menu--scroll-menu/style-womens.css: {}
+      css/menu--scroll-menu/style-kids.css: {}
+      css/menu--scroll-menu/style-nova-kolekcija.css: {}
+      css/menu--scroll-menu/style-obuvj.css: {}
+      css/menu--scroll-menu/style-apparel.css: {}
+      css/menu--scroll-menu/style-accessories.css: {}
+      css/menu--scroll-menu/style-rasprodaja.css: {}
+      css/menu--top-panel/style-payment.css: {}
+      css/menu--top-panel/style-delivery.css: {}
+      css/menu--top-panel/style-sizes.css: {}
+      css/menu--top-panel/style-warranty.css: {}
   js:
     js/style.js: {}
   dependencies:

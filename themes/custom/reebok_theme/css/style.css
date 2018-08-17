@@ -10,7 +10,13 @@
 }
 
 /*//////////////////header////////////////////////////////////////*/
-
+.menu--top-panel {
+    line-height: 180%;
+    width: 200%;
+}
+.menu--top-panel li:first-child {
+    margin-left: 9%;
+}
 #block-toppanel li {
     display: inline-block;
 }
@@ -48,7 +54,7 @@
     display: inline-block;
     margin-left: 10%;
     position: relative;
-    top: -30px;
+    top: -40px;
     font-size: 130%;
 }
 /*//////////////////namber-099///////////////////////*/
@@ -60,7 +66,7 @@
     display: inline-block;
     margin-left: 1%;
     position: relative;
-    top: -30px;
+    top: -40px;
     font-size: 130%;
 }
 .namber-099 a {
@@ -75,7 +81,7 @@
     display: inline-block;
     margin-left: 1%;
     position: relative;
-    top: -30px;
+    top: -40px;
     font-size: 130%;
     color: #424242;
 }
@@ -92,13 +98,13 @@
 }
 .region-info-block {
     display: inline-block;
-    margin-left: 3%;
+    margin-left: 7%;
 }
 .info_address {
     display: inline-block;
     margin-left: 13%;
     position: relative;
-    top: -30px;
+    top: -40px;
     font-size: 17px;
     color: #424242;
     font-weight: bold;
@@ -110,8 +116,16 @@
 .menu--scroll-menu li {
     display: inline-block;
 }
+.menu--scroll-menu li:first-child {
+    margin-left: 7%;
+}
 .menu--scroll-menu {
     background: #141414;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: bold;
 }
 #block-scroll-menu a {
     color: #fff;
@@ -124,11 +138,29 @@
 .list-inline {
     display: none;
 }
+.fixed {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 999;
+    line-height: 38px;
+}
+
 /*/////////////////search///////////////////////////*/
+.fixed-search {
+    position: fixed;
+    top:0;
+    left:75%;
+    bottom: 50px;
+    width: 100%;
+    z-index: 999;
+    height: 50px;
+}
 #block-exposedformsearchpage-1 {
     display: inline-block;
     position: relative;
-    bottom: 48px;
+    bottom: 56px;
     left: 75%;
 }
 #block-exposedformsearchpage-1 .control-label   {
@@ -967,13 +999,6 @@ a, a:visited {
     #block-info-address-block {
         display: inline-block;
         bottom: 50px;
-    }
-    .region-info-block section {
-        padding-left: 50px;
-    }
-    .region-info-block {
-        display: inline-block;
-        margin-left: 3%;
     }
     .info_address {
         display: inline-block;

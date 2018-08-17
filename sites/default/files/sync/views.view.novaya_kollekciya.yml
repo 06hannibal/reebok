@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_goods_image
     - field.storage.node.field_grn_
-    - image.style.large
     - search_api.index.default_index
   module:
     - image
@@ -125,7 +124,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: large
+            image_style: ''
             image_link: content
           group_column: ''
           group_columns: {  }
@@ -352,7 +351,33 @@ display:
           plugin_id: search_api
       title: 'Новая коллекция'
       header: {  }
-      footer: {  }
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: image-new-kolekhion
+          empty: false
+          tokenize: false
+          content:
+            value: '<img alt="new collection" data-align="left" data-entity-type="file" data-entity-uuid="a58ec3fd-5d7c-42d7-8aea-cc32f29ea061" src="/sites/default/files/inline-images/new1-150x150.png" />'
+            format: basic_html
+          plugin_id: text
+        area_1:
+          id: area_1
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: text-new-kolekcija
+          empty: false
+          tokenize: false
+          content:
+            value: "<a href=\"https://www.reebok.in.ua/new.html\"><strong>Новая коллекция reebok Весна - Лето 2018</strong></a></p>\n\n<p><strong>Весна Лето 2018 с Рибок</strong><br />\nЛегендарный немецкий бренд спортивной продукции&nbsp;<strong>reebok</strong>&nbsp;уже больше полувека пользуется ниспадающей популярностью.<br />\nСегодня&nbsp;<strong>зимняя коллекция рибок</strong>&nbsp;– это товары под несколькими брендами с огромным разнообразием ассортимента одежды, обуви, аксессуаров как для людей, занимающихся спортом, так и простых обывателей, ценящих качество и удобства.&nbsp;<br />\nОдежда и обувь для активного отдыха и занятия спортом производятся различными марками, в том числе&nbsp;<a href=\"https://www.reebok.in.ua/shop/originals.html\"><strong>reebok classic</strong></a>. Спортивные костюмы, брюки, обувь и прочий продукт с трилистником – гарантия высокого качества.&nbsp;<br />\nВ 2008 году модельеры разработали бренд, где соединился спортивный стиль и модные тенденции. Прогрессивная молодежь во всем мире оценила такой подход, к тому же коллекция&nbsp;<strong>reebok&nbsp;</strong>предлагается по доступным ценам.&nbsp;<br />\nГде купить высококлассную экипировку?<br />\n<a href=\"https://www.reebok.in.ua/\"><strong>Купить рибок в Киеве</strong></a>&nbsp;можно не выходя из дома. Вам достаточно зайти в онлайн каталог, выбрать понравившийся товар, сделать заказ. Получив его в короткий срок, вам останется наслаждаться удобством, комфортом джемпера, кроссовок, футболок, носков, то есть того продукта, который вами будет выбран.<br />\nВысокотехнологичная экипировка разрабатывается с учетом нагрузок, это значит, кроссовки для бега будут служить максимально долго. Для тренинга важно подбирать одежду, обувь и аксессуары по назначению.&nbsp;<br />\n<strong>Новинки от Рибок!</strong><br />\nИнновационные технологии – фишка производителя. Теперь одежда не только отражает свет, но и обладает повышенным уровнем стойкости перед изнашиванием. Для людей, выбирающих комфорт и высокое качество, эта коллекция непременно придется по вкусу.<br />\nНемаловажно и то, что&nbsp;<strong>Рибок</strong>&nbsp;– защитники живой природы, что отразилось при создании коллекции. Натуральная кожа не использовалась! Вторым плюсом является то, ткани окрашивались с использованием малоотходных технологий.<br />\n&nbsp;<br />\n<strong>Выберете свой Рибок прямо сейчас!</strong>\n"
+            format: basic_html
+          plugin_id: text
       empty: {  }
       relationships: {  }
       arguments: {  }

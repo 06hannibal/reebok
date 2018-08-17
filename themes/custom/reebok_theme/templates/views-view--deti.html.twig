@@ -41,7 +41,7 @@
     dom_id ? 'js-view-dom-id-' ~ dom_id,
   ]
 %}
-<div{{ attributes.addClass(classes) }}>
+<div{{ attributes.addClass(classes) }} id="children">
   {{ title_prefix }}
   {% if title %}
     {{ title }}
@@ -87,8 +87,8 @@
   {% if footer %}
     <div class="view-footer">
       <div class="info-img-reebok">{{ footer["area_1"] }}</div>
-      <div class="info-text-reebok">{{ footer["area"] }}</div>
-      <div class="buttom-mens">
+      <div class="info-text-reebok-children">{{ footer["area"] }}</div>
+      <div class="buttom-children">
         <div class="show-desc"><i class="fa fa-arrow-down"></i></div>
         <div class="hide-desc"><i class="fa fa-arrow-up"></i></div>
       </div>

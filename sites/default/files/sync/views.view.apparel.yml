@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_goods_image
     - field.storage.node.field_grn_
-    - image.style.large
     - search_api.index.default_index
     - taxonomy.vocabulary.vybor_kategorii
   content:
@@ -137,7 +136,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: large
+            image_style: ''
             image_link: content
           group_column: ''
           group_columns: {  }
@@ -148,7 +147,7 @@ display:
           delta_first_last: false
           multi_type: separator
           separator: ''
-          field_api_classes: true
+          field_api_classes: false
           field_rendering: true
           fallback_handler: search_api
           fallback_options:
@@ -372,7 +371,33 @@ display:
           plugin_id: search_api
       title: Одежда
       header: {  }
-      footer: {  }
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: image-apparel
+          empty: false
+          tokenize: false
+          content:
+            value: '<img alt="apparel" data-align="left" data-entity-type="file" data-entity-uuid="af3f2a58-3dec-45c8-a76b-6abe45b3dbe9" src="/sites/default/files/inline-images/feature-bmh-ss16-150x150.png" />'
+            format: basic_html
+          plugin_id: text
+        area_1:
+          id: area_1
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: text-apparel
+          empty: false
+          tokenize: false
+          content:
+            value: "<p>СПОРТИВНАЯ ОДЕЖДА REEBOK CLASSIC| CROSSFIT| FITNESS</p>\n\n<p><strong>Новая коллекция одежды reebok 2018</strong></p>\n\n<p>Большинство из нас любит свободную одежду, которая не ограничивает движения и позволяет телу «дышать». Особенно, это касается тех, кто ведет активный образ жизни. Известная компания&nbsp;<strong>Reebok&nbsp;</strong>является одним из лидеров рынка&nbsp;<strong>спортивных товаров</strong>. Ежегодно данный производитель выпускает тысячи моделей удобной одежды. Среди них спортивные костюмы, майки, футболки, шорты, всевозможные ветровки и регланы, а также брюки, легинсы и даже купальники.&nbsp;<br />\n<strong>Детская одежда</strong>&nbsp;также входит в поле зрения компании&nbsp;<strong>Reebok</strong>. Дизайнеры регулярно обновляют коллекции товаров для самых маленьких потребителей. Вся спортивная одежда данного производителя отвечает всем существующим нормам. Она удобна, практична и экологически безопасна.&nbsp;<br />\nВ нашем&nbsp;<strong>интернет-магазине</strong>&nbsp;\"<strong>Reebok</strong>\"вы можете приобрести продукцию компании&nbsp;<strong>Reebok</strong>, ориентированную на женщин, мужчин и детей. У нас представлены, как модели, созданные, в большей мере, для занятий спортом, так и повседневная одежда, которая подойдет для ежедневной носки. Большой выбор товаров позволяет каждому сделать удачную покупку. Достаточно просто немного&nbsp;</p>\n"
+            format: basic_html
+          plugin_id: text
       empty: {  }
       relationships: {  }
       arguments: {  }

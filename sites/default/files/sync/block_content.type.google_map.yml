@@ -1,0 +1,8 @@
+uuid: ae05daa6-73ae-4d79-bc00-cf4de968fde6
+langcode: en
+status: true
+dependencies: {  }
+id: google_map
+label: 'google map'
+revision: 0
+description: ''

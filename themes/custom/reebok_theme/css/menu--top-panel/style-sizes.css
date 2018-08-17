@@ -1,0 +1,52 @@
+.sizes-page div.views {
+    height: 4660px;
+}
+.sizes-page div.row-views {
+    height: 99%;
+}
+.sizes {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.sizes-page div.view-content {
+    width: 150%;
+}
+.sizes div.author {
+    display: none;
+}
+.sizes th {
+    text-align: center;
+}
+.sizes h2 span {
+    font-size: 28px;
+    color: #000;
+    margin: 18px 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed',sans-serif,inherit;
+    font-weight: 500;
+}
+.sizes div.content {
+    font-size: 12px;
+    color: #444;
+}
+.sizes div.field--name-field-top-panel-link-button a {
+    background-color: #252525;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 95%;
+    margin-top: 3%;
+}
+.sizes div.field--name-field-top-panel-link-button a:hover {
+    background: #af273b;
+    transition: 0.7s;
+}
+.sizes div.field--name-field-top-panel-link-button a:not(:hover) {
+    transition: 0.7s;
+}

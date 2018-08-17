@@ -1,0 +1,53 @@
+.rasprodaja section.col-sm-8 {
+    width: 100%;
+}
+.rasprodaja div.views {
+    height: 1350px;
+}
+/*//////////////content///////////////////*/
+.view-header {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 26px;
+    width: 215px;
+    float: left;
+    color: #252525;
+    margin-bottom: 0;
+}
+.rasprodazha-1 a img:last-child {
+    position: absolute;
+    height: 300px;
+    width: 25%;
+    top: 15%;
+}
+.rasprodazha-1 .mens-text {
+    position: relative;
+    top: 300px;
+}
+.rasprodazha-2 a img:last-child {
+    position: absolute;
+    height: 300px;
+    width: 25%;
+    top: 200%;
+}
+.rasprodazha-2 .mens-text {
+    position: relative;
+    top: 650px;
+}
+.rasprodazha-3 a img:last-child {
+    position: absolute;
+    height: 300px;
+    width: 25%;
+    top: 440%;
+}
+.rasprodazha-3 .mens-text {
+    position: relative;
+    top: 1020px;
+}
+.rasprodaja div.mens-text ul li:first-child {
+    display: none;
+}
+.rasprodaja div.mens-text ul li {
+    color: #848484;
+    text-decoration: line-through;
+}

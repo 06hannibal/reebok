@@ -107,152 +107,185 @@
 {# Main #}
 {% block main %}
   <div role="main" class="main-container js-quickedit-main-content">
-    {% if not is_front %}
-    <div class="views">
-      <div class="row-views">
+
+    {% if (page.content.system_main['#view_id'] == "warranty") %}
+    <div class="warranty-page">
       {% endif %}
-      <div class="row">
-        {% if not is_front %}
-          <ul class="breadcrumb">
 
-            {% if not (page.content.system_main['#view_id'] == "delivery") and not (page.content.system_main['#view_id'] == "varianty_oplaty") and not (page.content.system_main['#view_id'] == "sizes") and not (page.content.system_main['#view_id'] == "warranty") and not (page.content.system_main['#view_id'] == "rasprodazha") %}
-              <li class="back">
-                <a onclick="window.history.back();">
-                  <i class="fa fa-chevron-circle-left">
-                    Вернуться назад
-                  </i>
-                </a>
-              </li>
-            {% endif %}
-
-            <li class="home">{{ home }}</li>
-            {% if category is not null and category is not empty %}
-              <li class="category">
-                <a href="/taxonomy/term/{{ target_id }}">
-                  {{ category }}
-                </a>
-              </li>
-            {% endif %}
-            <li class="title">{{ title }}</li>
-          </ul>
+      {% if (page.content.system_main['#view_id'] == "sizes") %}
+      <div class="sizes-page">
         {% endif %}
 
-        {# Header #}
-        {% if page.header %}
-          {% block header %}
-            <div class="col-sm-12" role="heading">
-              {{ page.header }}
-            </div>
-          {% endblock %}
-        {% endif %}
-
-        {# Sidebar First #}
-        {% if page.sidebar_first %}
-          {% block sidebar_first %}
-            <aside class="col-sm-3" role="complementary">
-              {{ page.sidebar_first }}
-            </aside>
-
-          {% endblock %}
-        {% endif %}
-
-        {# Content #}
-        {%
-          set content_classes = [
-          page.sidebar_first and page.sidebar_second ? 'col-sm-6',
-          page.sidebar_first and page.sidebar_second is empty ? 'col-sm-9',
-          page.sidebar_second and page.sidebar_first is empty ? 'col-sm-9',
-          page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-12'
-        ]
-        %}
-
-        <section class="col-sm-8">
-
-          {# Highlighted #}
-          {% if page.highlighted %}
-            {% block highlighted %}
-              <div class="highlighted">{{ page.highlighted }}</div>
-            {% endblock %}
+        {% if (page.content.system_main['#view_id'] == "varianty_oplaty") %}
+        <div class="varianty_oplaty">
           {% endif %}
 
-          {# Help #}
-          {% if page.help %}
-            {% block help %}
-              {{ page.help }}
-            {% endblock %}
-          {% endif %}
+          {% if (page.content.system_main['#view_id'] == "delivery") %}
+          <div class="delivery-page">
+            {% endif %}
 
-          {# Content #}
-          {% block content %}
-            <a id="main-content"></a>
-            {{ page.content }}
-          {% endblock %}
-        </section>
+           {% if (page.content.system_main['#view_id'] == "apparel") %}
+            <div class="apparel">
+              {% endif %}
 
-        {# Sidebar Second #}
-        {% if page.sidebar_second %}
-          {% block sidebar_second %}
-            <aside class="col-sm-4" role="complementary">
-              {{ page.sidebar_second }}
-            </aside>
-          {% endblock %}
-        {% endif %}
+            {% if (page.content.system_main['#view_id'] == "rasprodazha") %}
+            <div class="rasprodaja">
+              {% endif %}
 
-        {% block main_content %}
-          {% block left_block %}
-            <aside class="col-sm-6" role="complementary">
-              {{ page.left_block }}
-            </aside>
-          {% endblock %}
-          {% block right_block %}
-            <aside class="col-sm-6" role="complementary">
-              {{ page.right_block }}
-            </aside>
-          {% endblock %}
-        {% endblock %}
+              {% if not is_front %}
+              <div class="views">
+                <div class="row-views">
+                  {% endif %}
+                  <div class="row">
 
-        {% block info_reebok %}
-          {% block information_block_reebok_empty_block %}
-            <section>
-              <div class="col-sm-3" role="complementary">
-                {{ page.information_block_reebok_empty_block }}
+              {% if not is_front %}
+                <ul class="breadcrumb">
+
+                  {% if not (page.content.system_main['#view_id'] == "delivery") and not (page.content.system_main['#view_id'] == "varianty_oplaty") and not (page.content.system_main['#view_id'] == "sizes") and not (page.content.system_main['#view_id'] == "warranty") and not (page.content.system_main['#view_id'] == "rasprodazha") %}
+                    <li class="back">
+                      <a onclick="window.history.back();">
+                        <i class="fa fa-chevron-circle-left">
+                          Вернуться назад
+                        </i>
+                      </a>
+                    </li>
+                  {% endif %}
+
+                  <li class="home">{{ home }}</li>
+                  {% if category is not null and category is not empty %}
+                    <li class="category">
+                      <a href="/taxonomy/term/{{ target_id }}">
+                        {{ category }}
+                      </a>
+                    </li>
+                  {% endif %}
+                  <li class="title">{{ title }}</li>
+                </ul>
+              {% endif %}
+
+              {# Header #}
+              {% if page.header %}
+                {% block header %}
+                  <div class="col-sm-12" role="heading">
+                    {{ page.header }}
+                  </div>
+                {% endblock %}
+              {% endif %}
+
+              {# Sidebar First #}
+              {% if page.sidebar_first %}
+                {% block sidebar_first %}
+                  <aside class="col-sm-3" role="complementary">
+                    {{ page.sidebar_first }}
+                  </aside>
+
+                {% endblock %}
+              {% endif %}
+
+              {# Content #}
+              {%
+                set content_classes = [
+                page.sidebar_first and page.sidebar_second ? 'col-sm-6',
+                page.sidebar_first and page.sidebar_second is empty ? 'col-sm-9',
+                page.sidebar_second and page.sidebar_first is empty ? 'col-sm-9',
+                page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-12'
+              ]
+              %}
+
+              <section class="col-sm-8">
+
+                {# Highlighted #}
+                {% if page.highlighted %}
+                  {% block highlighted %}
+                    <div class="highlighted">{{ page.highlighted }}</div>
+                  {% endblock %}
+                {% endif %}
+
+                {# Help #}
+                {% if page.help %}
+                  {% block help %}
+                    {{ page.help }}
+                  {% endblock %}
+                {% endif %}
+
+                {# Content #}
+                {% block content %}
+                  <a id="main-content"></a>
+                  {{ page.content }}
+                {% endblock %}
+              </section>
+
+              {# Sidebar Second #}
+              {% if page.sidebar_second %}
+                {% block sidebar_second %}
+                  <aside class="col-sm-4" role="complementary">
+                    {{ page.sidebar_second }}
+                  </aside>
+                {% endblock %}
+              {% endif %}
+
+              {% block main_content %}
+                {% block left_block %}
+                  <aside class="col-sm-6" role="complementary">
+                    {{ page.left_block }}
+                  </aside>
+                {% endblock %}
+                {% block right_block %}
+                  <aside class="col-sm-6" role="complementary">
+                    {{ page.right_block }}
+                  </aside>
+                {% endblock %}
+              {% endblock %}
+
+              {% block info_reebok %}
+                {% block information_block_reebok_empty_block %}
+                  <section>
+                    <div class="col-sm-3" role="complementary">
+                      {{ page.information_block_reebok_empty_block }}
+                    </div>
+                  </section>
+                {% endblock %}
+                {% block information_block_reebok %}
+                  <section>
+                    <div class="col-sm-9" role="complementary">
+                      {{ page.information_block_reebok }}
+                    </div>
+                  </section>
+                {% endblock %}
+              {% endblock %}
+
+              {% block taxonomy_for_you %}
+                <section>
+                  <div class="col-sm-12" role="complementary">
+                    {{ page.taxonomy_for_you }}
+                  </div>
+                </section>
+              {% endblock %}
+              {% block owl_carousel_tabs %}
+                <section>
+                  <div class="col-sm-12 background" role="complementary">
+                    {{ page.owl_carousel_tabs }}
+                  </div>
+                </section>
+              {% endblock %}
+              {% block info_reebok_block %}
+                <section>
+                  <div class="col-sm-12 background" role="complementary">
+                    {{ page.info_reebok_block }}
+                  </div>
+                </section>
+              {% endblock %}
+            </div>
+                </div>
               </div>
-            </section>
-          {% endblock %}
-          {% block information_block_reebok %}
-            <section>
-              <div class="col-sm-9" role="complementary">
-                {{ page.information_block_reebok }}
-              </div>
-            </section>
-          {% endblock %}
-        {% endblock %}
-
-        {% block taxonomy_for_you %}
-          <section>
-            <div class="col-sm-12" role="complementary">
-              {{ page.taxonomy_for_you }}
             </div>
-          </section>
-        {% endblock %}
-        {% block owl_carousel_tabs %}
-          <section>
-            <div class="col-sm-12 background" role="complementary">
-              {{ page.owl_carousel_tabs }}
-            </div>
-          </section>
-        {% endblock %}
-        {% block info_reebok_block %}
-          <section>
-            <div class="col-sm-12 background" role="complementary">
-              {{ page.info_reebok_block }}
-            </div>
-          </section>
-        {% endblock %}
-      </div>
+          </div>
+         </div>
+        </div>
       </div>
     </div>
   </div>
+
 {% endblock %}
 
 <footer class="footer" role="main">

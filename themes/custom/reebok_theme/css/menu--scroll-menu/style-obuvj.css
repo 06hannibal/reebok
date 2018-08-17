@@ -1,0 +1,224 @@
+.views.hidden-obuv {
+    background: #f5f5f5;
+    bottom: 10%;
+    height: 1970px;
+}
+div#obuv div.view-footer {
+    position: absolute;
+    top: 330%;
+}
+/*///////////////facets////////////////////*/
+#block-obuv .block-title {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    margin-top: 0px;
+}
+/*///////////////////////////*/
+
+#block-podborposezonuobuv {
+    border-top: 1px solid #9a9b9b;
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: block;
+    width: 90%;
+}
+
+#block-podborposezonuobuv .block-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+}
+#block-podborposezonuobuv ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-podborpotipuobuv {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-podborpotipuobuv .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-podborpotipuobuv ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-napravlenieobuv {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-napravlenieobuv .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-napravlenieobuv ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-tipobuviobuv {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-tipobuviobuv .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-tipobuviobuv ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-detskayaobuv {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-detskayaobuv .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-detskayaobuv ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-kollekciyaobuviobuv {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    border-bottom: 1px solid #9a9b9b;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 90%;
+}
+#block-kollekciyaobuviobuv .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-kollekciyaobuviobuv ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*//////////////content///////////////////*/
+.obuv-1 a img:last-child {
+    position: absolute;
+    height: 193px;
+    width: 25%;
+    top: 0px;
+}
+.obuv-1 .mens-text {
+    position: relative;
+    top: 200px;
+}
+.obuv-2 a img:last-child {
+    position: absolute;
+    height: 193px;
+    width: 25%;
+    top: 100%;
+}
+.obuv-2 .mens-text {
+    position: relative;
+    top: 400px;
+}
+.obuv-3 a img:last-child {
+    position: absolute;
+    height: 193px;
+    width: 25%;
+    top: 190%;
+}
+.obuv-3 .mens-text {
+    position: relative;
+    top: 620px;
+}
+
+/*/////////////view-footer///////////////////*/
+div.info-img-reebok-obuv img.align-left {
+    width: 12%;
+    height: 8%;
+    border: 1px solid #F4F3F3;
+    margin-right: 5%;
+}
+div.info-text-reebok-obuv {
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 11%;
+    overflow: hidden;
+    height: 130px;
+}
+div.info-text-reebok-obuv.text-hidden {
+    overflow: hidden;
+    height: 0%;
+}
+.buttom-obuv {
+    text-align: center;
+}
+.buttom-obuv .show-desc {
+    display: block;
+    width: 12%;
+    margin-left: 50%;
+}
+.buttom-obuv .show-desc.hidden-hide {
+    display: none;
+}
+.buttom-obuv .show-desc::before {
+    content: "Развернуть ";
+}
+.buttom-obuv .hide-desc {
+    display: none;
+}
+.buttom-obuv .hide-desc.hidden-hide {
+    display: block;
+    width: 11%;
+    margin-left: 50%;
+}
+.buttom-obuv .hide-desc::before {
+    content: "Свернуть  ";
+}

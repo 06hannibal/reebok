@@ -1,0 +1,21 @@
+uuid: 0177c172-3f92-45e9-be3c-376103ed34d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.google_map
+    - field.storage.block_content.field_google_map
+  module:
+    - google_map_field
+id: block_content.google_map.field_google_map
+field_name: field_google_map
+entity_type: block_content
+bundle: google_map
+label: 'google map'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: google_map_field

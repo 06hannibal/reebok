@@ -1,0 +1,183 @@
+.views.hidden-accessories {
+    background: #f5f5f5;
+    bottom: 10%;
+    height: 1530px;
+}
+div#accessories div.view-footer {
+    position: absolute;
+    top: 540%;
+}
+/*///////////////facets////////////////////*/
+#block-aksessuary .block-title {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    margin-top: 0px;
+}
+/*///////////////////////////*/
+
+#block-podborposezonuaksessuary {
+    border-top: 1px solid #9a9b9b;
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: block;
+    width: 90%;
+}
+
+#block-podborposezonuaksessuary .block-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+}
+#block-podborposezonuaksessuary ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-podborpotipuaksessuary {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-podborpotipuaksessuary .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-podborpotipuaksessuary ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-napravlenieaksessuary {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    width: 90%;
+}
+#block-napravlenieaksessuary .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-napravlenieaksessuary ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*////////////////////////////*/
+#block-tipaksessuarovaksessuary {
+    border-right: 1px solid #9a9b9b;
+    border-left: 1px solid #9a9b9b;
+    border-bottom: 1px solid #9a9b9b;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 90%;
+}
+#block-tipaksessuarovaksessuary .block-title {
+    width: 90%;
+    border-top: 1px solid #9a9b9b;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+}
+#block-tipaksessuarovaksessuary ul {
+    list-style-type: none;
+    padding-left: 10%;
+}
+/*//////////////content///////////////////*/
+.accessories-1 a img:last-child {
+    position: absolute;
+    height: 193px;
+    width: 25%;
+    top: 0px;
+}
+.accessories-1 div.apparel-text {
+    position: relative;
+    top: 230px;
+}
+
+.accessories-2 a img:last-child {
+    position: absolute;
+    height: 193px;
+    width: 25%;
+    top: 180%;
+}
+.accessories-2 div.apparel-text {
+    position: relative;
+    top: 520px;
+}
+
+.accessories-3 a img:last-child {
+    position: absolute;
+    height: 193px;
+    width: 25%;
+    top: 370%;
+}
+.accessories-3 div.apparel-text {
+    position: relative;
+    top: 790px;
+}
+/*/////////////view-footer///////////////////*/
+div.info-img-reebok-accessories img.align-left {
+    width: 12%;
+    height: 8%;
+    border: 1px solid #F4F3F3;
+    margin-right: 5%;
+}
+div.info-text-reebok-accessories {
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 17%;
+    overflow: hidden;
+    height: 130px;
+}
+div.info-text-reebok-accessories.text-hidden {
+    overflow: hidden;
+    height: 0%;
+}
+.buttom-accessories {
+    text-align: center;
+}
+.buttom-accessories .show-desc {
+    display: block;
+    width: 12%;
+    margin-left: 50%;
+}
+.buttom-accessories .show-desc.hidden-hide {
+    display: none;
+}
+.buttom-accessories .show-desc::before {
+    content: "Развернуть ";
+}
+.buttom-accessories .hide-desc {
+    display: none;
+}
+.buttom-accessories .hide-desc.hidden-hide {
+    display: block;
+    width: 11%;
+    margin-left: 50%;
+}
+.buttom-accessories .hide-desc::before {
+    content: "Свернуть  ";
+}

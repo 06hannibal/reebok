@@ -1,0 +1,31 @@
+uuid: 3c6aac05-fdaa-484e-8133-e9f41172974f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:google_map:57a9d1e1-3866-4db7-8ed1-8872c7a97f6f'
+  module:
+    - block_content
+    - system
+  theme:
+    - reebok_theme
+id: aditime
+theme: reebok_theme
+region: content
+weight: -39
+provider: null
+plugin: 'block_content:57a9d1e1-3866-4db7-8ed1-8872c7a97f6f'
+settings:
+  id: 'block_content:57a9d1e1-3866-4db7-8ed1-8872c7a97f6f'
+  label: adiTiME
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contacts
+    negate: false
+    context_mapping: {  }

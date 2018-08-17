@@ -1,0 +1,46 @@
+.varianty_oplaty div.views {
+    height: 1150px;
+}
+.varianty_oplaty div.row-views {
+    height: 96%;
+}
+.payment {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.payment div.author {
+    display: none;
+}
+.payment h2 span {
+    font-size: 28px;
+    color: #000;
+    margin: 18px 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed',sans-serif,inherit;
+    font-weight: 500;
+}
+.payment div.content {
+    font-size: 12px;
+    color: #444;
+}
+.payment div.field--name-field-top-panel-link-button a {
+    background-color: #252525;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 145%;
+    margin-top: 3%;
+}
+.payment div.field--name-field-top-panel-link-button a:hover {
+    background: #af273b;
+    transition: 0.7s;
+}
+.payment div.field--name-field-top-panel-link-button a:not(:hover) {
+    transition: 0.7s;
+}

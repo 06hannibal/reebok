@@ -29,7 +29,12 @@
         "drupal/flexslider": "^2.0",
         "drupal/libraries": "^3.0",
         "drush/drush": "^9.3",
-        "drupal/image_url_formatter": "^1.0"
+        "drupal/image_url_formatter": "^1.0",
+        "drupal/swiftmailer": "^1.0",
+        "drupal/contact_storage": "^1.0",
+        "drupal/smtp": "^1.0",
+        "drupal/contact_block": "^1.4",
+        "drupal/google_map_field": "^1.5"
     },
     "replace": {
         "drupal/core": "^8.5"

@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_goods_image
     - field.storage.node.field_grn_
-    - image.style.large
     - search_api.index.default_index
     - taxonomy.vocabulary.podbor_po_tipu
   content:
@@ -128,7 +127,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: large
+            image_style: ''
             image_link: content
           group_column: ''
           group_columns: {  }
@@ -363,7 +362,33 @@ display:
           plugin_id: search_api
       title: Женщины
       header: {  }
-      footer: {  }
+      footer:
+        area_1:
+          id: area_1
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: image-womens
+          empty: false
+          tokenize: false
+          content:
+            value: '<img alt="woman" data-align="left" data-entity-type="file" data-entity-uuid="cab3d5d7-a437-4e77-9fc0-d185de593611" src="/sites/default/files/inline-images/logo_woman_1-150x150.png" />'
+            format: basic_html
+          plugin_id: text
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: text-womens
+          empty: false
+          tokenize: false
+          content:
+            value: "<strong>КАЖДАЯ ДЕВУШКА - ЭТО ИНДИВИДУАЛЬНОСТЬ</strong><br />\n<strong>Её образ</strong>&nbsp;– это то, как она выражает и чувствует себя, её взгляд на жизнь<br />\n<strong>Её образ в зале</strong>&nbsp;–&nbsp;это то, как она сочетает разные элементы своего спортивного гардероба<br />\nКоллекция&nbsp;<strong>Reebok</strong>&nbsp;Studio [Студио] предлагает одежду, идеально подходящую для групповых занятий, кардио-тренировок, танцев, йоги<br />\nУ каждой покупательницы есть возможность подобрать индивидуальный яркий образ с многообразием текстур, цветов и материалов."
+            format: basic_html
+          plugin_id: text
       empty: {  }
       relationships: {  }
       arguments: {  }

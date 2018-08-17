@@ -1,0 +1,39 @@
+uuid: 6bba0053-2409-4007-af43-04bd486be70b
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.forma_svyazi
+    - field.field.contact_message.forma_svyazi.field_e_mail_dlya_svyazi
+    - field.field.contact_message.forma_svyazi.field_soobschenie
+    - field.field.contact_message.forma_svyazi.field_vashe_imya
+id: contact_message.forma_svyazi.default
+targetEntityType: contact_message
+bundle: forma_svyazi
+mode: default
+content:
+  field_e_mail_dlya_svyazi:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: email_mailto
+    region: content
+  field_soobschenie:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_vashe_imya:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  langcode: true
+  message: true

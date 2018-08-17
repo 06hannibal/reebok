@@ -1,0 +1,31 @@
+uuid: 21b9dece-9f80-4d0d-b670-14cc4880a7fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.info_block_page_menu
+    - field.field.block_content.info_block_page_menu.body
+    - field.field.block_content.info_block_page_menu.field_image_info
+  module:
+    - text
+id: block_content.info_block_page_menu.default
+targetEntityType: block_content
+bundle: info_block_page_menu
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image_info:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  langcode: true
