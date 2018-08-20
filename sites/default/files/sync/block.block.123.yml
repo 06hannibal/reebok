@@ -1,0 +1,22 @@
+uuid: 1b42e912-6354-4d0c-93b6-644a40549747
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.aditime
+  module:
+    - simple_block
+  theme:
+    - reebok_theme
+id: '123'
+theme: reebok_theme
+region: help
+weight: 0
+provider: null
+plugin: 'simple_block:aditime'
+settings:
+  id: 'simple_block:aditime'
+  label: '123'
+  provider: simple_block
+  label_display: visible
+visibility: {  }

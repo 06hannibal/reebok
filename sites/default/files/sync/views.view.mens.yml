@@ -373,7 +373,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: '<img alt="mens" data-align="left" data-entity-type="file" data-entity-uuid="25162156-cabf-47d6-91a7-f3a370577b3f" src="/sites/default/files/inline-images/logo_man-150x150_0.png" />111'
+            value: '<img alt="mens" data-align="left" data-entity-type="file" data-entity-uuid="25162156-cabf-47d6-91a7-f3a370577b3f" src="/sites/default/files/inline-images/logo_man-150x150_0.png" />'
             format: basic_html
           plugin_id: text
         area:
