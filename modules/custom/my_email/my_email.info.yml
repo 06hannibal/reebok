@@ -1,5 +1,0 @@
-name: 'Email Form'
-description: 'My custom form for email in Drupal 8'
-core: 8.x
-package: Custom
-type: module

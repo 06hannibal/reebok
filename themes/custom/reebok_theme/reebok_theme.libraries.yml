@@ -14,6 +14,7 @@ global-styling:
       css/menu--top-panel/style-delivery.css: {}
       css/menu--top-panel/style-sizes.css: {}
       css/menu--top-panel/style-warranty.css: {}
+      css/service-support/style-contacts.css: {}
   js:
     js/style.js: {}
   dependencies:

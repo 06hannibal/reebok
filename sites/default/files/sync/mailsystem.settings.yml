@@ -1,11 +1,9 @@
-theme: default
+theme: reebok_theme
 defaults:
-  sender: swiftmailer
-  formatter: swiftmailer
+  sender: SMTPMailSystem
+  formatter: SMTPMailSystem
 _core:
   default_config_hash: IhwTepsVwtbtbcT5GzQKhCXDCRvbk3MNkWqPiuiZ10s
 modules:
-  swiftmailer:
-    none:
-      formatter: swiftmailer
-      sender: SMTPMailSystem
+  swiftmailer: {  }
+  my_email: {  }

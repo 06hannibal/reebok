@@ -846,7 +846,7 @@ a, a:visited {
 .form-required::after {
     background-image: none;
 }
-#edit-submit {
+#subscribe-id button#edit-submit {
     display: inline-block;
     font-weight: bold;
     font-size: 15px;
@@ -854,6 +854,7 @@ a, a:visited {
     background: #ab2328!important;
     color: #fff!important;
     opacity: 1!important;
+    margin-left: 0px;
 }
 /*////////////////////інфо блок перед КОПЕРАЙТ/////////////////////////////////////////*/
 .region-info-footer-block {

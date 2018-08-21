@@ -1,7 +1,16 @@
 uuid: 15cd6b28-a0eb-46fb-9f84-05d25321cb90
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: Отправить
+    show_preview: true
+    disabled_form_message: 'This contact form has been disabled.'
+    maximum_submissions_user: 0
+    page_autoreply_format: plain_text
 id: forma_svyazi
 label: 'ФОРМА СВЯЗИ'
 recipients:
