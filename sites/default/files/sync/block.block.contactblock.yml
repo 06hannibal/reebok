@@ -12,7 +12,7 @@ dependencies:
 id: contactblock
 theme: reebok_theme
 region: content
-weight: -40
+weight: -42
 provider: null
 plugin: contact_block
 settings:

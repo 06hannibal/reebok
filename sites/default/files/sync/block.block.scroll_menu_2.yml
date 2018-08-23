@@ -11,12 +11,12 @@ dependencies:
 id: scroll_menu_2
 theme: reebok_theme
 region: content
-weight: 0
+weight: -39
 provider: null
 plugin: 'system_menu_block:scroll-menu'
 settings:
   id: 'system_menu_block:scroll-menu'
-  label: 'КАРТА САЙТА'
+  label: 'Карта сайта'
   provider: system
   label_display: visible
   level: 1

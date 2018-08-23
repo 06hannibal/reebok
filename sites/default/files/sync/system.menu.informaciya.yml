@@ -1,0 +1,8 @@
+uuid: dd00c2d3-21d6-4848-94f5-664375c2ce26
+langcode: en
+status: true
+dependencies: {  }
+id: informaciya
+label: Информация
+description: ''
+locked: false

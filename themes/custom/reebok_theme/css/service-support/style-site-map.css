@@ -1,40 +1,93 @@
+.map-page div.views {
+    height: 600px;
+}
+.map-page div.row-views {
+    height: 93%;
+}
 .map-page nav#block-scroll-menu-2 {
     width: 150%;
 }
-.map-page h2#block-scroll-menu-2 {
-    font-size: 150%;
+.map-page h2 {
+    margin-bottom: 40px;
 }
 .map-page ul.menu--scroll-menu {
     background: rgba(0, 0, 0, 0);
     position: static;
     text-align: center;
 }
-.map-page ul.menu--scroll-menu li:first-child {
-    margin: 0;
-}
-.map-page ul.menu--personal-area {
-    font-size: 16px;
-    line-height: 38px;
-    text-transform: uppercase;
-    font-family: Arial Narrow, sans-serif;
-    font-weight: bold;
-}
-.map-page ul.menu--personal-area li:first-child {
-    display: block;
-    font-weight: normal;
-    font-size: 30px;
-}
-.map-page ul.menu--personal-area li:first-child a {
-    padding-left: 0px;
-}
-.map-page ul.menu--personal-area li:nth-child(1) {
-    margin-left: 10%;
-}
-.map-page ul.menu--personal-area li {
+.map-page ul.menu--scroll-menu li a:hover{
     display: inline-block;
     font-size: 16px;
     line-height: 38px;
     text-transform: uppercase;
     font-family: Arial Narrow, sans-serif;
     font-weight: bold;
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    transition: 0.7s;
+}
+.map-page ul.menu--scroll-menu li a:not(:hover) {
+    transition: 0.7s;
+}
+.map-page ul.menu--scroll-menu li:first-child {
+    margin: 0;
+}
+.map-page nav#block-lichnyykabinet-3 {
+    width: 150%;
+}
+.map-page ul.menu--personal-area li{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: bold;
+}
+.map-page ul.menu--personal-area li a:hover{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    transition: 0.7s;
+}
+.map-page ul.menu--personal-area li a:not(:hover) {
+    transition: 0.7s;
+}
+.map-page ul.menu--personal-area li:nth-child(1) {
+    margin-left: 18%;
+}
+.map-page nav#block-informaciya {
+    width: 150%;
+}
+.map-page ul.menu--informaciya li{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: bold;
+}
+.map-page ul.menu--informaciya li a:hover{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    transition: 0.7s;
+}
+.map-page ul.menu--informaciya li a:not(:hover) {
+    transition: 0.7s;
+}
+.map-page ul.menu--informaciya li:nth-child(1) {
+    margin-left: 1%;
 }

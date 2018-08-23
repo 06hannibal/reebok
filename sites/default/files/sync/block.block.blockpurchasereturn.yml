@@ -10,7 +10,7 @@ dependencies:
 id: blockpurchasereturn
 theme: reebok_theme
 region: content
-weight: 0
+weight: -40
 provider: null
 plugin: purchasereturn
 settings:
