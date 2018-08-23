@@ -1,0 +1,8 @@
+uuid: 2b43d73c-d17e-4ab9-adcf-fe84dc20174d
+langcode: en
+status: true
+dependencies: {  }
+id: personal-area
+label: 'Личный Кабинет'
+description: ''
+locked: false

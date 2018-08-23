@@ -69,7 +69,9 @@
                         dateFormat: "dd/mm/yy",
                         changeMonth: true,
                         changeYear: true,
-                        highlightWeek: true
+                        highlightWeek: true,
+                        showOn: "both",
+                        buttonText: "<i class='fa fa-calendar'></i>",
                     }
                 );
 

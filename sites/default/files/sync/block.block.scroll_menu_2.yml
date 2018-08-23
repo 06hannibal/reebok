@@ -1,0 +1,29 @@
+uuid: 46f8719d-e456-4f03-ad39-414d5982df63
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.scroll-menu
+  module:
+    - system
+  theme:
+    - reebok_theme
+id: scroll_menu_2
+theme: reebok_theme
+region: content
+weight: 0
+provider: null
+plugin: 'system_menu_block:scroll-menu'
+settings:
+  id: 'system_menu_block:scroll-menu'
+  label: 'КАРТА САЙТА'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: /site_map
+    negate: false
+    context_mapping: {  }

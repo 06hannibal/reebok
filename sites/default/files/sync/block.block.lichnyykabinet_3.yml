@@ -1,0 +1,29 @@
+uuid: 0db22e55-4396-4e1c-a8ed-66ccd3427ea1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.personal-area
+  module:
+    - system
+  theme:
+    - reebok_theme
+id: lichnyykabinet_3
+theme: reebok_theme
+region: content
+weight: 0
+provider: null
+plugin: 'system_menu_block:personal-area'
+settings:
+  id: 'system_menu_block:personal-area'
+  label: 'Личный Кабинет'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: /site_map
+    negate: false
+    context_mapping: {  }

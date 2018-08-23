@@ -77,6 +77,7 @@ class Purchasereturn extends FormBase {
       '#attributes' => [
         'id' => ['datepicker'],
       ],
+      '#markup' => '<i class="fa fa-calendar"></i>',
     ];
 
     $form['information-goods-title'] = [

@@ -1,5 +1,5 @@
 .purchase-return-page div.views {
-    height: 1150px;
+    height: 1200px;
 }
 .purchase-return-page form#purchase-return-id {
     width: 150%;
@@ -20,6 +20,10 @@
     float: left;
     margin-left: 20%;
 }
+.purchase-return-page div.form-item-name label::before {
+    content: '* ';
+    color: #ff5100;
+}
 .purchase-return-page div.form-item-name input {
     width: 50%;
     margin-left: 30%;
@@ -27,6 +31,10 @@
 .purchase-return-page div.form-item-surname label {
     float: left;
     margin-left: 20%;
+}
+.purchase-return-page div.form-item-surname label::before {
+    content: '* ';
+    color: #ff5100;
 }
 .purchase-return-page div.form-item-surname input {
     width: 50%;
@@ -36,6 +44,10 @@
     float: left;
     margin-left: 29%;
 }
+.purchase-return-page div.form-item-email label::before {
+    content: '* ';
+    color: #ff5100;
+}
 .purchase-return-page div.form-item-email input {
     width: 71.5%;
     margin-left: 43%;
@@ -43,6 +55,10 @@
 .purchase-return-page div.form-item-phone label {
     float: left;
     margin-left: 20%;
+}
+.purchase-return-page div.form-item-phone label::before {
+    content: '* ';
+    color: #ff5100;
 }
 .purchase-return-page div.form-item-phone input {
     width: 50%;
@@ -52,21 +68,36 @@
     float: left;
     margin-left: 20%;
 }
+.purchase-return-page div.form-item-order label::before {
+    content: '* ';
+    color: #ff5100;
+}
 .purchase-return-page div.form-item-order input {
     width: 50%;
     margin-left: 30%;
+    content: "\f073";
 }
 .purchase-return-page div.form-item-date label {
     float: left;
     margin-left: 20%;
 }
 .purchase-return-page div.form-item-date input {
-    width: 50%;
+    width: 10%;
     margin-left: 30%;
+}
+button.ui-datepicker-trigger {
+    position: relative;
+    left: 40%;
+    bottom: 34px;
+    font-size: 140%;
 }
 .purchase-return-page div.form-item-rename label {
     float: left;
     margin-left: 20%;
+}
+.purchase-return-page div.form-item-rename label::before {
+    content: '* ';
+    color: #ff5100;
 }
 .purchase-return-page div.form-item-rename input {
     width: 50%;
@@ -75,6 +106,10 @@
 .purchase-return-page div.form-item-model label {
     float: left;
     margin-left: 20%;
+}
+.purchase-return-page div.form-item-model label::before {
+    content: '* ';
+    color: #ff5100;
 }
 .purchase-return-page div.form-item-model input {
     width: 50%;
@@ -93,6 +128,12 @@
     margin-left: 20%;
     width: 10%;
     border: none;
+    font-size: 100%;
+    font-weight: 600;
+}
+.purchase-return-page fieldset#edit-cause--wrapper legend::before {
+    content: '* ';
+    color: #ff5100;
 }
 .purchase-return-page fieldset#edit-cause--wrapper div.form-item-cause {
     margin-left: 30%;
@@ -102,6 +143,12 @@
     margin-left: 20%;
     width: 10%;
     border: none;
+    font-size: 100%;
+    font-weight: 600;
+}
+.purchase-return-page fieldset#edit-unpacked--wrapper legend::before {
+    content: '* ';
+    color: #ff5100;
 }
 .purchase-return-page fieldset#edit-unpacked--wrapper div.form-item-cause {
     margin-left: 30%;

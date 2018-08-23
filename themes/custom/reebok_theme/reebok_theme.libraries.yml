@@ -16,6 +16,7 @@ global-styling:
       css/menu--top-panel/style-warranty.css: {}
       css/service-support/style-contacts.css: {}
       css/service-support/style-purchase-return.css: {}
+      css/service-support/style-site-map.css: {}
   js:
     js/style.js: {}
   dependencies:

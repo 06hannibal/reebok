@@ -1,0 +1,40 @@
+.map-page nav#block-scroll-menu-2 {
+    width: 150%;
+}
+.map-page h2#block-scroll-menu-2 {
+    font-size: 150%;
+}
+.map-page ul.menu--scroll-menu {
+    background: rgba(0, 0, 0, 0);
+    position: static;
+    text-align: center;
+}
+.map-page ul.menu--scroll-menu li:first-child {
+    margin: 0;
+}
+.map-page ul.menu--personal-area {
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: bold;
+}
+.map-page ul.menu--personal-area li:first-child {
+    display: block;
+    font-weight: normal;
+    font-size: 30px;
+}
+.map-page ul.menu--personal-area li:first-child a {
+    padding-left: 0px;
+}
+.map-page ul.menu--personal-area li:nth-child(1) {
+    margin-left: 10%;
+}
+.map-page ul.menu--personal-area li {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: bold;
+}

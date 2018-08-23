@@ -1,4 +1,4 @@
-uuid: d24270c0-3770-474c-b29e-c4388a966181
+uuid: 242202c1-6e0b-480d-9d9b-602ec8e788d4
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - contact.form.forma_svyazi
   module:
     - contact
-id: vozvrat_tovara_
-label: 'ВОЗВРАТ ТОВАРА '
+id: karta_sayta
+label: 'Карта сайта'
 module: views
 description: ''
 tag: ''
@@ -130,7 +130,7 @@ display:
           entity_field: contact_form
           plugin_id: bundle
       sorts: {  }
-      title: 'Возврат товара'
+      title: 'Карта сайта'
       header: {  }
       footer: {  }
       empty: {  }
@@ -146,12 +146,11 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: 'Возврат товара'
+    display_title: Page
     position: 1
     display_options:
       display_extenders: {  }
-      path: purchase_return
-      display_description: ''
+      path: site_map
     cache_metadata:
       max-age: -1
       contexts:
