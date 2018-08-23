@@ -15,6 +15,7 @@ global-styling:
       css/menu--top-panel/style-sizes.css: {}
       css/menu--top-panel/style-warranty.css: {}
       css/service-support/style-contacts.css: {}
+      css/service-support/style-purchase-return.css: {}
   js:
     js/style.js: {}
   dependencies:
@@ -23,3 +24,4 @@ global-styling:
     - core/drupal.progress
     - core/jquery.once
     - core/jquery
+    - core/jquery.ui.datepicker

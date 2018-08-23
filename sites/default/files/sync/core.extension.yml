@@ -55,6 +55,7 @@ module:
   owl: 0
   page_cache: 0
   path: 0
+  purchase_return: 0
   quickedit: 0
   quicktabs: 0
   rdf: 0

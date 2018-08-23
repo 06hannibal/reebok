@@ -1,0 +1,26 @@
+uuid: a30ca5e4-b82e-410b-9711-abe8d90a2c05
+langcode: en
+status: true
+dependencies:
+  module:
+    - purchase_return
+    - system
+  theme:
+    - reebok_theme
+id: blockpurchasereturn
+theme: reebok_theme
+region: content
+weight: 0
+provider: null
+plugin: purchasereturn
+settings:
+  id: purchasereturn
+  label: 'Block Purchase Return'
+  provider: purchase_return
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /purchase_return
+    negate: false
+    context_mapping: {  }

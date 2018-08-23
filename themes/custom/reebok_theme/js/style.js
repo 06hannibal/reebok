@@ -60,6 +60,21 @@
                 if (scroll >= 180) sticky.addClass('fixed-search');
                 else sticky.removeClass('fixed-search');
             });
+
+            $(document).ready(function () {
+                var userLang = navigator.language || navigator.userLanguage;
+
+                var options = $.extend({},
+                    $.datepicker.regional["ja"], {
+                        dateFormat: "dd/mm/yy",
+                        changeMonth: true,
+                        changeYear: true,
+                        highlightWeek: true
+                    }
+                );
+
+                $("#datepicker").datepicker(options);
+            });
         }
     }
 

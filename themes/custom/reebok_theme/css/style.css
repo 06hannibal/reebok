@@ -10,11 +10,11 @@
 }
 
 /*//////////////////header////////////////////////////////////////*/
-.menu--top-panel {
+#block-toppanel ul.menu--top-panel {
     line-height: 180%;
     width: 200%;
 }
-.menu--top-panel li:first-child {
+#block-toppanel ul.menu--top-panel li:first-child {
     margin-left: 9%;
 }
 #block-toppanel li {

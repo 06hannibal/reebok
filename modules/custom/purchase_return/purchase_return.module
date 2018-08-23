@@ -1,0 +1,62 @@
+<?php
+
+use Drupal\Component\Utility\Html;
+
+/**
+ * @param $key
+ * @param $message
+ * @param $params
+ * Implements hook_mail()
+ */
+function purchase_return_mail($key, &$message, $params)
+{
+  switch ($key) {
+    case 'return_goods':
+      $message['from'] = \Drupal::config('system.site')->get('mail');
+      $message['headers']['Content-Type'] = 'text/html; charset=UTF-8; format=flowed; delsp=yes';
+      $message['subject'] = $params['title'];
+
+      $theme_body = [
+        '#theme' => 'purchase_return',
+        '#name' => $params['body']['name'],
+        '#surname' => $params['body']['surname'],
+        '#email' => $params['body']['email'],
+        '#phone' => $params['body']['phone'],
+        '#order' => $params['body']['order'],
+        '#date' => $params['body']['date'],
+        '#rename' => $params['body']['rename'],
+        '#model' => $params['body']['model'],
+        '#amount' => $params['body']['amount'],
+        '#cause' => $params['body']['cause'],
+        '#unpacked' => $params['body']['unpacked'],
+        '#description' => $params['body']['description'],
+      ];
+
+      $mail_body = \Drupal::service('renderer')->render($theme_body);
+      $message['body'][] = Html::escape($mail_body);
+      break;
+  }
+}
+/**
+ * Implements hook_theme().
+ */
+function purchase_return_theme() {
+  return [
+    'purchase_return' => [
+      'variables' => [
+        'name' => NULL,
+        'surname' => NULL,
+        'email' => NULL,
+        'phone' => NULL,
+        'order' => NULL,
+        'date' => NULL,
+        'rename' => NULL,
+        'model' => NULL,
+        'amount' => NULL,
+        'cause' => NULL,
+        'unpacked' => NULL,
+        'description' => NULL,
+      ],
+    ],
+  ];
+}

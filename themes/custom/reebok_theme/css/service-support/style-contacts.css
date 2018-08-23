@@ -7,45 +7,45 @@
     line-height: 24px;
     margin-bottom: 3%;
 }
-.form-item-field-vashe-imya-0-value label {
+.contacts-page div.form-item-field-vashe-imya-0-value label {
     float: left;
     text-align: left;
     font-size: 90%;
 }
-.form-item-field-vashe-imya-0-value label::before {
+.contacts-page div.form-item-field-vashe-imya-0-value label::before {
     content: '* ';
     color: #ff5100;
 }
-.form-item-field-vashe-imya-0-value input {
-    display: inline-block;
-    width: 50%;
-    margin-left: 161px;
-}
-.form-item-field-e-mail-dlya-svyazi-0-value label {
-    float: left;
-    text-align: left;
-    font-size: 90%;
-}
-.form-item-field-e-mail-dlya-svyazi-0-value label::before {
-    content: '* ';
-    color: #ff5100;
-}
-.form-item-field-e-mail-dlya-svyazi-0-value input {
-    display: inline-block;
-    width: 50%;
-    margin-left: 120px;
-}
-.form-item-field-soobschenie-0-value label {
-    float: left;
-    text-align: left;
-    font-size: 90%;
-}
-.form-item-field-soobschenie-0-value .form-textarea-wrapper {
+.contacts-page div.form-item-field-vashe-imya-0-value input {
     display: inline-block;
     width: 50%;
     margin-left: 170px;
 }
-#edit-actions button#edit-submit {
+.contacts-page div.form-item-field-e-mail-dlya-svyazi-0-value label {
+    float: left;
+    text-align: left;
+    font-size: 90%;
+}
+.contacts-page div.form-item-field-e-mail-dlya-svyazi-0-value label::before {
+    content: '* ';
+    color: #ff5100;
+}
+.contacts-page div.form-item-field-e-mail-dlya-svyazi-0-value input {
+    display: inline-block;
+    width: 50%;
+    margin-left: 120px;
+}
+.contacts-page div.form-item-field-soobschenie-0-value label {
+    float: left;
+    text-align: left;
+    font-size: 90%;
+}
+.contacts-page div.form-item-field-soobschenie-0-value .form-textarea-wrapper {
+    display: inline-block;
+    width: 50%;
+    margin-left: 170px;
+}
+.contacts-page div#edit-actions button#edit-submit {
     margin-left: 240px;
     border-color: transparent;
     background: #000;
@@ -60,16 +60,16 @@
     cursor: pointer;
     margin-bottom: 3%;
 }
-#edit-actions button#edit-submit:hover {
+.contacts-page div#edit-actions button#edit-submit:hover {
     background: #af273b;
     transition: 0.7s;
 }
-#edit-actions button#edit-submit:not(:hover) {
+.contacts-page div#edit-actions button#edit-submit:not(:hover) {
     transition: 0.7s;
 }
-#edit-actions button#edit-preview {
+.contacts-page div#edit-actions button#edit-preview {
     display: none;
 }
-#block-aditime section.google-map-field {
+.contacts-page section.google-map-field {
     width: 150%;
 }

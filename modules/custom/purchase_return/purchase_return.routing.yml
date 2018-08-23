@@ -1,0 +1,7 @@
+purchase_return.email:
+  path: '/purchase_return'
+  defaults:
+    _form: '\Drupal\purchase_return\Form\Purchasereturn'
+    _title: 'Возврат товара'
+  requirements:
+    _access: 'TRUE'

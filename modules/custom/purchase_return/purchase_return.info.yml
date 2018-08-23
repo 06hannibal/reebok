@@ -1,0 +1,8 @@
+name: 'purchase return'
+description: 'form of return of the goods.'
+package: Custom
+
+type: module
+# core: 8.x
+core: 8.x
+
