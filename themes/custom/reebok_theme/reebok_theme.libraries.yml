@@ -19,6 +19,7 @@ global-styling:
       css/service-support/style-site-map.css: {}
   js:
     js/style.js: {}
+    js/purchasereturn.js: {}
   dependencies:
     - reebok_theme/theme
     - core/drupal.ajax

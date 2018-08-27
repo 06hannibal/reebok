@@ -1,51 +1,48 @@
-.contacts-page div.views {
-    height: 960px;
-}
-#block-contactblock h2.block-title {
+section#block-contactblock h2.block-title {
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 30px;
     line-height: 24px;
     margin-bottom: 3%;
 }
-.contacts-page div.form-item-field-vashe-imya-0-value label {
+form#contact-message-forma-svyazi-form div.form-item-field-vashe-imya-0-value label {
     float: left;
     text-align: left;
     font-size: 90%;
 }
-.contacts-page div.form-item-field-vashe-imya-0-value label::before {
+form#contact-message-forma-svyazi-form div.form-item-field-vashe-imya-0-value label::before {
     content: '* ';
     color: #ff5100;
 }
-.contacts-page div.form-item-field-vashe-imya-0-value input {
+form#contact-message-forma-svyazi-form div.form-item-field-vashe-imya-0-value input {
     display: inline-block;
     width: 50%;
     margin-left: 170px;
 }
-.contacts-page div.form-item-field-e-mail-dlya-svyazi-0-value label {
+form#contact-message-forma-svyazi-form div.form-item-field-e-mail-dlya-svyazi-0-value label {
     float: left;
     text-align: left;
     font-size: 90%;
 }
-.contacts-page div.form-item-field-e-mail-dlya-svyazi-0-value label::before {
+form#contact-message-forma-svyazi-form div.form-item-field-e-mail-dlya-svyazi-0-value label::before {
     content: '* ';
     color: #ff5100;
 }
-.contacts-page div.form-item-field-e-mail-dlya-svyazi-0-value input {
+form#contact-message-forma-svyazi-form div.form-item-field-e-mail-dlya-svyazi-0-value input {
     display: inline-block;
     width: 50%;
     margin-left: 120px;
 }
-.contacts-page div.form-item-field-soobschenie-0-value label {
+form#contact-message-forma-svyazi-form div.form-item-field-soobschenie-0-value label {
     float: left;
     text-align: left;
     font-size: 90%;
 }
-.contacts-page div.form-item-field-soobschenie-0-value .form-textarea-wrapper {
+form#contact-message-forma-svyazi-form div.form-item-field-soobschenie-0-value .form-textarea-wrapper {
     display: inline-block;
     width: 50%;
     margin-left: 170px;
 }
-.contacts-page div#edit-actions button#edit-submit {
+form#contact-message-forma-svyazi-form div#edit-actions button#edit-submit {
     margin-left: 240px;
     border-color: transparent;
     background: #000;
@@ -60,16 +57,16 @@
     cursor: pointer;
     margin-bottom: 3%;
 }
-.contacts-page div#edit-actions button#edit-submit:hover {
+form#contact-message-forma-svyazi-form div#edit-actions button#edit-submit:hover {
     background: #af273b;
     transition: 0.7s;
 }
-.contacts-page div#edit-actions button#edit-submit:not(:hover) {
+form#contact-message-forma-svyazi-form div#edit-actions button#edit-submit:not(:hover) {
     transition: 0.7s;
 }
-.contacts-page div#edit-actions button#edit-preview {
+form#contact-message-forma-svyazi-form div#edit-actions button#edit-preview {
     display: none;
 }
-.contacts-page section.google-map-field {
+section.google-map-field {
     width: 150%;
 }

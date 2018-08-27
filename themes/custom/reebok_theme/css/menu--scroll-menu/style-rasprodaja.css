@@ -1,53 +1,44 @@
 .rasprodaja section.col-sm-8 {
     width: 100%;
 }
-.rasprodaja div.views {
-    height: 1350px;
+div.rasprodaja div.views-row.clearfix {
+    width: 65%;
 }
-/*//////////////content///////////////////*/
-.view-header {
-    text-transform: uppercase;
-    font-size: 16px;
-    line-height: 26px;
-    width: 215px;
-    float: left;
-    color: #252525;
-    margin-bottom: 0;
-}
-.rasprodazha-1 a img:last-child {
+/*///////////////content//////////////////*/
+div.rasprodaga-img a:last-child:hover img {
+    opacity:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
     position: absolute;
-    height: 300px;
-    width: 25%;
-    top: 15%;
+    top:0;
 }
-.rasprodazha-1 .mens-text {
-    position: relative;
-    top: 300px;
+div.rasprodaga-img a img {
+    width: 100%;
 }
-.rasprodazha-2 a img:last-child {
+div.row-1 div.rasprodaga-img a:last-child img {
+    position: absolute;!important;
+    height: 26%;!important;
+    width: 24%;!important;
+    top:2%;
+}
+div.row-2 div.rasprodaga-img a:last-child img {
     position: absolute;
-    height: 300px;
-    width: 25%;
-    top: 200%;
+    height: 28%;!important;
+    width: 24%;!important;
+    top: 35%;
 }
-.rasprodazha-2 .mens-text {
-    position: relative;
-    top: 650px;
-}
-.rasprodazha-3 a img:last-child {
+div.row-3 div.rasprodaga-img a:last-child img {
     position: absolute;
-    height: 300px;
-    width: 25%;
-    top: 440%;
+    height: 29%;!important;
+    width: 24%;!important;
+    top: 66.5%;
 }
-.rasprodazha-3 .mens-text {
-    position: relative;
-    top: 1020px;
-}
-.rasprodaja div.mens-text ul li:first-child {
+.rasprodaja div.rasprodaga-text ul li:first-child {
     display: none;
 }
-.rasprodaja div.mens-text ul li {
+.rasprodaja div.rasprodaga-text ul li {
     color: #848484;
     text-decoration: line-through;
 }

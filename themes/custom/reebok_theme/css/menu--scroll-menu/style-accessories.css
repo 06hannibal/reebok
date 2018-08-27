@@ -1,12 +1,3 @@
-.views.hidden-accessories {
-    background: #f5f5f5;
-    bottom: 10%;
-    height: 1530px;
-}
-div#accessories div.view-footer {
-    position: absolute;
-    top: 540%;
-}
 /*///////////////facets////////////////////*/
 #block-aksessuary .block-title {
     font-size: 24px;
@@ -105,39 +96,58 @@ div#accessories div.view-footer {
     padding-left: 10%;
 }
 /*//////////////content///////////////////*/
-.accessories-1 a img:last-child {
+div.apparel-img a:last-child:hover img {
+    opacity:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
     position: absolute;
-    height: 193px;
-    width: 25%;
-    top: 0px;
+    top:0;
 }
-.accessories-1 div.apparel-text {
-    position: relative;
-    top: 230px;
+div.apparel-img a img {
+    width: 100%;
+    height: 300px;
 }
-
-.accessories-2 a img:last-child {
+div.hidden-apparel div.apparel-img a img {
+    width: 95%;
+}
+div.row-1 div.apparel-img a:last-child img {
+    position: absolute;!important;
+    height: 25%;!important;
+    width: 28%;!important;
+    top:0;
+}
+div.row-2 div.apparel-img a:last-child img {
     position: absolute;
-    height: 193px;
-    width: 25%;
-    top: 180%;
+    height: 25%;!important;
+    width: 28%;!important;
+    top: 30%;
 }
-.accessories-2 div.apparel-text {
-    position: relative;
-    top: 520px;
-}
-
-.accessories-3 a img:last-child {
+div.row-3 div.apparel-img a:last-child img {
     position: absolute;
-    height: 193px;
-    width: 25%;
-    top: 370%;
+    height: 24%;!important;
+    width: 28%;!important;
+    top: 60%;
 }
-.accessories-3 div.apparel-text {
-    position: relative;
-    top: 790px;
+div.hidden-accessories div.row-1 div.apparel-img a:last-child img {
+    position: absolute;!important;
+    height: 21%;!important;
+    width: 28%;!important;
+    top:0;
 }
-/*/////////////view-footer///////////////////*/
+div.hidden-accessories div.row-2 div.apparel-img a:last-child img {
+    position: absolute;
+    height: 21%;!important;
+    width: 28%;!important;
+    top: 25%;
+}
+div.hidden-accessories div.row-3 div.apparel-img a:last-child img {
+    position: absolute;
+    height: 21%;!important;
+    width: 28%;!important;
+    top: 53%;
+}/*/////////////view-footer///////////////////*/
 div.info-img-reebok-accessories img.align-left {
     width: 12%;
     height: 8%;

@@ -1,129 +1,126 @@
-.purchase-return-page div.views {
-    height: 1200px;
-}
-.purchase-return-page form#purchase-return-id {
+form#purchase-return-id {
     width: 150%;
 }
-.purchase-return-page div.return-goods-title {
+form#purchase-return-id div.return-goods-title {
     text-align: center;
 }
-.purchase-return-page i.fa.fa-reply {
+form#purchase-return-id i.fa.fa-reply {
     color: #AB2328;
 }
-.purchase-return-page div.description-title {
+form#purchase-return-id div.description-title {
     text-align: center;
 }
-.purchase-return-page div.information-title {
+form#purchase-return-id div.information-title {
     text-align: center;
 }
-.purchase-return-page div.form-item-name label {
+form#purchase-return-id div.form-item-name label {
     float: left;
     margin-left: 20%;
 }
-.purchase-return-page div.form-item-name label::before {
+form#purchase-return-id div.form-item-name label::before {
     content: '* ';
     color: #ff5100;
 }
-.purchase-return-page div.form-item-name input {
+form#purchase-return-id div.form-item-name input {
     width: 50%;
     margin-left: 30%;
 }
-.purchase-return-page div.form-item-surname label {
+form#purchase-return-id div.form-item-surname label {
     float: left;
     margin-left: 20%;
 }
-.purchase-return-page div.form-item-surname label::before {
+form#purchase-return-id div.form-item-surname label::before {
     content: '* ';
     color: #ff5100;
 }
-.purchase-return-page div.form-item-surname input {
+form#purchase-return-id div.form-item-surname input {
     width: 50%;
     margin-left: 30%;
 }
-.purchase-return-page div.form-item-email label {
+form#purchase-return-id div.form-item-email label {
     float: left;
     margin-left: 29%;
 }
-.purchase-return-page div.form-item-email label::before {
+form#purchase-return-id div.form-item-email label::before {
     content: '* ';
     color: #ff5100;
 }
-.purchase-return-page div.form-item-email input {
+form#purchase-return-id div.form-item-email input {
     width: 71.5%;
     margin-left: 43%;
 }
-.purchase-return-page div.form-item-phone label {
+form#purchase-return-id div.form-item-phone label {
     float: left;
     margin-left: 20%;
 }
-.purchase-return-page div.form-item-phone label::before {
+form#purchase-return-id div.form-item-phone label::before {
     content: '* ';
     color: #ff5100;
 }
-.purchase-return-page div.form-item-phone input {
+form#purchase-return-id div.form-item-phone input {
     width: 50%;
     margin-left: 30%;
 }
-.purchase-return-page div.form-item-order label {
+form#purchase-return-id div.form-item-order label {
     float: left;
     margin-left: 20%;
 }
-.purchase-return-page div.form-item-order label::before {
+form#purchase-return-id div.form-item-order label::before {
     content: '* ';
     color: #ff5100;
 }
-.purchase-return-page div.form-item-order input {
+form#purchase-return-id div.form-item-order input {
     width: 50%;
     margin-left: 30%;
     content: "\f073";
 }
-.purchase-return-page div.form-item-date label {
+form#purchase-return-id div.form-item-date label {
     float: left;
     margin-left: 20%;
 }
-.purchase-return-page div.form-item-date input {
+form#purchase-return-id div.form-item-date input {
     width: 10%;
     margin-left: 30%;
 }
-button.ui-datepicker-trigger {
+form#purchase-return-id button.ui-datepicker-trigger {
     position: relative;
     left: 40%;
     bottom: 34px;
     font-size: 140%;
 }
-.purchase-return-page div.form-item-rename label {
+form#purchase-return-id div.form-item-rename label {
     float: left;
     margin-left: 20%;
 }
-.purchase-return-page div.form-item-rename label::before {
+form#purchase-return-id div.form-item-rename label::before {
     content: '* ';
     color: #ff5100;
 }
-.purchase-return-page div.form-item-rename input {
+form#purchase-return-id div.form-item-rename input {
     width: 50%;
     margin-left: 30%;
 }
-.purchase-return-page div.form-item-model label {
+form#purchase-return-id div.form-item-model label {
     float: left;
     margin-left: 20%;
 }
-.purchase-return-page div.form-item-model label::before {
+form#purchase-return-id div.form-item-model label::before {
     content: '* ';
     color: #ff5100;
 }
-.purchase-return-page div.form-item-model input {
+form#purchase-return-id div.form-item-model input {
     width: 50%;
     margin-left: 30%;
 }
-.purchase-return-page div.form-item-amount label {
+form#purchase-return-id div.form-item-amount label {
     float: left;
     margin-left: 20%;
 }
-.purchase-return-page div.form-item-amount input {
+form#purchase-return-id div.form-item-amount input {
     width: 50%;
     margin-left: 30%;
 }
-.purchase-return-page fieldset#edit-cause--wrapper legend {
+form#purchase-return-id fieldset#edit-cause--wrapper legend {
     float: left;
     margin-left: 20%;
     width: 10%;
@@ -131,14 +128,14 @@ button.ui-datepicker-trigger {
     font-size: 100%;
     font-weight: 600;
 }
-.purchase-return-page fieldset#edit-cause--wrapper legend::before {
+form#purchase-return-id fieldset#edit-cause--wrapper legend::before {
     content: '* ';
     color: #ff5100;
 }
-.purchase-return-page fieldset#edit-cause--wrapper div.form-item-cause {
+form#purchase-return-id fieldset#edit-cause--wrapper div.form-item-cause {
     margin-left: 30%;
 }
-.purchase-return-page fieldset#edit-unpacked--wrapper legend {
+form#purchase-return-id fieldset#edit-unpacked--wrapper legend {
     float: left;
     margin-left: 20%;
     width: 10%;
@@ -146,22 +143,22 @@ button.ui-datepicker-trigger {
     font-size: 100%;
     font-weight: 600;
 }
-.purchase-return-page fieldset#edit-unpacked--wrapper legend::before {
+form#purchase-return-id fieldset#edit-unpacked--wrapper legend::before {
     content: '* ';
     color: #ff5100;
 }
-.purchase-return-page fieldset#edit-unpacked--wrapper div.form-item-cause {
+form#purchase-return-id fieldset#edit-unpacked--wrapper div.form-item-cause {
     margin-left: 30%;
 }
-.purchase-return-page div.form-item-description label {
+form#purchase-return-id div.form-item-description label {
     float: left;
     margin-left: 20%;
 }
-.purchase-return-page div.form-textarea-wrapper {
+form#purchase-return-id div.form-textarea-wrapper {
     width: 50%;
     margin-left: 30%;
 }
-.back-left-link {
+form#purchase-return-id .back-left-link {
     margin-left: 23%;
     background-color: #d9534f;
     border-color: #d43f3a;
@@ -178,24 +175,24 @@ button.ui-datepicker-trigger {
     float: left;
     margin-top: 2%;
 }
-.back-left-link:hover {
+form#purchase-return-id .back-left-link:hover {
     text-decoration: none;
     transition: 0.7s;
     color: #fff;
 }
-.back-left-link:not(:hover) {
+form#purchase-return-id .back-left-link:not(:hover) {
     transition: 0.7s;
 }
-.purchase-return-page div.form-item-checkbox {
+form#purchase-return-id div.form-item-checkbox {
     float: left;
     margin-top: 2.5%;
     margin-left: 8%;
 }
-.purchase-return-page div.form-item-checkbox input {
+form#purchase-return-id div.form-item-checkbox input {
     position: absolute;
     left: 105%;
 }
-.finish-right button {
+form#purchase-return-id .finish-right button {
     margin-left: 2%;
     background-color: #d9534f;
     border-color: #d43f3a;
@@ -211,14 +208,14 @@ button.ui-datepicker-trigger {
     margin-bottom: 3%;
     margin-top: 2%;
 }
-.finish-right button:hover {
+form#purchase-return-id .finish-right button:hover {
     text-decoration: none;
     transition: 0.7s;
     color: #fff;
     background-color: #d9534f;
     border-color: #d43f3a;
 }
-.finish-right button:not(:hover) {
+form#purchase-return-id .finish-right button:not(:hover) {
     transition: 0.7s;
 }
 

@@ -1,14 +1,32 @@
 /**
  * Place your custom styles here.
  */
+html {
+    background: #F5F5F5;!important;
+}
 .body {
-    margin-top: 0px;!important;
     font-family: 'Roboto Condensed',sans-serif;
 }
-.background {
-    background: #f5f5f5;
+body.has-glyphicons {
+    background: #F5F5F5;!important;
 }
-
+div.views {
+    background: #fff;!important;
+    margin-top: 0.5%;!important;
+    margin-right: 5%;!important;
+    margin-left: 5%;!important;
+    margin-bottom: 2%;!important;
+}
+div.row-views {
+    padding-left: 3%;!important;
+    padding-top: 1%;!important;
+    padding-right: 3%;!important;
+}
+/*/////////////breadcrumb///////////////////*/
+.breadcrumb {
+    background-color: #fff;!important;
+    border-radius: 0px;!important;
+}
 /*//////////////////header////////////////////////////////////////*/
 #block-toppanel ul.menu--top-panel {
     line-height: 180%;

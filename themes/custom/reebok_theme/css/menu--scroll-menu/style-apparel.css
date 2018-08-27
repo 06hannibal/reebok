@@ -1,17 +1,3 @@
-.apparel.views {
-    background: #f5f5f5;
-    bottom: 10%;
-    height: 1350px;
-}
-.views.hidden-apparel {
-    background: #f5f5f5;
-    bottom: 10%;
-    height: 1450px;
-}
-div#apparel div.view-footer {
-    position: absolute;
-    top: 530%;
-}
 /*///////////////facets////////////////////*/
 #block-odezhda .block-title {
     font-size: 24px;
@@ -110,58 +96,59 @@ div#apparel div.view-footer {
     padding-left: 10%;
 }
 /*//////////////content///////////////////*/
-
-.apparel-img a img:last-child {
+div.accessories-img a:last-child:hover img {
+    opacity:0;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
-}
-
-.apparel-img a img:last-child:hover {
-    opacity:0;
-}
-.apparel-1 a img:last-child {
     position: absolute;
-    height: 193px;
-    width: 25%;
-    top: 0px;
+    top:0;
 }
-.apparel-1 div.apparel-text {
-    position: relative;
-    top: 230px;
+div.accessories-img a img {
+    width: 100%;
+    height: 300px;
 }
-
-.apparel-2 a img:last-child {
+div.hidden-accessories div.accessories-img a img {
+    width: 95%;
+}
+div.row-1 div.accessories-img a:last-child img {
+    position: absolute;!important;
+    height: 25%;!important;
+    width: 28%;!important;
+    top:0;
+}
+div.row-2 div.accessories-img a:last-child img {
     position: absolute;
-    height: 193px;
-    width: 25%;
-    top: 200%;
+    height: 25%;!important;
+    width: 28%;!important;
+    top: 28%;
 }
-.apparel-2 div.apparel-text {
-    position: relative;
-    top: 550px;
-}
-
-.apparel-3 a img:last-child {
+div.row-3 div.accessories-img a:last-child img {
     position: absolute;
-    height: 193px;
-    width: 25%;
-    top: 390%;
+    height: 24%;!important;
+    width: 28%;!important;
+    top: 60%;
 }
-.apparel-3 div.apparel-text {
-    position: relative;
-    top: 800px;
+div.hidden-accessories div.row-1 div.accessories-img a:last-child img {
+    position: absolute;!important;
+    height: 21%;!important;
+    width: 28%;!important;
+    top:0;
 }
-.row-views div.col-sm-12.background {
-    display: none;
-}
-.region-information-block-reebok {
+div.hidden-accessories div.row-2 div.accessories-img a:last-child img {
     position: absolute;
-    top: 740px;
+    height: 21%;!important;
+    width: 28%;!important;
+    top: 26%;
+}
+div.hidden-accessories div.row-3 div.accessories-img a:last-child img {
+    position: absolute;
+    height: 21%;!important;
+    width: 28%;!important;
+    top: 53%;
 }
 .apparel-text {
-    width: 100%;
     display: block;
     overflow: hidden;
     color: #000;
@@ -170,6 +157,10 @@ div#apparel div.view-footer {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 14px;
+    margin-top: 12%;
+}
+div.hidden-novaya-kollekciya div.apparel-text {
+    margin-top: 20%;
 }
 .apparel-text ul {
     list-style: none;
