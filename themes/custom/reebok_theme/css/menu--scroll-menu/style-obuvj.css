@@ -138,6 +138,9 @@
     padding-left: 10%;
 }
 /*//////////////content///////////////////*/
+.view-id-obuv div.view-content {
+    width: 150%;
+}
 div.views-row.clearfix {
     width: 75%;
 }
@@ -156,37 +159,37 @@ div.obuv-img a img {
 div.hidden-obuv div.obuv-img a img {
     width: 95%;
 }
-div.row-1 div.obuv-img a:last-child img {
+div.obuvj.row-1 div.obuv-img a:last-child img {
     position: absolute;!important;
     height: 20%;!important;
     width: 28%;!important;
     top:0;
 }
-div.row-2 div.obuv-img a:last-child img {
+div.obuvj.row-2 div.obuv-img a:last-child img {
     position: absolute;
     height: 20%;!important;
     width: 28%;!important;
     top: 30%;
 }
-div.row-3 div.obuv-img a:last-child img {
+div.obuvj.row-3 div.obuv-img a:last-child img {
     position: absolute;
     height: 20%;!important;
     width: 28%;!important;
     top: 55%;
 }
-div.hidden-obuv div.row-1 div.obuv-img a:last-child img {
+div.hidden-obuv div.obuvj.row-1 div.obuv-img a:last-child img {
     position: absolute;!important;
     height: 13%;!important;
     width: 28%;!important;
     top:0;
 }
-div.hidden-obuv div.row-2 div.obuv-img a:last-child img {
+div.hidden-obuv div.obuvj.row-2 div.obuv-img a:last-child img {
     position: absolute;
     height: 13%;!important;
     width: 28%;!important;
     top: 20%;
 }
-div.hidden-obuv div.row-3 div.obuv-img a:last-child img {
+div.hidden-obuv div.obuvj.row-3 div.obuv-img a:last-child img {
     position: absolute;
     height: 13%;!important;
     width: 28%;!important;

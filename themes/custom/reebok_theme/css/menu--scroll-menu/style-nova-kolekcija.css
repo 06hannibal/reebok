@@ -180,6 +180,9 @@
     padding-left: 10%;
 }
 /*///////////////content//////////////////*/
+.view-id-novaya_kollekciya div.view-content {
+    width: 150%;
+}
 div.new-img a:last-child:hover img {
     opacity:0;
     -webkit-transition: opacity 1s ease-in-out;
@@ -195,37 +198,37 @@ div.new-img a img {
 div.hidden-hide-mens div.new-img a img {
     width: 95%;
 }
-div.row-1 div.new-img a:last-child img {
+div.new.row-1 div.new-img a:last-child img {
     position: absolute;!important;
     height: 25%;!important;
     width: 28%;!important;
     top:0;
 }
-div.row-2 div.new-img a:last-child img {
+div.new.row-2 div.new-img a:last-child img {
     position: absolute;
     height: 25%;!important;
     width: 28%;!important;
     top: 30%;
 }
-div.row-3 div.new-img a:last-child img {
+div.new.row-3 div.new-img a:last-child img {
     position: absolute;
     height: 24%;!important;
     width: 28%;!important;
     top: 62%;
 }
-div.hidden-novaya-kollekciya div.row-1 div.new-img a:last-child img {
+div.hidden-novaya-kollekciya div.new.row-1 div.new-img a:last-child img {
     position: absolute;!important;
     height: 18%;!important;
     width: 28%;!important;
     top:0;
 }
-div.hidden-novaya-kollekciya div.row-2 div.new-img a:last-child img {
+div.hidden-novaya-kollekciya div.new.row-2 div.new-img a:last-child img {
     position: absolute;
     height: 18%;!important;
     width: 28%;!important;
     top: 25%;
 }
-div.hidden-novaya-kollekciya div.row-3 div.new-img a:last-child img {
+div.hidden-novaya-kollekciya div.new.row-3 div.new-img a:last-child img {
     position: absolute;
     height: 18%;!important;
     width: 28%;!important;

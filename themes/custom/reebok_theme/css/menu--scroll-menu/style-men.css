@@ -158,6 +158,9 @@
     padding-left: 10%;
 }
 /*//////////////content///////////////////*/
+.view-id-mens div.view-content {
+    width: 150%;
+}
 div.views-row.clearfix {
     width: 75%;
 }
@@ -176,37 +179,37 @@ div.mens-img a img {
 div.hidden-hide-mens div.mens-img a img {
     width: 95%;
 }
-div.row-1 div.mens-img a:last-child img {
+div.mens.row-1 div.mens-img a:last-child img {
     position: absolute;!important;
     height: 25%;!important;
     width: 28%;!important;
     top:0;
 }
-div.row-2 div.mens-img a:last-child img {
+div.mens.row-2 div.mens-img a:last-child img {
     position: absolute;
     height: 25%;!important;
     width: 28%;!important;
     top: 30%;
 }
-div.row-3 div.mens-img a:last-child img {
+div.mens.row-3 div.mens-img a:last-child img {
     position: absolute;
     height: 24%;!important;
     width: 28%;!important;
     top: 62%;
 }
-div.hidden-hide-mens div.row-1 div.mens-img a:last-child img {
+div.hidden-hide-mens div.mens.row-1 div.mens-img a:last-child img {
     position: absolute;!important;
     height: 25%;!important;
     width: 28%;!important;
     top:0;
 }
-div.hidden-hide-mens div.row-2 div.mens-img a:last-child img {
+div.hidden-hide-mens div.mens.row-2 div.mens-img a:last-child img {
     position: absolute;
     height: 25%;!important;
     width: 28%;!important;
     top: 29%;
 }
-div.hidden-hide-mens div.row-3 div.mens-img a:last-child img {
+div.hidden-hide-mens div.mens.row-3 div.mens-img a:last-child img {
     position: absolute;
     height: 24%;!important;
     width: 28%;!important;

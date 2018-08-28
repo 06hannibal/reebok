@@ -5,6 +5,9 @@ div.rasprodaja div.views-row.clearfix {
     width: 65%;
 }
 /*///////////////content//////////////////*/
+.view-id-rasprodazha div.view-content {
+    width: 150%;
+}
 div.rasprodaga-img a:last-child:hover img {
     opacity:0;
     -webkit-transition: opacity 1s ease-in-out;
@@ -17,19 +20,19 @@ div.rasprodaga-img a:last-child:hover img {
 div.rasprodaga-img a img {
     width: 100%;
 }
-div.row-1 div.rasprodaga-img a:last-child img {
+div.ras.row-1 div.rasprodaga-img a:last-child img {
     position: absolute;!important;
     height: 26%;!important;
     width: 24%;!important;
     top:2%;
 }
-div.row-2 div.rasprodaga-img a:last-child img {
+div.ras.row-2 div.rasprodaga-img a:last-child img {
     position: absolute;
     height: 28%;!important;
     width: 24%;!important;
     top: 35%;
 }
-div.row-3 div.rasprodaga-img a:last-child img {
+div.ras.row-3 div.rasprodaga-img a:last-child img {
     position: absolute;
     height: 29%;!important;
     width: 24%;!important;

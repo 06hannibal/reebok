@@ -616,6 +616,9 @@ div.row-views {
     height: calc(100%)
 }
 /*///////////////ДЛЯ ТЕБЯ////////////////////////*/
+div.for.views-row.clearfix {
+    width: 100%;
+}
 a, a:visited {
     text-decoration: none;
     color: #252525;

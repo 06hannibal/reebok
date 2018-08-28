@@ -117,6 +117,9 @@
     padding-left: 10%;
 }
 /*///////////////content//////////////////*/
+.view-id-deti div.view-content {
+    width: 150%;
+}
 div.kids-img a:last-child:hover img {
     opacity:0;
     -webkit-transition: opacity 1s ease-in-out;
@@ -132,37 +135,37 @@ div.kids-img a img {
 div.hidden-hide-mens div.kids-img a img {
     width: 95%;
 }
-div.row-1 div.kids-img a:last-child img {
+div.deti.row-1 div.kids-img a:last-child img {
     position: absolute;!important;
     height: 25%;!important;
     width: 28%;!important;
     top:0;
 }
-div.row-2 div.kids-img a:last-child img {
+div.deti.row-2 div.kids-img a:last-child img {
     position: absolute;
     height: 25%;!important;
     width: 28%;!important;
     top: 30%;
 }
-div.row-3 div.kids-img a:last-child img {
+div.deti.row-3 div.kids-img a:last-child img {
     position: absolute;
     height: 24%;!important;
     width: 28%;!important;
     top: 62%;
 }
-div.hidden-hide-children div.row-1 div.kids-img a:last-child img {
+div.hidden-hide-children div.deti.row-1 div.kids-img a:last-child img {
     position: absolute;!important;
     height: 14%;!important;
     width: 28%;!important;
     top:0;
 }
-div.hidden-hide-children div.row-2 div.kids-img a:last-child img {
+div.hidden-hide-children div.deti.row-2 div.kids-img a:last-child img {
     position: absolute;
     height: 14%;!important;
     width: 28%;!important;
     top: 18%;
 }
-div.hidden-hide-children div.row-3 div.kids-img a:last-child img {
+div.hidden-hide-children div.deti.row-3 div.kids-img a:last-child img {
     position: absolute;
     height: 14%;!important;
     width: 28%;!important;

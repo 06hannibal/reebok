@@ -96,6 +96,9 @@
     padding-left: 10%;
 }
 /*//////////////content///////////////////*/
+.view-id-accessories div.view-content {
+    width: 150%;
+}
 div.apparel-img a:last-child:hover img {
     opacity:0;
     -webkit-transition: opacity 1s ease-in-out;
@@ -112,37 +115,37 @@ div.apparel-img a img {
 div.hidden-apparel div.apparel-img a img {
     width: 95%;
 }
-div.row-1 div.apparel-img a:last-child img {
+div.apparel.row-1 div.apparel-img a:last-child img {
     position: absolute;!important;
     height: 25%;!important;
     width: 28%;!important;
     top:0;
 }
-div.row-2 div.apparel-img a:last-child img {
+div.apparel.row-2 div.apparel-img a:last-child img {
     position: absolute;
     height: 25%;!important;
     width: 28%;!important;
     top: 30%;
 }
-div.row-3 div.apparel-img a:last-child img {
+div.apparel.row-3 div.apparel-img a:last-child img {
     position: absolute;
     height: 24%;!important;
     width: 28%;!important;
     top: 60%;
 }
-div.hidden-accessories div.row-1 div.apparel-img a:last-child img {
+div.hidden-accessories div.apparel.row-1 div.apparel-img a:last-child img {
     position: absolute;!important;
     height: 21%;!important;
     width: 28%;!important;
     top:0;
 }
-div.hidden-accessories div.row-2 div.apparel-img a:last-child img {
+div.hidden-accessories div.apparel.row-2 div.apparel-img a:last-child img {
     position: absolute;
     height: 21%;!important;
     width: 28%;!important;
     top: 25%;
 }
-div.hidden-accessories div.row-3 div.apparel-img a:last-child img {
+div.hidden-accessories div.apparel.row-3 div.apparel-img a:last-child img {
     position: absolute;
     height: 21%;!important;
     width: 28%;!important;
