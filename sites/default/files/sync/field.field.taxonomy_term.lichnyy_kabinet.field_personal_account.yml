@@ -1,0 +1,23 @@
+uuid: 5ff44efe-3c03-4b63-8a3b-239783d4c13f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_personal_account
+    - taxonomy.vocabulary.lichnyy_kabinet
+  module:
+    - link
+id: taxonomy_term.lichnyy_kabinet.field_personal_account
+field_name: field_personal_account
+entity_type: taxonomy_term
+bundle: lichnyy_kabinet
+label: personal-account
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

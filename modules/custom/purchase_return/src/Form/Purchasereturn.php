@@ -24,15 +24,15 @@ class Purchasereturn extends FormBase {
   public function buildForm(array $form, FormStateInterface $form_state) {
 
     $form['return-goods'] = [
-      '#markup' => '<div class="return-goods-title"><h3><i class="fa fa-reply"></i>Возврат товара</h3></div>',
+      '#markup' => t('<div class="return-goods-title"><h3><i class="fa fa-reply"></i>Возврат товара</h3></div>'),
       ];
 
     $form['description-title'] = [
-      '#markup' => '<div class="description-title"><p>Пожалуйста, заполните форму на возврат товара.</p></div>',
+      '#markup' => t('<div class="description-title"><p>Пожалуйста, заполните форму на возврат товара.</p></div>'),
     ];
 
     $form['information-title'] = [
-      '#markup' => '<div class="information-title"><h3>Информация о заказе</h3></div>',
+      '#markup' => t('<div class="information-title"><h3>Информация о заказе</h3></div>'),
     ];
 
     $form['name'] = [
@@ -81,7 +81,7 @@ class Purchasereturn extends FormBase {
     ];
 
     $form['information-goods-title'] = [
-      '#markup' => '<div class="information-title"><h3>Информация о товаре и Причина возврата</h3></div>',
+      '#markup' => t('<div class="information-title"><h3>Информация о товаре и Причина возврата</h3></div>'),
     ];
 
     $form['rename'] = [

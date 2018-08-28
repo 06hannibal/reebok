@@ -1,0 +1,33 @@
+uuid: 05b8dac1-019d-4ef2-94dc-1e3970a3af45
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.lichnyy_kabinet.field_personal_account
+    - taxonomy.vocabulary.lichnyy_kabinet
+  module:
+    - link
+    - path
+id: taxonomy_term.lichnyy_kabinet.default
+targetEntityType: taxonomy_term
+bundle: lichnyy_kabinet
+mode: default
+content:
+  field_personal_account:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  path:
+    type: path
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  description: true
+  langcode: true
+  name: true

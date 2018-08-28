@@ -85,3 +85,34 @@ function reebok_theme_preprocess_page(&$variables){
     }
   }
 }
+function reebok_theme_preprocess_menu__account(&$variables) {
+ $uid = \Drupal::currentUser()->id();
+
+
+  $link_login = 'Личный Кабинет';
+
+
+  $login_form = Url::fromRoute('login_form.form');
+  $login_form->setOptions([
+    'attributes' => [
+      'class' => ['use-ajax', 'url'],
+      'data-dialog-type' => 'modal',
+      'data-dialog-options' => Json::encode([
+        'title' => 'АВТОРИЗАЦИЯ',
+        'width' => 400,
+        'height' => 400,
+      ]),
+    ],
+  ]);
+
+  $account = '/my-account';
+
+  $login_logout = Url::fromUri('internal:'.$account);
+
+  if(empty($uid)) {
+    $variables['login'] = Link::fromTextAndUrl(t($link_login), $login_form)->toString();
+  } else {
+    $variables['login'] = Link::fromTextAndUrl(t($link_login), $login_logout);
+  }
+
+}

@@ -29,8 +29,9 @@ div.row-views {
 }
 /*//////////////////header////////////////////////////////////////*/
 #block-toppanel ul.menu--top-panel {
-    line-height: 180%;
+    line-height: 220%;
     width: 200%;
+    font-family: Arial Narrow, sans-serif;
 }
 #block-toppanel ul.menu--top-panel li:first-child {
     margin-left: 9%;
@@ -59,6 +60,33 @@ div.row-views {
 }
 #block-pageemblem {
     display: inline-block;
+}
+.login {
+    background: #141414;
+    font-size: 14px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 500px;
+}
+div.login a {
+    color: #fff;
+}
+div.login a:hover {
+    text-decoration: none;
+    background: #fff;
+    color: #0f0f0f;
+}
+.fa-user {
+    color: #fff;
+}
+.fa-user:hover {
+    color: #0f0f0f;
+}
+.login:hover {
+    background: #fff;
 }
 /*//////////////////namber-007///////////////////////*/
 #block-namber {
@@ -147,6 +175,7 @@ div.row-views {
 }
 #block-scroll-menu a {
     color: #fff;
+    text-decoration: none;
 }
 #block-scroll-menu a:hover {
     text-decoration: none;

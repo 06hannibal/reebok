@@ -1,0 +1,42 @@
+.view-id-lichnyy_kabinet div.view-content {
+    text-align: center;
+    font-size: 15px;
+    background: #fff;
+}
+.view-id-lichnyy_kabinet div.view-content a {
+    text-decoration: none;
+}
+div.area.row-1 {
+    background: #fff;
+    width: 150%;
+}
+div.area.row-2 {
+    background: #fff;
+    width: 150%;
+}
+div.area.row-1 h3.Personal-Area{
+    height: 50px;
+    margin: 50px;
+}
+div.area.row-2 h3.Personal-Area{
+    height: 50px;
+    margin: 50px;
+}
+div.area.row-1 div.col-1:hover {
+    background: #AB2328;
+}
+div.area.row-1 div.col-2:hover {
+    background: #AB2328;
+}
+div.area.row-1 div.col-3:hover {
+    background: #AB2328;
+}
+div.area.row-2 div.col-1:hover {
+    background: #AB2328;
+}
+div.area.row-2 div.col-2:hover {
+    background: #AB2328;
+}
+div.area.row-2 div.col-3:hover {
+    background: #AB2328;
+}

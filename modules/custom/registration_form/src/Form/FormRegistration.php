@@ -25,15 +25,14 @@ class FormRegistration extends FormBase {
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
 
-    $form['registration'] = [
-      '#type' => 'fieldset',
-      '#title' => t('БЫСТРАЯ РЕГИСТРАЦИЯ'),
-      '#description' => t('Если Вы уже зарегистрированы, перейдите на страницу входа в систему.'),
+    $form['registration-login'] = [
+      '#markup' => t('<div class="return-goods-title"><h3><i class="fa fa-lock"></i>БЫСТРАЯ РЕГИСТРАЦИЯ</h3></div>'),
     ];
-
-    $form['information'] = [
-      '#type' => 'fieldset',
-      '#title' => t('ОСНОВНАЯ ИНФОРМАЦИЯ'),
+    $form['description-login'] = [
+      '#markup' => t('<div class="description-title"><p>Если Вы уже зарегистрированы, перейдите на страницу входа в систему.</p></div>'),
+    ];
+    $form['title-login'] = [
+      '#markup' => t('<div class="description-title"><p>ОСНОВНАЯ ИНФОРМАЦИЯ</p></div>'),
     ];
 
     $form['email'] = [
@@ -63,6 +62,9 @@ class FormRegistration extends FormBase {
       '#title' => t('Телефон'),
       '#placeholder' => t('*ТЕЛЕФОН'),
     ];
+    $form['address-login'] = [
+      '#markup' => t('<div class="description-title"><p>ВАШ АДРЕС</p></div>'),
+    ];
 
     $form['pass'] = [
       '#type' => 'password',
@@ -78,52 +80,47 @@ class FormRegistration extends FormBase {
       '#size' => 25,
     ];
 
-    $form['address'] = [
-      '#type' => 'fieldset',
-      '#title' => t('ВАШ АДРЕС'),
-    ];
+//    $terms_countries = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree('country');
+//
+//    foreach ($terms_countries as $term_country) {
+//      $options_country[$term_country->tid] = $term_country->name;
+//    }
+//
+//    $form['country'] = [
+//      '#type' => 'select',
+//      '#options' => $options_country,
+//      '#title' => t('Страна'),
+//      '#empty_option' => '---выберите страну---',
+//      '#required' => true,
+//    ];
 
-    $terms_countries = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree('country');
+//    $terms_regions = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree('region');
+//
+//    foreach ($terms_regions as $term_region) {
+//      $option_region[$term_region->tid] = $term_region->name;
+//    }
+//
+//    $form['region'] = [
+//      '#type' => 'select',
+//      '#options' => $option_region,
+//      '#title' => t('Область'),
+//      '#empty_option' => '---выберите область---',
+//      '#required' => true,
+//    ];
 
-    foreach ($terms_countries as $term_country) {
-      $options_country[$term_country->tid] = $term_country->name;
-    }
-
-    $form['country'] = [
-      '#type' => 'select',
-      '#options' => $options_country,
-      '#title' => t('Страна'),
-      '#empty_option' => '---выберите страну---',
-      '#required' => true,
-    ];
-
-    $terms_regions = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree('region');
-
-    foreach ($terms_regions as $term_region) {
-      $option_region[$term_region->tid] = $term_region->name;
-    }
-
-    $form['region'] = [
-      '#type' => 'select',
-      '#options' => $option_region,
-      '#title' => t('Область'),
-      '#empty_option' => '---выберите область---',
-      '#required' => true,
-    ];
-
-    $terms_cities = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree('city');
-
-    foreach ($terms_cities as $term_city) {
-      $option_city[$term_city->tid] = $term_city->name;
-    }
-
-    $form['city'] = [
-      '#type' => 'select',
-      '#options' => $option_city,
-      '#title' => t('Область'),
-      '#empty_option' => '---выберите область---',
-      '#required' => true,
-    ];
+//    $terms_cities = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree('city');
+//
+//    foreach ($terms_cities as $term_city) {
+//      $option_city[$term_city->tid] = $term_city->name;
+//    }
+//
+//    $form['city'] = [
+//      '#type' => 'select',
+//      '#options' => $option_city,
+//      '#title' => t('Область'),
+//      '#empty_option' => '---выберите область---',
+//      '#required' => true,
+//    ];
 
     $form['news'] = [
       '#type' => 'radios',
@@ -147,16 +144,16 @@ class FormRegistration extends FormBase {
    * @param FormStateInterface $form_state
    */
   public function validateForm(array &$form, FormStateInterface $form_state) {
-    $pass = $form_state->getValue('pass');
-    $pass2 = $form_state->getValue('pass2');
-
-    if ($pass!=$pass2) {
-      $form_state->setErrorByName('pass', $this->t('Ваш пароль не соответствует.'));
-    }
-
-    if(strlen($pass) < 6 ) {
-      $form_state->setErrorByName('pass', $this->t('Длина пароля должна содержать не менее 6 символов.'));
-    }
+//    $pass = $form_state->getValue('pass');
+//    $pass2 = $form_state->getValue('pass2');
+//
+//    if ($pass!=$pass2) {
+//      $form_state->setErrorByName('pass', $this->t('Ваш пароль не соответствует.'));
+//    }
+//
+//    if(strlen($pass) < 6 ) {
+//      $form_state->setErrorByName('pass', $this->t('Длина пароля должна содержать не менее 6 символов.'));
+//    }
   }
 
   /**
@@ -165,15 +162,15 @@ class FormRegistration extends FormBase {
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
 
-    $email = $form_state->getValue('email');
-    $name = $form_state->getValue('name');
-    $surname = $form_state->getValue('surname');
-    $number = $form_state->getValue('number');
-    $pass = $form_state->getValue('pass');
-    $country = $form_state->getValue('country');
-    $region = $form_state->getValue('region');
-    $city = $form_state->getValue('city');
-    $news = $form_state->getValue('news');
+//    $email = $form_state->getValue('email');
+//    $name = $form_state->getValue('name');
+//    $surname = $form_state->getValue('surname');
+//    $number = $form_state->getValue('number');
+//    $pass = $form_state->getValue('pass');
+//    $country = $form_state->getValue('country');
+//    $region = $form_state->getValue('region');
+//    $city = $form_state->getValue('city');
+//    $news = $form_state->getValue('news');
 
   }
 

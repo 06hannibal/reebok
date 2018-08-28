@@ -1,0 +1,9 @@
+uuid: c7d92370-c45d-4b98-b62a-4d4a0e4dfaaf
+langcode: en
+status: true
+dependencies: {  }
+name: 'ЛИЧНЫЙ КАБИНЕТ'
+vid: lichnyy_kabinet
+description: ''
+hierarchy: 0
+weight: 0

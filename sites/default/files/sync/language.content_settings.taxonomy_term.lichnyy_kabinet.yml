@@ -1,0 +1,11 @@
+uuid: f07d2730-46aa-4934-b330-ca201dab1e31
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.lichnyy_kabinet
+id: taxonomy_term.lichnyy_kabinet
+target_entity_type_id: taxonomy_term
+target_bundle: lichnyy_kabinet
+default_langcode: site_default
+language_alterable: false
