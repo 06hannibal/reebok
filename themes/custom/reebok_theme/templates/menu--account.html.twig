@@ -16,16 +16,15 @@
  */
 #}
 {#{% extends "menu.html.twig" %}#}
-
-{% if login %}
-  <div class="login">
-    <i class="fa fa-user">{{ login }}</i>
-  </div>
-{% else %}
-  <div class="login">
-    <i class="fa fa-user">{{ login }}</i>
-  </div>
+<div class="login">
+  <i class="fa fa-user">{{ login }}</i>
+</div>
+{% if  Logout %}
+<div class="Logout">
+  <i class="fa fa-sign-out">{{ Logout }}</i>
+</div>
 {% endif %}
+
 {%
   set classes = [
     'menu',

@@ -1,0 +1,19 @@
+uuid: 8fca1c78-c73a-4621-83dc-737b7ac22876
+langcode: en
+status: true
+dependencies:
+  module:
+    - font_field_icon
+    - taxonomy
+id: taxonomy_term.field_icon
+field_name: field_icon
+entity_type: taxonomy_term
+type: font_field_icon
+settings: {  }
+module: font_field_icon
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -3,17 +3,26 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.taxonomy_term.lichnyy_kabinet.field_icon
     - field.field.taxonomy_term.lichnyy_kabinet.field_personal_account
     - taxonomy.vocabulary.lichnyy_kabinet
   module:
+    - font_field_icon
     - link
 id: taxonomy_term.lichnyy_kabinet.default
 targetEntityType: taxonomy_term
 bundle: lichnyy_kabinet
 mode: default
 content:
-  field_personal_account:
+  field_icon:
     weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: FontFieldIconDefaultFormatter
+    region: content
+  field_personal_account:
+    weight: 1
     label: above
     settings:
       trim_length: 80

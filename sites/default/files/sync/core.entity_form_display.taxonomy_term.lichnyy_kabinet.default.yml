@@ -3,16 +3,23 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.taxonomy_term.lichnyy_kabinet.field_icon
     - field.field.taxonomy_term.lichnyy_kabinet.field_personal_account
     - taxonomy.vocabulary.lichnyy_kabinet
   module:
+    - font_field_icon
     - link
-    - path
 id: taxonomy_term.lichnyy_kabinet.default
 targetEntityType: taxonomy_term
 bundle: lichnyy_kabinet
 mode: default
 content:
+  field_icon:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: FontFieldIconDefaultWidget
+    region: content
   field_personal_account:
     weight: 1
     settings:
@@ -21,13 +28,8 @@ content:
     third_party_settings: {  }
     type: link_default
     region: content
-  path:
-    type: path
-    weight: 0
-    region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   description: true
   langcode: true
   name: true
+  path: true

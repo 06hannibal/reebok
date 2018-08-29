@@ -90,6 +90,8 @@ function reebok_theme_preprocess_menu__account(&$variables) {
 
 
   $link_login = 'Личный Кабинет';
+  $account = '/my-account';
+  $link_logout = 'Выйти';
 
 
   $login_form = Url::fromRoute('login_form.form');
@@ -105,7 +107,9 @@ function reebok_theme_preprocess_menu__account(&$variables) {
     ],
   ]);
 
-  $account = '/my-account';
+
+
+  $login_off = Url::fromRoute('user.logout');
 
   $login_logout = Url::fromUri('internal:'.$account);
 
@@ -113,6 +117,7 @@ function reebok_theme_preprocess_menu__account(&$variables) {
     $variables['login'] = Link::fromTextAndUrl(t($link_login), $login_form)->toString();
   } else {
     $variables['login'] = Link::fromTextAndUrl(t($link_login), $login_logout);
+    $variables['Logout'] = Link::fromTextAndUrl(t($link_logout), $login_off);
   }
 
 }

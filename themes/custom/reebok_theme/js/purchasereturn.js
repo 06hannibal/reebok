@@ -20,6 +20,10 @@
 
                 $("#datepicker").datepicker(options);
             });
+            $(".personal-text").hover(function() {
+                $(this).children().toggleClass("active");
+                $(this).prev().children().toggleClass("active");
+            });
         }
     }
 

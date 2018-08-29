@@ -30,7 +30,7 @@ div.row-views {
 /*//////////////////header////////////////////////////////////////*/
 #block-toppanel ul.menu--top-panel {
     line-height: 220%;
-    width: 200%;
+    width: 150%;
     font-family: Arial Narrow, sans-serif;
 }
 #block-toppanel ul.menu--top-panel li:first-child {
@@ -61,6 +61,10 @@ div.row-views {
 #block-pageemblem {
     display: inline-block;
 }
+#block-reebok-theme-account-menu {
+    width: 100%;
+    left: 10%;
+}
 .login {
     background: #141414;
     font-size: 14px;
@@ -69,10 +73,12 @@ div.row-views {
     font-family: Arial Narrow, sans-serif;
     font-weight: bold;
     display: inline-block;
-    margin-left: 500px;
+    margin-left: 250px;
 }
 div.login a {
     color: #fff;
+    padding-top: 13%;
+    padding-bottom: 13%;
 }
 div.login a:hover {
     text-decoration: none;
@@ -86,6 +92,35 @@ div.login a:hover {
     color: #0f0f0f;
 }
 .login:hover {
+    background: #fff;
+}
+.Logout {
+    background: #141414;
+    font-size: 14px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+}
+div.Logout a {
+    color: #fff;
+    padding-top: 13%;
+    padding-bottom: 13%;
+}
+div.Logout a:hover {
+    text-decoration: none;
+    background: #fff;
+    color: #0f0f0f;
+}
+.fa-sign-out {
+    color: #fff;
+}
+.fa-sign-out:hover {
+    color: #0f0f0f;
+}
+.Logout:hover {
     background: #fff;
 }
 /*//////////////////namber-007///////////////////////*/

@@ -1,42 +1,45 @@
 .view-id-lichnyy_kabinet div.view-content {
     text-align: center;
-    font-size: 15px;
     background: #fff;
 }
-.view-id-lichnyy_kabinet div.view-content a {
+div.personal-text a {
     text-decoration: none;
+    padding: 100px;
+    line-height: 80px;
+    margin-left: 30px;
 }
-div.area.row-1 {
+.personal-text a.active {
+    text-decoration: none;
+    line-height: 40px;
+    color: #fff;
+    background: #AB2328;
+    border-radius: 20px;
+}
+.personal-icon i {
+    font-size: 50px;
+    color: #AB2328;!important;
+    height: 26px;
+    position: relative;
+    left: 3%;
+    top: -20px;
+}
+.personal-icon i.active {
+    z-index: 999;
+    color: #fff;
+}
+.page-area div.view-header {
+    font-size:170%;
+    margin-left:70%;
+    margin-bottom:70px;
+}
+div.area.row-1, div.area.row-2 {
     background: #fff;
     width: 150%;
+    height: 200px;
 }
-div.area.row-2 {
-    background: #fff;
-    width: 150%;
+div.area h3.Personal-Area{
+    font-size: 15px;
 }
-div.area.row-1 h3.Personal-Area{
-    height: 50px;
-    margin: 50px;
-}
-div.area.row-2 h3.Personal-Area{
-    height: 50px;
-    margin: 50px;
-}
-div.area.row-1 div.col-1:hover {
-    background: #AB2328;
-}
-div.area.row-1 div.col-2:hover {
-    background: #AB2328;
-}
-div.area.row-1 div.col-3:hover {
-    background: #AB2328;
-}
-div.area.row-2 div.col-1:hover {
-    background: #AB2328;
-}
-div.area.row-2 div.col-2:hover {
-    background: #AB2328;
-}
-div.area.row-2 div.col-3:hover {
-    background: #AB2328;
+.personal-icon a.icon_field_with_title {
+    display: none;
 }

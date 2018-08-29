@@ -60,6 +60,7 @@
                 if (scroll >= 180) sticky.addClass('fixed-search');
                 else sticky.removeClass('fixed-search');
             });
+
         }
     }
 
