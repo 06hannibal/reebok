@@ -28,9 +28,11 @@ class FormRegistration extends FormBase {
     $form['registration-login'] = [
       '#markup' => t('<div class="return-goods-title"><h3><i class="fa fa-lock"></i>БЫСТРАЯ РЕГИСТРАЦИЯ</h3></div>'),
     ];
+
     $form['description-login'] = [
       '#markup' => t('<div class="description-title"><p>Если Вы уже зарегистрированы, перейдите на страницу входа в систему.</p></div>'),
     ];
+
     $form['title-login'] = [
       '#markup' => t('<div class="description-title"><p>ОСНОВНАЯ ИНФОРМАЦИЯ</p></div>'),
     ];
@@ -62,9 +64,6 @@ class FormRegistration extends FormBase {
       '#title' => t('Телефон'),
       '#placeholder' => t('*ТЕЛЕФОН'),
     ];
-    $form['address-login'] = [
-      '#markup' => t('<div class="description-title"><p>ВАШ АДРЕС</p></div>'),
-    ];
 
     $form['pass'] = [
       '#type' => 'password',
@@ -79,6 +78,12 @@ class FormRegistration extends FormBase {
       '#title' => t('Подтвердить'),
       '#size' => 25,
     ];
+
+    $form['address-login'] = [
+      '#markup' => t('<div class="description-title"><p>ВАШ АДРЕС</p></div>'),
+    ];
+
+    
 
 //    $terms_countries = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree('country');
 //

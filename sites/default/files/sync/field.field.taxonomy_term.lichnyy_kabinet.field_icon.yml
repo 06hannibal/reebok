@@ -1,0 +1,21 @@
+uuid: c13817a9-698c-4ff9-a380-5ef0cd2cd1a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_icon
+    - taxonomy.vocabulary.lichnyy_kabinet
+  module:
+    - font_field_icon
+id: taxonomy_term.lichnyy_kabinet.field_icon
+field_name: field_icon
+entity_type: taxonomy_term
+bundle: lichnyy_kabinet
+label: icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: font_field_icon
